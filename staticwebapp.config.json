@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+
+  "routes": [
+    { "route": "/.auth/login/github",   "statusCode": 404 },
+    { "route": "/.auth/login/twitter",  "statusCode": 404 },
+    { "route": "/.auth/login/google",   "statusCode": 404 },
+    { "route": "/.auth/login/facebook", "statusCode": 404 },
+    { "route": "/*", "allowedRoles": ["codis-employee"] }
+  ],
+
+  "responseOverrides": {
+    "401": {
+      "redirect": "/.auth/login/aad",
+      "statusCode": 302
+    }
+  },
+
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  }
+}
