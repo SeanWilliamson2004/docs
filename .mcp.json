@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "codis-docs": {
+      "type": "http",
+      "url": "https://seanwilliamson.mintlify.io/mcp"
+    }
+  }
+}
