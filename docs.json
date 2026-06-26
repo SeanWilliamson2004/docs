@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Codis Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -13,8 +13,494 @@
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart"
+          "docs/Course Notes",
+          "docs/Help Center",
+          "docs/How To Use This Library",
+          "docs/index",
+          "docs/README"
+        ]
+      },
+      {
+        "group": "How-To Guides",
+        "pages": [
+          "docs/How to Create an Organisation Chart from M365 Data",
+          "docs/How to Embed VB.NET code in a Sharepoint Wiki Page",
+          "docs/How To Make A Consultancy Sales Order On Sage Accounts 50"
+        ]
+      },
+      {
+        "group": "Excelerator",
+        "pages": [
+          "docs/Adding Button to the Sheet with V3 Excelerator",
+          "docs/Automated Testing - Excelerator",
+          "docs/Codis Excelerator Installation For Sage 200 Extra Online",
+          "docs/Codis Excelerator V3",
+          "docs/Comparing versions of Excelerator",
+          "docs/Creating Excelerator Plugins",
+          "docs/Debugging and Logging methods in the new .net Excelerator and IP frameworks",
+          "docs/Development History of Excelerator",
+          "docs/Excelerator Browses",
+          "docs/Excelerator Cancellation Process",
+          "docs/Excelerator competitors",
+          "docs/Excelerator Default Templates",
+          "docs/Excelerator Deployment Configurations",
+          "docs/Excelerator Development",
+          "docs/Excelerator Enterprise",
+          "docs/Excelerator for Sage200 Invoicing",
+          "docs/Excelerator Installation - adxloader",
+          "docs/Excelerator Installation in Citrix",
+          "docs/Excelerator Installation Troubleshooting",
+          "docs/Excelerator Load Sequence",
+          "docs/Excelerator Metadata",
+          "docs/Excelerator Metadata - Arrays",
+          "docs/Excelerator Metadata - Child Lists",
+          "docs/Excelerator Modules",
+          "docs/Excelerator Offline Licencing Process",
+          "docs/Excelerator on Oracle",
+          "docs/Excelerator Plugins",
+          "docs/Excelerator Plugins - Developers Guidelines",
+          "docs/Excelerator Product Codes",
+          "docs/Excelerator Supported Platforms",
+          "docs/Excelerator- Promoting Detailed ranges to the header",
+          "docs/Frequently Asked Questions on Excelerator for Sage 200 Agreement",
+          "docs/How Excelerator Stores Settings",
+          "docs/How to make an Excelerator promotional video",
+          "docs/How to transfer Excelerator licences between Terminal Citrix and Standard",
+          "docs/Identify Sage Software Versions And Excelerator Versions",
+          "docs/Marketing a New Excelerator Module",
+          "docs/Meadfleet Excelerator",
+          "docs/Missing Excelerator tab -Registering adxloader.dll",
+          "docs/Rounding Decimal Places in Excelerator",
+          "docs/S200 Cash Entry and Allocation Excelerator",
+          "docs/Sage 1000 Excelerator- Using the extended invoice number",
+          "docs/Sage 200 Cloud Excelerator Architecture and Coding Guidelines",
+          "docs/Sage 200 Excelerator Assembly Resolution",
+          "docs/Sage 200 Excelerator Connection Details",
+          "docs/Sage 200 Price Bands Excelerator",
+          "docs/Saving EE Authentication Endpoint value in Excelerator",
+          "docs/Using Update Status in S200 SL and PL Invoice Excelerators"
+        ]
+      },
+      {
+        "group": "Intellerator",
+        "pages": [
+          "docs/Intellerator competitors",
+          "docs/Intellerator Sales Resources",
+          "docs/Intellerator Testing",
+          "docs/Intellerator Training Guide",
+          "docs/Intellerator User Notes",
+          "docs/Release & Development Intellerator Workflow"
+        ]
+      },
+      {
+        "group": "Sage 200",
+        "pages": [
+          "docs/Backup on Online Sage 200",
+          "docs/Codis Sage 200 Webservices Installation",
+          "docs/Connecting 2 hyper to redirect SQL db connection",
+          "docs/Daily Sage 200 Exercises",
+          "docs/Error while trying to log on - Sage 200",
+          "docs/Generating Sage 200 Online Addin Package",
+          "docs/How to get a local copy of Sage 200 Online report or layout",
+          "docs/Release S200 3.2.400 info",
+          "docs/Sage 200 - Attempted to read or write protected memory",
+          "docs/Sage 200 administration - Invalid Username or Password",
+          "docs/Sage 200 Client Installation Instruction",
+          "docs/Sage 200 eBanking",
+          "docs/Sage 200 Extra Online - How to modify SQL data in Sage 200 Extra Online",
+          "docs/Sage 200 Extra Online Client App Installation",
+          "docs/Sage 200 Hypers - developers",
+          "docs/Sage 200 Installation Issues",
+          "docs/Sage 200 Ordering Process",
+          "docs/Sage 200 Overview",
+          "docs/Sage 200 Presentations",
+          "docs/Sage 200 Test Databases",
+          "docs/Sage 200 WCF Service Application Pool Settings",
+          "docs/Sage200 Installation",
+          "docs/Sales Demo Hyper-V Virtual Machines",
+          "docs/Sizing Guide For Sage 200 Professional",
+          "docs/Solution- Sage 200 Undeliverable email - Email remittance not being sent",
+          "docs/Steps to Create Hyper",
+          "docs/Using Sage 200 Assembly Packages",
+          "docs/Validating Assemblies against the Sage 200 Cloud Server Whitelist"
+        ]
+      },
+      {
+        "group": "Sage 1000",
+        "pages": [
+          "docs/Automated Testing - Sage 1000 APIs",
+          "docs/Codis Development Framework - S1000 Server Side Assembly Description",
+          "docs/Incorrect Cash Postings (sage 1000)",
+          "docs/Periods setup in Sage 1000 & 500",
+          "docs/S1000 Enterprise Web Services Installation",
+          "docs/Sage 1000 - Purchase Order Quick View Empty",
+          "docs/Sage 1000 BACs Setup",
+          "docs/Sage 1000 Changing company in Connection",
+          "docs/Sage 1000 Database",
+          "docs/Sage 1000 Master APIs",
+          "docs/Sage 1000 V1 and V3 Release Procedures"
+        ]
+      },
+      {
+        "group": "Sage X3",
+        "pages": [
+          "docs/Assigning specific GL Accounts in Accounting Codes Setup",
+          "docs/Companies & Sites and Assign Account core model to Company",
+          "docs/Configuration of fiscal year and periods",
+          "docs/Creation of Account core model, Ledgers & Charts of accounts",
+          "docs/Creation of Customer & Supplier master data",
+          "docs/Creation of Dimension types & Dimensions",
+          "docs/Creation of Sage X3 GL Accounts",
+          "docs/Creation of supplier invoice and verifying the journal entries",
+          "docs/Execution of sales invoice enquiry",
+          "docs/GL Accounts Creation",
+          "docs/Sage X3",
+          "docs/Sales Invoice Creation And Verifying Journal Entries",
+          "docs/Supplier Invoice Payments & Journal Entries"
+        ]
+      },
+      {
+        "group": "Sage (General)",
+        "pages": [
+          "docs/Add new company in Sage",
+          "docs/Adding aAsset in Sage",
+          "docs/How to use Sage REST APIs",
+          "docs/Link to Sage Report Designer",
+          "docs/Logging off disconnected users from Sage",
+          "docs/Sage",
+          "docs/Sage 50 third party integration",
+          "docs/Sage Company Creation",
+          "docs/Sage contact information",
+          "docs/Sage Contacts",
+          "docs/Sage ERP Online Services Details",
+          "docs/Sage upgrade process",
+          "docs/Setting up currencies in sage"
+        ]
+      },
+      {
+        "group": "Codis BI / Power BI / Dashboards",
+        "pages": [
+          "docs/Codis BI - Adding a Database",
+          "docs/Codis BI - Regressive Testing DAX",
+          "docs/Codis BI - User Access Management (Post Installation)",
+          "docs/Codis BI Installation Guide",
+          "docs/codis bi test page",
+          "docs/Codis Power BI Conventions",
+          "docs/Codis Sample Custom Dashboards",
+          "docs/Dashboard Architecture",
+          "docs/Dashboard Installation",
+          "docs/Dashboard Refresh Failure- Power BI",
+          "docs/Dashboard Troubleshoot",
+          "docs/Dashboard Update",
+          "docs/DAX Puzzle Explanation - Top Sales Manager 2",
+          "docs/DAX Puzzles",
+          "docs/Intellerator demo dashboards - admin guide",
+          "docs/Popular Power BI Links",
+          "docs/Sage 200 - Power BI",
+          "docs/Sage 200 Power BI notes",
+          "docs/Using Power BI for Azure DevOps Intellerator"
+        ]
+      },
+      {
+        "group": "Orchestrator",
+        "pages": [
+          "docs/Help Tipalti-Orchestrator Integrations",
+          "docs/Orchestrator (Support notes)",
+          "docs/Orchestrator GeolSoc Integration",
+          "docs/Orchestrator Installation",
+          "docs/Orchestrator Installation New",
+          "docs/Orchestrator KGH PL Invoice S1000 plugin",
+          "docs/Orchestrator Upgrade",
+          "docs/Transmission Resilience in Orchestrator"
+        ]
+      },
+      {
+        "group": "CRM",
+        "pages": [
+          "docs/Benefits of CRM",
+          "docs/CRM Solutions Videos Project Proposal",
+          "docs/Geological Society CRM Interfaces",
+          "docs/How To Add A Consultancy Case on Sage CRM",
+          "docs/How to Enter A New Company on CRM",
+          "docs/How To Save Documents on CRM",
+          "docs/Order Processing on CRM"
+        ]
+      },
+      {
+        "group": "Licensing",
+        "pages": [
+          "docs/Change License Location for Enterprise Products",
+          "docs/Codis.Licence.Client",
+          "docs/CrmApp (Licensing System)",
+          "docs/Enterprise Online Licensing",
+          "docs/How customers use the new Licencing system",
+          "docs/How to activate licenses with an email code",
+          "docs/How to Generate a License Report on CRM",
+          "docs/Licensing Instruction (V3)",
+          "docs/Licensing Process",
+          "docs/LicensingCommon",
+          "docs/List of Popular Licensing Documents",
+          "docs/New Licensing System",
+          "docs/Offline Licencing",
+          "docs/Online Licensing Enterprise - Developer's Notes",
+          "docs/Online Licensing instruction to Resellers",
+          "docs/Online Licensing System",
+          "docs/Online Licensing Troubleshooting",
+          "docs/Request for temporary licences from Resellers",
+          "docs/Sage 200 licence application",
+          "docs/Silverlight Licensing System",
+          "docs/Standard Online Licensing",
+          "docs/Testing Hyper Licensing - New CRM customer",
+          "docs/V1 - Licensing and connection details Instructions",
+          "docs/V1 Licence Methods",
+          "docs/V3 Licencing - DeviceID"
+        ]
+      },
+      {
+        "group": "Codis IP / Identity / Password",
+        "pages": [
+          "docs/1Password",
+          "docs/Codis IP - Add - Activate New User",
+          "docs/Codis IP Password Hash",
+          "docs/Codis Password Policy",
+          "docs/Codis Policies",
+          "docs/Customer's Data Collection and Retention Policy",
+          "docs/Implementation of Codis IP V3",
+          "docs/Information Security Program",
+          "docs/Requested registry access is not allowed"
+        ]
+      },
+      {
+        "group": "Codis PPS / Payment Practices",
+        "pages": [
+          "docs/Codis Payment Practices Statistics",
+          "docs/Codis Payment Practices Statistics Installation",
+          "docs/Codis PPS - Mappings",
+          "docs/Codis PPS - Phase 1b Requirements",
+          "docs/PPPS Phase 1 Requirements",
+          "docs/PPS - How it works"
+        ]
+      },
+      {
+        "group": "Codis Company & Brand",
+        "pages": [
+          "docs/Codis Branding",
+          "docs/Codis Company Information",
+          "docs/Codis FTP and SFTP",
+          "docs/Codis Logo",
+          "docs/Codis Master Backups",
+          "docs/Codis Photos",
+          "docs/Codis Product Guide",
+          "docs/Codis Website",
+          "docs/Codis Website User Guide"
+        ]
+      },
+      {
+        "group": "Integrations & Interfaces",
+        "pages": [
+          "docs/Care Import Program",
+          "docs/First Choice- Fresho Integration",
+          "docs/Geological Society Felinesoft interfaces",
+          "docs/KewGreen Enterprise Setups",
+          "docs/Lavender Sales Report",
+          "docs/Lavender Sales Report 1.0",
+          "docs/MJ French Customisation",
+          "docs/Mollies Apaleo Integration",
+          "docs/Mollies Tevalis Integration",
+          "docs/Netstock CSV Purchase Orders Interface",
+          "docs/Patterson and Rothwell Interfaces",
+          "docs/Residents Guestline Integration",
+          "docs/RSPCA Cases - Communications Report",
+          "docs/RSPCA P2P Interface",
+          "docs/SGL Price Band Custom Template"
+        ]
+      },
+      {
+        "group": "Sales & Marketing",
+        "pages": [
+          "docs/Business Partner Agreement Form Procedure",
+          "docs/Codis Sales Process",
+          "docs/Elm Resources",
+          "docs/Evolution of an Elm view",
+          "docs/Finance Sales Playbook",
+          "docs/Getting to know finance teams",
+          "docs/Info Sheets",
+          "docs/Marketing Case Studies",
+          "docs/Marketing Checklists",
+          "docs/Marketing Materials",
+          "docs/Pre-Pay Consultancy Days",
+          "docs/Price Increase Letters",
+          "docs/Professional Services",
+          "docs/Professional Services Department - Documents",
+          "docs/Referral Network",
+          "docs/Registering a Sales opportunity with Sage",
+          "docs/Sales Home",
+          "docs/Sales Home Page",
+          "docs/SALES PROCESS - ENQUIRY",
+          "docs/Sales process email templates",
+          "docs/SALES PROCESS- BILLING",
+          "docs/Sales Stages",
+          "docs/Sales- how-to guides",
+          "docs/Setup for Elm Development",
+          "docs/Swift Page"
+        ]
+      },
+      {
+        "group": "Development & Engineering",
+        "pages": [
+          "docs/Alphaview system requirements",
+          "docs/Automated Testing",
+          "docs/Azure Devops Inline Tests",
+          "docs/Azure Devops Testing",
+          "docs/Baseline Testing",
+          "docs/Codis API",
+          "docs/Codis Development Framework - IOC Spring.Net",
+          "docs/Configuring log4net logging",
+          "docs/Converting a browse to the new browse",
+          "docs/Creating a NuGet package using the Visual Studio 2015 Packager",
+          "docs/Creating and using local nuget packages",
+          "docs/Developer's Training Path",
+          "docs/Development Framework - AOP Attributes for Standard Deployments",
+          "docs/Development Operations Resilience",
+          "docs/Different Range size",
+          "docs/F- exercises",
+          "docs/GitVersion",
+          "docs/Installation Process for PoDastic application",
+          "docs/Installer",
+          "docs/List of Popular Development Documents",
+          "docs/New Validation Engine",
+          "docs/Old Development Documents",
+          "docs/paket vs nuget vs nuget package references",
+          "docs/Planning for Testing a Release",
+          "docs/Replacing packet with nuget package references",
+          "docs/Resizing ranges",
+          "docs/Self-hosted Build Servers",
+          "docs/Signing Assemblies and Installers",
+          "docs/Simplifying SQL",
+          "docs/Snapshot Comparison Tool",
+          "docs/Source Safe",
+          "docs/SQL Server Limited User Permission To Databases",
+          "docs/The Purpose of Testing New Releases",
+          "docs/Using Clockify (Support and Development)",
+          "docs/Using CodedUI with Excel",
+          "docs/Using Codis.Wpf",
+          "docs/Workflow for Implementing Snapshot versioning"
+        ]
+      },
+      {
+        "group": "ALM (Application Lifecycle Management)",
+        "pages": [
+          "docs/ALM - Active Builds",
+          "docs/ALM - Bugs",
+          "docs/ALM - Build and Release architecture",
+          "docs/ALM - Build Retention and Drop Folder Maintenance",
+          "docs/ALM - Developers Procedures",
+          "docs/ALM - Excelerator Release to Customers Deployment",
+          "docs/ALM - Release Management Setup Creation",
+          "docs/ALM - Releases",
+          "docs/ALM - Requirements Management",
+          "docs/ALM - Software Release Procedures",
+          "docs/ALM - User Stories",
+          "docs/Application Lifecycle Management at Codis"
+        ]
+      },
+      {
+        "group": "Infrastructure & Azure",
+        "pages": [
+          "docs/Azure VM Snapshot and Restore Guide",
+          "docs/Central Database Connection",
+          "docs/External Logins FAQ",
+          "docs/How to Create BACPAC for Azure SQL",
+          "docs/Restore SQL .bacpac database and convert to .bak",
+          "docs/Setting up FSLogix on AVD to work with Azure Storage account",
+          "docs/Setting up SSH on windows",
+          "docs/Steps to restore bacpac to SQL",
+          "docs/The AVD Environment"
+        ]
+      },
+      {
+        "group": "Errors & Troubleshooting",
+        "pages": [
+          "docs/Attempted to read or write protected memory",
+          "docs/Can't show non modal form when modal form is displayed",
+          "docs/Changing Bad stock record",
+          "docs/Changing remittance advice email in Paperless",
+          "docs/Comment line in POP V1",
+          "docs/Deleting Past BACS submissions",
+          "docs/ERROR SoapMessage -(null)- - Webservice exception",
+          "docs/Error Spool queue full",
+          "docs/Exception from HRESULT- 0x800A03EC",
+          "docs/Failed to load control 'C1Elastic' from C1Sizer.ocx",
+          "docs/Invalid OLEVERB",
+          "docs/Overwriting Stock price via SOP",
+          "docs/Project Master Error- Application-defined or object-defined error",
+          "docs/Toolbar-Ribbon Fails to register V1 POP"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "docs/Binding Machine",
+          "docs/Book a meeting room",
+          "docs/Connecting to Clockify",
+          "docs/Dealing with Phishing & Spam Emails",
+          "docs/How To Book A Webinar",
+          "docs/How to Copy Data from Customers' Sites",
+          "docs/How to create a business card",
+          "docs/How to Log Support Calls",
+          "docs/How to Organise a Webinar Meeting",
+          "docs/How to Post a Blog on the Website",
+          "docs/How to Replace a Pull-Up Banner",
+          "docs/How To Use Support Inbox And Process E-mails",
+          "docs/List of Phone Manuals",
+          "docs/List of Popular General Documents",
+          "docs/List Of Popular IT Links",
+          "docs/List of Popular Sales Folders",
+          "docs/List of Popular Support Documents",
+          "docs/List of Printer Manuals",
+          "docs/Microsoft Expression Encoder",
+          "docs/New Support Person",
+          "docs/Online Help Videos",
+          "docs/Other Links",
+          "docs/Phone Numbers",
+          "docs/RingCentral Conference call",
+          "docs/Rota Meetings",
+          "docs/Schedule A TeamViewer Meeting",
+          "docs/Screen Capture Video Guidelines",
+          "docs/Support Home Page",
+          "docs/Timesheets",
+          "docs/Zopim"
+        ]
+      },
+      {
+        "group": "Reference & Lists",
+        "pages": [
+          "docs/List of General How-To Documents"
+        ]
+      },
+      {
+        "group": "Other",
+        "pages": [
+          "docs/Accelerator Overview",
+          "docs/Activity Report",
+          "docs/AGENTS",
+          "docs/Billing",
+          "docs/Budget Master Help",
+          "docs/ClickHelp",
+          "docs/Custom Field Events",
+          "docs/Data Validation",
+          "docs/Devops- Amending Product Lists in WIs",
+          "docs/Old Help Files",
+          "docs/Product Lifecycle",
+          "docs/Product Quality Department - Documents",
+          "docs/Release Notes",
+          "docs/Software Builds",
+          "docs/Software Release Overview",
+          "docs/Steps for adding Custom fields",
+          "docs/Steps for Merging changes in Release branch",
+          "docs/Steps to Deploy",
+          "docs/System Key CODCOMPANY",
+          "docs/The Release History Report"
         ]
       }
     ],
