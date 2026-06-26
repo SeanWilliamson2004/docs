@@ -14,7 +14,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/ALM%20-%20Use
 
 ## User Stories
 
-*A user story is a very high\-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it* (<http://www.agilemodeling.com/artifacts/userStory.htm>). It is important to realise that from Codis' point of view, Users can be internal users of the software \- e.g Sales. User Stories become tasks. 
+*A user story is a very high\-level definition of a requirement, containing just enough information so that the developers can produce a reasonable estimate of the effort to implement it* ([http://www.agilemodeling.com/artifacts/userStory.htm](http://www.agilemodeling.com/artifacts/userStory.htm)). It is important to realise that from Codis' point of view, Users can be internal users of the software \- e.g Sales. User Stories become tasks. 
 
 It is important to remember that User Stories are high level definitions of requirements (hence "Story" rather than a more contractual "User Requirements". The details of the requirement is established in an iterative process of development, conversation and feedback. 
 

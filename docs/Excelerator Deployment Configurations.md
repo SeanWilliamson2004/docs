@@ -31,7 +31,7 @@ Codis software can be deployed in the following configuration:
 - Web services \- components are installed server side for third party software to communicate with.
 - Enterprise Excelerator \- as for web services, except Excelerator client software is installed client side.
 
-<http://www.codis.co.uk/IntegrationPlatformHelp/>
+[http://www.codis.co.uk/IntegrationPlatformHelp/](http://www.codis.co.uk/IntegrationPlatformHelp/)
 
 ## Sage 200
 

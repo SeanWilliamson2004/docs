@@ -220,10 +220,10 @@ The format of the URL is written as everything after the domain and first slash.
 
 The following is a list of redirects of **vanity URLs**:
 
-- <https://www.codis.co.uk/wiki> \-\> [https://codislimited.sharepoint.com/sites/wiki](/sites/Wiki)
-- <https://www.codis.co.uk/email> \-\> [https://outlook.office365\.com/owa/?realm\=CODIS.CO.UK](https://outlook.office365.com/owa/?realm=CODIS.CO.UK)
-- <https://www.codis.co.uk/crm> \-\> <https://crm.codis.co.uk/crm>
-- <https://www.codis.co.uk/selfservice> \-\> <https://crm.codis.co.uk/crmselfservice>
+- [https://www.codis.co.uk/wiki](https://www.codis.co.uk/wiki) \-\> [https://codislimited.sharepoint.com/sites/wiki](/sites/Wiki)
+- [https://www.codis.co.uk/email](https://www.codis.co.uk/email) \-\> [https://outlook.office365\.com/owa/?realm\=CODIS.CO.UK](https://outlook.office365.com/owa/?realm=CODIS.CO.UK)
+- [https://www.codis.co.uk/crm](https://www.codis.co.uk/crm) \-\> [https://crm.codis.co.uk/crm](https://crm.codis.co.uk/crm)
+- [https://www.codis.co.uk/selfservice](https://www.codis.co.uk/selfservice) \-\> [https://crm.codis.co.uk/crmselfservice](https://crm.codis.co.uk/crmselfservice)
 
 **[Creating a Blog](Codis Website User Guide.md)**Blogs in Squarespace are organized in two parts: Blog Pages and individual blog posts. Blog posts are sub\-pages of a Blog Page. Each blog post has its own page and dedicated URL.  
 

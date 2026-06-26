@@ -44,7 +44,7 @@ To change Agam's sample to work with Sage 200 Extra (On\-Premise)
 
 Use the Client ID and Scope as per the guidance.
 
-Use this BaseUrl : <https://api.columbus.sage.com/uk/sage200extra/accounts/v1>
+Use this BaseUrl : [https://api.columbus.sage.com/uk/sage200extra/accounts/v1](https://api.columbus.sage.com/uk/sage200extra/accounts/v1)
 
   
  Codis Sage 200 Extra Cloud Details [Sage ERP Online Services Details.aspx](Sage ERP Online Services Details.md)

@@ -54,7 +54,7 @@ In case you run into any issues, please call us on 020 88 610 610, option 3 for
 Subject: **Excelerator for Sage 1000 V1 \- new order \- \[customer name]**  
   
  Thank you for the order for \[customer] \[PO number]. This has now been processed.  
- Please follow the instructions below to install/licence Excelerator.1. Download the [Price List module](http://www.codis.co.uk/docs/default-source/Sage-1000-Excelerators/v1/sespricelistexcelerator.zip?sfvrsn=2). \[note: get module link from <http://www.codis.co.uk/excelerator/download>]
+ Please follow the instructions below to install/licence Excelerator.1. Download the [Price List module](http://www.codis.co.uk/docs/default-source/Sage-1000-Excelerators/v1/sespricelistexcelerator.zip?sfvrsn=2). \[note: get module link from [http://www.codis.co.uk/excelerator/download](http://www.codis.co.uk/excelerator/download)]
 2. Install the module \- [installation instructions](https://help.codis.co.uk/articles/sage-1000-v1-excelerator-help/install-excelerator).
 3. Contact Codis for activation codes. Please have the Computer ID and Serial code ready. These can be found using the instructions in the attached. [V1 Licensing Screen.pdf](https://codislimited.sharepoint.com/sites/Wiki/Sales/V1%20Licensing%20Screen.pdf)
 If you run into any issues then please contact Codis on 0208 8610 610, option 3 for Support.## Excelerator installation and licensing \- Sage 200

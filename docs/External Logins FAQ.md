@@ -34,7 +34,7 @@ It is designed to simplify the login process.
 
 Links to create a new account without a new email address: 
 
-1. Google: <https://accounts.google.com/signupwithoutgmail>   
+1. Google: [https://accounts.google.com/signupwithoutgmail](https://accounts.google.com/signupwithoutgmail)   
 [Guide on creating a Google Account](http://intranet/wiki/5116)
 2. Microsoft: [https://signup.live.com](https://signup.live.com/)
 

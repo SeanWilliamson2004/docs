@@ -9,7 +9,7 @@ modified: '2022-03-15'
 original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Excelerator%20Installation%20in%20Remote%20Desktop%20Server%20and%20Citrix.aspx
 ---
 
-Download correct version of Excelerator from our website: <http://www.codis.co.uk/excelerator/download>
+Download correct version of Excelerator from our website: [http://www.codis.co.uk/excelerator/download](http://www.codis.co.uk/excelerator/download)
 
 Save the setup to the folder C:\\Codis Install and follow step by step instructions (with screenshots) on how to install Excelerator on Citrix below.
 

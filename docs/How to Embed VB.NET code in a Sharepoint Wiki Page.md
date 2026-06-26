@@ -14,7 +14,7 @@ Developers documentation will frequently require code to be included and this co
 To embed VB.NET code in SharePoint wiki pages the following steps should be followed:
 
 1. In Visual Studio, copy the code into the clip board.
-2. Goto <http://hilite.me/>
+2. Goto [http://hilite.me/](http://hilite.me/)
 3. Paste the VB.NET code into **Source Code** window
 4. Select Language "VB.NET" and Style "Colourful"
 5. Click Highlight

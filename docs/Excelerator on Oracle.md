@@ -26,7 +26,7 @@ Test your application with the new library file on PentiumÂ® 4 processor syste
 Ensure you have plans in place to provide application updates and address customer concerns   
 \*Other brands and names are property of their respective owners  
  If you are installing into Windows\* 2000, one workaround recommendation by Oracle for this problem is:  
- Install the latest Windows\* 2000 Service Pack patch: <http://www.microsoft.com/windows2000/downloads/>   
+ Install the latest Windows\* 2000 Service Pack patch: [http://www.microsoft.com/windows2000/downloads/](http://www.microsoft.com/windows2000/downloads/)   
 Create a temporary directory on your Intel PentiumÂ® 4 processor server (e.g. \\TEMP).   
 Copy the contents of the Oracle\* Server CD to the temporary directory created in step 2\.   
 Search the directory structure created in step 2 for the existence of the filename SYMCJIT.DLL.   

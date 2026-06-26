@@ -10,7 +10,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/GitVersion.as
 
 Gitversion is an open source tool that can help you acheive semantic versioning in your project based on the status of the Git repository.
 
-Documentation can be found at: <https://gitversion.net/docs/>
+Documentation can be found at: [https://gitversion.net/docs/](https://gitversion.net/docs/)
 
 Codis is using GitVersion as its standard versioning tool.  It provides a few versioning models that can be used to fit with our working practices and (once you know what to do) integrates nicely with WIX to version setup msi and exes.
 

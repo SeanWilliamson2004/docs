@@ -99,22 +99,22 @@ Services \- bpservices@sage.com; [mmdcontracts@sage.com](mailto:mmdcontracts@sag
 | **Codis Website** | **Link** |
 | --- | --- |
 | Help Main Page | [http://www.codis.co.uk/excelerator\-help](http://www.codis.co.uk/excelerator-help) |
-| Excelerator Overview | <http://www.codis.co.uk/excelerator> |
-| Excelerator Features | <http://www.codis.co.uk/excelerator/features> |
+| Excelerator Overview | [http://www.codis.co.uk/excelerator](http://www.codis.co.uk/excelerator) |
+| Excelerator Features | [http://www.codis.co.uk/excelerator/features](http://www.codis.co.uk/excelerator/features) |
 | [Nominal Journal Blog](http://www.codis.co.uk/blog/excel-to-sage-tutorials/how-to-import-journals-from-excel-to-sage-200) | [http://www.codis.co.uk/blog/excel\-to\-sage\-tutorials/how\-to\-import\-journals\-from\-excel\-to\-sage\-200](http://www.codis.co.uk/blog/excel-to-sage-tutorials/how-to-import-journals-from-excel-to-sage-200) |
 | Nominal Journal in action Blog | [http://www.codis.co.uk/blog/excel\-to\-sage\-tutorials/how\-to\-prepare\-and\-post\-monthly\-payroll\-data\-into\-sage\-200/](http://www.codis.co.uk/blog/excel-to-sage-tutorials/how-to-prepare-and-post-monthly-payroll-data-into-sage-200/) |
-| Excelerator Testimonials | <http://www.codis.co.uk/excelerator/testimonials> |
-| Excelerator Webinars | <http://www.codis.co.uk/webinar> |
+| Excelerator Testimonials | [http://www.codis.co.uk/excelerator/testimonials](http://www.codis.co.uk/excelerator/testimonials) |
+| Excelerator Webinars | [http://www.codis.co.uk/webinar](http://www.codis.co.uk/webinar) |
 | Setups Sage200 2011 | [http://www.codis.co.uk/docs/default\-source/sage\-200\-excelerators/standardsage200v2011exceleratorsuite.zip?sfvrsn\=5](http://www.codis.co.uk/docs/default-source/sage-200-excelerators/standardsage200v2011exceleratorsuite.zip?sfvrsn=5) |
 | Setups Sage 200 2013 | [http://www.codis.co.uk/docs/default\-source/sage\-200\-](http://www.codis.co.uk/docs/default-source/sage-200-excelerators/standardsage200v2013_2015exceleratorsuite.zip?sfvrsn=6)[excelerators/standardsage200v2013\_2015exceleratorsuite.zip?sfvrsn\=6](http://www.codis.co.uk/docs/default-source/sage-200-excelerators/standardsage200v2013_2015exceleratorsuite.zip?sfvrsn=6) |
-| Codis YouTube channel | <https://www.youtube.com/user/codisuk/videos> |
+| Codis YouTube channel | [https://www.youtube.com/user/codisuk/videos](https://www.youtube.com/user/codisuk/videos) |
 | Codis YouTube channel Sage1000 | [https://www.youtube.com/playlist?list\=PLXFs\_XYQkr6z43zOzNgQS\_gtMMTqvDaC9](https://www.youtube.com/playlist?list=PLXFs_XYQkr6z43zOzNgQS_gtMMTqvDaC9) |
 | Codis YouTube channel Sage200 | [https://www.youtube.com/playlist?list\=PLXFs\_XYQkr6zWKH19RGW5TCSJ8ecN\-13H](https://www.youtube.com/playlist?list=PLXFs_XYQkr6zWKH19RGW5TCSJ8ecN-13H) |
 | SageWebsite with Codis Link | [http://www.sage.co.uk/software\-and\-services/business\-management\-solutions/sage\-200\-extra](http://www.sage.co.uk/software-and-services/business-management-solutions/sage-200-extra) |
 | Sage Website Codis Module Link | [https://www.sage.com/en\-gb/products/sage\-200c\-accounting/detailed\-information/](https://www.sage.com/en-gb/products/sage-200c-accounting/detailed-information/) |
 | Sage Website \- FaaS Page | [http://www.sage.co.uk/news\-room/press\-releases/2016/10/new\-modules\-added\-to\-sage\-200\-product\-line](http://www.sage.co.uk/news-room/press-releases/2016/10/new-modules-added-to-sage-200-product-line) |
 | Sage YouTube Channel\- Excelerator Video | [https://www.youtube.com/watch?v\=SghgaX4\_FxI](https://www.youtube.com/watch?v=SghgaX4_FxI) |
-| Codis Partners Page | <http://www.codis.co.uk/partners> |
+| Codis Partners Page | [http://www.codis.co.uk/partners](http://www.codis.co.uk/partners) |
 
 ## Support Links
 

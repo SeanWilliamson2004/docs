@@ -114,14 +114,14 @@ If you need to change your 1Password master password, follow below steps.
 
 Check out our videos and articles:
 
-Watch videos: <https://youtube.com/1PasswordVideos>
+Watch videos: [https://youtube.com/1PasswordVideos](https://youtube.com/1PasswordVideos)
 
-Read the blog: <https://blog.1password.com/>  
+Read the blog: [https://blog.1password.com/](https://blog.1password.com/)  
 
 
-Get support: <https://support.1password.com/>
+Get support: [https://support.1password.com/](https://support.1password.com/)
 
-Contact 1Password: <https://support.1password.com/contact/>  
+Contact 1Password: [https://support.1password.com/contact/](https://support.1password.com/contact/)  
   
 
 

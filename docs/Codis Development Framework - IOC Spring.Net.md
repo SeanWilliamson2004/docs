@@ -12,7 +12,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20Devel
 
 Spring.net was adopted early in V3 development primarily because it offered the prospect of simplifying our S1000 DAO code.  The S1000 database schema reflexs the product's long history, and tables often designed in a strange way that needs to be wrapped to form a more sensible logical layer to be used by the business rule layer.
 
-It then became natural to adopt other areas of spring, including its IOC functionality.  Support for Spring has faded and other IOC providers have emerged as better offerings.  In particular, Spring's XML configuration is error prone.  However, it remains in place in our S1000 code but has had to be removed from our S200 code: <https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20200%20Cloud%20Excelerator%20Architecture%20and%20Coding%20Guidelines.aspx.>
+It then became natural to adopt other areas of spring, including its IOC functionality.  Support for Spring has faded and other IOC providers have emerged as better offerings.  In particular, Spring's XML configuration is error prone.  However, it remains in place in our S1000 code but has had to be removed from our S200 code: [https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20200%20Cloud%20Excelerator%20Architecture%20and%20Coding%20Guidelines.aspx.](https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20200%20Cloud%20Excelerator%20Architecture%20and%20Coding%20Guidelines.aspx.)
 
 We use the Spring.net framework in our API framework. The main parts we will be using are:
 

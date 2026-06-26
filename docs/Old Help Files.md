@@ -21,8 +21,8 @@ The FastHelp databases for these help projects are held under [HelpFiles](https
 | **Software** | Source Folder in HelpFiles folder | Output Location | Notes |
 | --- | --- | --- | --- |
 | V1 Standard Excelerator | ExceleratorHelp | [http://www.codis.co.uk/sage\-1000\-excelerator\-help\-v1/getting\-started](http://www.codis.co.uk/sage-1000-excelerator-help-v1/getting-started) |  |
-| V1 Web Services | IntegrationPlatform | <http://www.codis.co.uk/IntegrationPlatformHelp/> |  |
-| V1 Exelerator clients | EnterpriseExceleratorClient | <http://www.codis.co.uk/EnterpriseExceleratorClientHelp/> |  |
-| V3 Web Services | IntegrationPlatform2 | <http://www.codis.co.uk/integrationplatformhelp2/> | This needs more work. |
+| V1 Web Services | IntegrationPlatform | [http://www.codis.co.uk/IntegrationPlatformHelp/](http://www.codis.co.uk/IntegrationPlatformHelp/) |  |
+| V1 Exelerator clients | EnterpriseExceleratorClient | [http://www.codis.co.uk/EnterpriseExceleratorClientHelp/](http://www.codis.co.uk/EnterpriseExceleratorClientHelp/) |  |
+| V3 Web Services | IntegrationPlatform2 | [http://www.codis.co.uk/integrationplatformhelp2/](http://www.codis.co.uk/integrationplatformhelp2/) | This needs more work. |
 | Sage 1000 DRM | DRMHelp |  |  |
-| S1000 Care Import Program | Care Import Program | <http://www.codis.co.uk/careimporthelp/overview.html> | Needs Compatibility View Enabled. |
+| S1000 Care Import Program | Care Import Program | [http://www.codis.co.uk/careimporthelp/overview.html](http://www.codis.co.uk/careimporthelp/overview.html) | Needs Compatibility View Enabled. |

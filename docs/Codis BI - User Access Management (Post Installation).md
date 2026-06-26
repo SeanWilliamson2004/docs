@@ -22,7 +22,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20BI%20
 1. #### **Granting user Access for Customer Dashboards**
 1. **Customer Workspace**
 1. Go to powerbi.com.  
- You can use this URL: <https://app.powerbi.com/home>
+ You can use this URL: [https://app.powerbi.com/home](https://app.powerbi.com/home)
 2. Make Sure it is Signed in by your Codis Email ID.  
  You will see a Screen like this:  
  ![1.1.2 Home Page](images/Support_Support_Wiki_PowerBI_Images_Codis_BI_-_User_Access_Management_Post_Installation_1.1.2_Home_.png)

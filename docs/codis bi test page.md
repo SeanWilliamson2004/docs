@@ -184,7 +184,7 @@ managing data gateway for them.
 
 **32\)** Final Check on customer server before starting ***Configurations*****:**
 
-1. Open this URL: <http://localhost:26061/>
+1. Open this URL: [http://localhost:26061/](http://localhost:26061/)
 2. It should say the service is Running.  
 ![32.2 Gateway service is running.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Gateway_service_is_running.PNG)
 
@@ -219,7 +219,7 @@ managing data gateway for them.
 1. Gateway Cluster Name \-\> Company Name exactly same as in CRM
 2. Data Source Name \-\> Company Name – "Codis BI Web Service"
 3. Data Source Type \-\> Web
-4. URL \-\> <http://localhost:26061/>
+4. URL \-\> [http://localhost:26061/](http://localhost:26061/)
 5. Authentication method \-\> Anonymous
 6. Privacy level \-\> Organisational  
 ![34.4.6 New data source fill details.png](images/PublishingImages_Pages_Codis_BI_Installation_Steps_New_data_source_fill_details.png)
