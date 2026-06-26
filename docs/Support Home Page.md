@@ -58,10 +58,10 @@ Note \- use this email steve.jemmott@sicon.co.uk to ask for anything on Sicon p
 | Customise Excelerator | [http://www.codis.co.uk/excelerator\-help/customise\-excelerator](http://www.codis.co.uk/excelerator-help/customise-excelerator) |
 | Ranges Issue | [http://www.codis.co.uk/excelerator\-help/customise\-excelerator](http://www.codis.co.uk/excelerator-help/customise-excelerator) |
 | System Keys | [http://www.codis.co.uk/excelerator\-help/quick\-installation\-instructions/sage\-500\-1000\-specific\-issues/system\-keys](http://www.codis.co.uk/excelerator-help/quick-installation-instructions/sage-500-1000-specific-issues/system-keys) |
-| Enterprise Excelerator Help | <http://www.codis.co.uk/EnterpriseExceleratorClientHelp/> |
+| Enterprise Excelerator Help | [http://www.codis.co.uk/EnterpriseExceleratorClientHelp/](http://www.codis.co.uk/EnterpriseExceleratorClientHelp/) |
 | Nominal Journal tutorial Blog | [http://www.codis.co.uk/blog/excel\-to\-sage\-tutorials/how\-to\-import\-journals\-from\-excel\-to\-sage\-200](http://www.codis.co.uk/blog/excel-to-sage-tutorials/how-to-import-journals-from-excel-to-sage-200) |
 | Nominal Journal in action Blog | [http://www.codis.co.uk/blog/excel\-to\-sage\-tutorials/how\-to\-prepare\-and\-post\-monthly\-payroll\-data\-into\-sage\-200/](http://www.codis.co.uk/blog/excel-to-sage-tutorials/how-to-prepare-and-post-monthly-payroll-data-into-sage-200/) |
-| Excelerator Testimonials | <http://www.codis.co.uk/excelerator/testimonials> |
+| Excelerator Testimonials | [http://www.codis.co.uk/excelerator/testimonials](http://www.codis.co.uk/excelerator/testimonials) |
 | Setups Sage200 2011 | [http://www.codis.co.uk/docs/default\-source/sage\-200\-excelerators/standardsage200v2011exceleratorsuite.zip?sfvrsn\=5](http://www.codis.co.uk/docs/default-source/sage-200-excelerators/standardsage200v2011exceleratorsuite.zip?sfvrsn=5) |
 | Setups Sage 200 2013 | [http://www.codis.co.uk/docs/default\-source/sage\-200\-excelerators/standardsage200v2013\_2015exceleratorsuite.zip?sfvrsn\=6](http://www.codis.co.uk/docs/default-source/sage-200-excelerators/standardsage200v2013_2015exceleratorsuite.zip?sfvrsn=6) |
 | Sage 200 Issue list | [Issues List Sage 200](file://cd01sr16104/Testing/Sage200Testing/2011/all%20modules.xlsx) |
