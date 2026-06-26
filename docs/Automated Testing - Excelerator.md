@@ -23,7 +23,7 @@ In addition to this we provide hook in points at a level just below user interac
 
 ## OpenXML
 
-<https://en.wikipedia.org/wiki/Office_Open_XML> 
+[https://en.wikipedia.org/wiki/Office_Open_XML](https://en.wikipedia.org/wiki/Office_Open_XML)
 
 Note that OpenXML is the default format from Office 2007\. .xls files are not in OpenXML format. OpenXML includes a API for accessing and manipulating OpenXML format spreadsheets. An xlsx file (for instance) can be accessed directly using this API. 
 
@@ -41,23 +41,24 @@ There are a few base classes that can be useful.
 
 **CustomOptionsProvider** \- Use this class to override client side options.
 
+```vbnet
+Try
+    Dim customOptions = new CustomOptionsProvider(Excelerator)
+    customOptions.OverrideOption("IgnoreBlankCells", False)
+    Excelerator.OptionsConfigurationProvider = customOptions
 
+    InitialiseStatus()
+    ' ...
+
+Protected Overrides Sub InitialiseStatus()
+    SetUpObjects
+    Excelerator.DefineRanges
+    Excelerator.ValidateRanges
+End Sub
 ```
 
+### Sage 1000
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 ``` | ``` Try             Dim customOptions = new CustomOptionsProvider (Excelerator)             customOptions.OverrideOption("IgnoreBlankCells", False)             Excelerator.OptionsConfigurationProvider = customOptions              InitialiseStatus() . . .    Protected Overrides Sub InitialiseStatus()         SetUpObjects          Excelerator.DefineRanges          Excelerator.ValidateRanges      End Sub  ``` |
-| --- | --- |
-
-
-```
-
-```
- 
-```
-
-```
-Sage 1000 
-```
 **TestBaseOpenXML** \- inherits TestBaseOpenXMLBase with its spring ioc and spreadsheet manipulation functionality, but adds functionality to allow the standard connection configuration to be changed. 
 
 **TestBaseOpenXMLRollback** \- inherit this class to create a test class that will automatically wrap each test in a transaction that is rolled back at the end of each test. It inherits TestBaseOpenXML and uses the utility RollbackHelper to control the transaction. 
@@ -84,8 +85,13 @@ Tests that update records should rollback those changes (see above as to how. Th
 
 
 
-| ``` 1 2 3 ``` | ``` <TestMethod()> <DeploymentItem("Codis.SageEnterprise.Distribution.Common.dll"), DeploymentItem(TestWkb1Deploy)>Public Sub TestSettlementDiscountCategoryBrowse()         TestBrowsePopulates(TestWkb1, "CL3", "SettlementDiscountCategoryBrowse", "L1", Function(x)x.SettlementCategory)     End Sub  ``` |
-| --- | --- |
+```vbnet
+<TestMethod()>
+<DeploymentItem("Codis.SageEnterprise.Distribution.Common.dll"), DeploymentItem(TestWkb1Deploy)>
+Public Sub TestSettlementDiscountCategoryBrowse()
+    TestBrowsePopulates(TestWkb1, "CL3", "SettlementDiscountCategoryBrowse", "L1", Function(x) x.SettlementCategory)
+End Sub
+```
 
 ### Sage 1000 Standard Excelerator Connection Configuration
 
