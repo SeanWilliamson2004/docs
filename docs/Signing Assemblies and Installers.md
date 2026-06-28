@@ -26,7 +26,7 @@ If you've found these page because DevOps signing steps are failing with a messa
   
 And below that:  
   
-"ResponseBody: {"error":"invalid\_client","error\_description":"AADSTS7000222: The provided client secret keys for app '\*\*\*' are expired."  
+"ResponseBody: \{"error":"invalid\_client","error\_description":"AADSTS7000222: The provided client secret keys for app '\*\*\*' are expired."  
 
 
 then the application registration "DevOpsCodeSigning" needs to have its client secret ID updating.    You can create a new secret.  You then replace the SigningClientSecret in the Code Signing library in devops with the secret **value**.

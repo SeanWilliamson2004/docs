@@ -41,7 +41,7 @@ The files highlighted in the screenshot above, were in pre\-release at the start
 
 The following is the front end address for information only. 
 
-<ftp://codisftp.codis.co.uk/Release/> 
+[ftp://codisftp.codis.co.uk/Release/](ftp://codisftp.codis.co.uk/Release/) 
 
 Username: CodisFtpUser Password: C0di$FtpUs3r In practice we direct all customers to our website with direct links or www.codis.co.uk :\- 
 
@@ -77,7 +77,7 @@ Copy the installation program zip file. (eg.NLJournalEx2\_2\.0\.0\.48\.zip)
 From: [\\\\Development\\PrereleaseFolder](file://///development/PrereleaseFolder) to   
 Backend: [\\\\CodisFtp\\PreRelease](file://///codisftp/PreRelease) 
 
-Ask the customer to download the renamed file from: Frontend: <ftp://codisftp.codis.co.uk/Prerelease> 
+Ask the customer to download the renamed file from: Frontend: [ftp://codisftp.codis.co.uk/Prerelease](ftp://codisftp.codis.co.uk/Prerelease) 
 
 Username: CodisFtpUser   
 Password: C0di$FtpUs3r 

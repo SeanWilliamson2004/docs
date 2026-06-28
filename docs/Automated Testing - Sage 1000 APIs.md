@@ -21,8 +21,10 @@ System keys and Project Settings control different configurations of Sage 1000\.
 
 
 
-| ``` 1 2 ``` | ``` <object name="SageConfig" type="Codis.SageEnterprise.Test.TestConfiguration, Codis.SageEnterprise.Test" /> <object name="ProjectConfig" type="Codis.SageEnterprise.Test.TestProjectConfiguration, Codis.SageEnterprise.Test" /> ``` |
-| --- | --- |
+```xml
+<object name="SageConfig" type="Codis.SageEnterprise.Test.TestConfiguration, Codis.SageEnterprise.Test" />
+<object name="ProjectConfig" type="Codis.SageEnterprise.Test.TestProjectConfiguration, Codis.SageEnterprise.Test" />
+```
 
 Providing this file is included in your container configuration after the standard configurations for these objects in Codis.SageEnterprise.Common, the Test objects will be used. 
 
@@ -30,15 +32,17 @@ Project settings can then be set in a test:
 
 
 
-| ``` 1 ``` | ``` ProjectConfig.UseDa0659 = True ``` |
-| --- | --- |
+```vbnet
+ProjectConfig.UseDa0659 = True
+```
 
 and system keys overridden: 
 
 
 
-|  | | ``` 1 ``` | ``` SageConfig.OverrideKey("NLYEAR", "14") ``` | | --- | --- | |
-| --- | --- | --- | --- |
+```vbnet
+SageConfig.OverrideKey("NLYEAR", "14")
+```
 
 ## Setting the Target Sage Database
 
@@ -56,13 +60,15 @@ You can check which target Sage database is being used with the following code. 
 
 
 
-| ``` 1 2 3 4 ``` | ``` Public Property CECurrencyDAO() As ICECurrencyDAO <TestMethod> _ Public Sub ValidateTest() Debug.Print("Connection string:" & CType(CType(CECurrencyDAO, AdvisedProxy).m_targetSource.GetTarget, CECurrencyDAO).DbProvider.ConnectionString)  ``` |
-| --- | --- |
+```vbnet
+Public Property CECurrencyDAO() As ICECurrencyDAO
+<TestMethod> _
+Public Sub ValidateTest()
+    Debug.Print("Connection string:" & CType(CType(CECurrencyDAO, AdvisedProxy).m_targetSource.GetTarget, CECurrencyDAO).DbProvider.ConnectionString)
+End Sub
+```
 
 
-```
- 
-```
 ## Mocks Classes
 
 Mock classes can be used to create a particular set of conditions for a test. You can mock DAO classes to mock data conditions. When using Spring tests that have public properties that are wired and persist for all tests in a class, if you reassign any property of those instances to a mock instance then that reassignment may persist into other tests. Use SetDirty at the end of the test to force a rewire.   

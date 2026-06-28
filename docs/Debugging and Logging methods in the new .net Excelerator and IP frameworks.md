@@ -38,40 +38,136 @@ In Codis.WCF.SageEnterprise.CBReceipts – which is currently soft coded and dep
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 ``` | ``` <object name="LoggingAdvice" type="Spring.Aspects.Logging.SimpleLoggingAdvice, Spring.Aop">     <property name="LogUniqueIdentifier" value="true"/>     <property name="LogExecutionTime"    value="true"/>     <property name="LogMethodArguments"  value="true"/>     <property name="LogReturnValue"      value="true"/>     <property name="Separator"           value=";"/>     <property name="LogLevel"            value="DEBUG"/>     <property name="HideProxyTypeNames"  value="true"/>     <property name="UseDynamicLogger"    value="true"/>     <property name ="LoggerName" value ="CallTrace" />   </object>   <object id="CBReceiptsAPIServicesProxy" type="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreator, Spring.Aop" singleton ="false">     <property name="ObjectNames">       <list>         <value>CBReceiptsIPAPI</value>         <value>CBPaymentsIPAPI</value>       </list>     </property>     <property name="InterceptorNames">       <list>         <value>ApplyPermissionsIfAttribute</value>         <value>LoggingAdvice</value>       </list>     </property>   </object>  ``` |
-| --- | --- |
+```xml
+<object name="LoggingAdvice" type="Spring.Aspects.Logging.SimpleLoggingAdvice, Spring.Aop">
+     <property name="LogUniqueIdentifier" value="true"/>
+     <property name="LogExecutionTime"    value="true"/>
+     <property name="LogMethodArguments"  value="true"/>
+     <property name="LogReturnValue"      value="true"/>
+     <property name="Separator"           value=";"/>
+     <property name="LogLevel"            value="DEBUG"/>
+     <property name="HideProxyTypeNames"  value="true"/>
+     <property name="UseDynamicLogger"    value="true"/>
+     <property name ="LoggerName" value ="CallTrace" />
+   </object>
+   <object id="CBReceiptsAPIServicesProxy" type="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreator, Spring.Aop" singleton ="false">
+     <property name="ObjectNames">
+       <list>
+         <value>CBReceiptsIPAPI</value>
+         <value>CBPaymentsIPAPI</value>
+       </list>
+     </property>
+     <property name="InterceptorNames">
+       <list>
+         <value>ApplyPermissionsIfAttribute</value>
+         <value>LoggingAdvice</value>
+       </list>
+     </property>
+   </object>
+```
 
 In the web.config:
 
 
 
-| ``` 1 2 3 4 ``` | ``` <logger name="CallTrace">       <level value="DEBUG"/>       <appender-ref ref="CallTraceRollingLogFileAppender"/>     </logger>  ``` |
-| --- | --- |
+```xml
+<logger name="CallTrace">
+       <level value="DEBUG"/>
+       <appender-ref ref="CallTraceRollingLogFileAppender"/>
+     </logger>
+```
 
 This appender does Log Viewer format:
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 ``` | ``` <appender name="CallTraceRollingLogFileAppender" type="log4net.Appender.RollingFileAppender">       <file value="c:\log\CallTrace.log"/>       <appendToFile value="true"/>       <maxSizeRollBackups value="10"/>       <maximumFileSize value="5MB"/>       <rollingStyle value="Size"/>       <staticLogFileName value="true"/>       <layout type="Codis.Logging.Support.LogLayout">         <ItemsToInclude value="date,logger,,message,user,level,machinename,hostname,method,linenumber,thread,class"/>       </layout>     </appender>  ``` |
-| --- | --- |
+```xml
+<appender name="CallTraceRollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
+       <file value="c:\log\CallTrace.log"/>
+       <appendToFile value="true"/>
+       <maxSizeRollBackups value="10"/>
+       <maximumFileSize value="5MB"/>
+       <rollingStyle value="Size"/>
+       <staticLogFileName value="true"/>
+       <layout type="Codis.Logging.Support.LogLayout">
+         <ItemsToInclude value="date,logger,,message,user,level,machinename,hostname,method,linenumber,thread,class"/>
+       </layout>
+     </appender>
+```
 
 Sample configuration for 1\) In web config:
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 ``` | ``` <system.serviceModel>   <diagnostics>       <messageLogging            logEntireMessage="true"            logMalformedMessages="true"            logMessagesAtServiceLevel="true"            logMessagesAtTransportLevel="false"            maxMessagesToLog="3000"            maxSizeOfMessageToLog="65535000"/>     </diagnostics> And <system.diagnostics>   <sources>                <source name="System.ServiceModel"               switchValue="Information, ActivityTracing"               propagateActivity="true" >          <listeners>             <add name="xml"/>          </listeners>       </source>       <source name="System.ServiceModel.MessageLogging">          <listeners>             <add name="xml"/>          </listeners>       </source>    </sources>     <trace autoflush="true" />    <sharedListeners>              <add name="xml"            type="System.Diagnostics.XmlWriterTraceListener"            initializeData="C:\log\Traces.svclog" />    </sharedListeners>  ``` |
-| --- | --- |
+```xml
+<system.serviceModel>
+   <diagnostics>
+       <messageLogging
+            logEntireMessage="true"
+            logMalformedMessages="true"
+            logMessagesAtServiceLevel="true"
+            logMessagesAtTransportLevel="false"
+            maxMessagesToLog="3000"
+            maxSizeOfMessageToLog="65535000"/>
+     </diagnostics> And
+ <system.diagnostics>
+   <sources>
+
+       <source name="System.ServiceModel"
+               switchValue="Information, ActivityTracing"
+               propagateActivity="true" >
+          <listeners>
+             <add name="xml"/>
+          </listeners>
+       </source>
+       <source name="System.ServiceModel.MessageLogging">
+          <listeners>
+             <add name="xml"/>
+          </listeners>
+       </source>
+    </sources>
+     <trace autoflush="true" />
+    <sharedListeners>
+
+       <add name="xml"
+            type="System.Diagnostics.XmlWriterTraceListener"
+            initializeData="C:\log\Traces.svclog" />
+    </sharedListeners>
+```
 
 Sample Configuration for 2\)
 
 
 
-| ``` 1 2 3 4 5 ``` | ``` <trace autoflush="true">   <listeners>     <add name="SyncListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="C:\log\"/>   </listeners> </trace>  ``` |
-| --- | --- |
+```xml
+<trace autoflush="true">
+   <listeners>
+     <add name="SyncListener" type="System.Diagnostics.TextWriterTraceListener" initializeData="C:\log\"/>
+   </listeners>
+ </trace>
+```
 
 Sample Configuration for 3\) Below configures a logger for level Debug. Our logger can use this and other levels.
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 ``` | ``` <log4net debug="false">     <logger name="Debug">       <level value="DEBUG"/>       <appender-ref ref="DebugFileAppender2"/>     </logger>     <appender name="DebugFileAppender2" type="log4net.Appender.FileAppender">       <file type="log4net.Util.PatternString" value="Debug.log"/>       <lockingModel type="log4net.Appender.FileAppender+MinimalLock"/>       <appendToFile value="true"/>       <maxSizeRollBackups value="10"/>       <maximumFileSize value="5MB"/>       <rollingStyle value="Size"/>       <staticLogFileName value="true"/>       <!--<layout type="log4net.Layout.PatternLayout">-->       <layout type="Codis.Logging.Support.LogLayout">         <ItemsToInclude value="date,logger,,message,user,level,machinename,hostname,method,linenumber,thread,class"/>       </layout>     </appender>  ``` |
-| --- | --- |
+```xml
+<log4net debug="false">
+     <logger name="Debug">
+       <level value="DEBUG"/>
+       <appender-ref ref="DebugFileAppender2"/>
+     </logger>
+     <appender name="DebugFileAppender2" type="log4net.Appender.FileAppender">
+       <file type="log4net.Util.PatternString" value="Debug.log"/>
+       <lockingModel type="log4net.Appender.FileAppender+MinimalLock"/>
+       <appendToFile value="true"/>
+       <maxSizeRollBackups value="10"/>
+       <maximumFileSize value="5MB"/>
+       <rollingStyle value="Size"/>
+       <staticLogFileName value="true"/>
+       <!--<layout type="log4net.Layout.PatternLayout">-->
+       <layout type="Codis.Logging.Support.LogLayout">
+         <ItemsToInclude value="date,logger,,message,user,level,machinename,hostname,method,linenumber,thread,class"/>
+       </layout>
+     </appender>
+```

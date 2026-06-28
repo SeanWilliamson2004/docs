@@ -72,8 +72,20 @@ We can no longer use injection. Public properties that would be inject should be
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 ``` | ``` <IgnoreDataMember>   Public Property NLJournalValidatorGroup As DTOValidatorGroup       Get           If _nLJournalValidatorGroup Is Nothing Then               _nLJournalValidatorGroup = New NLJournalValidatorGroup           End If           Return _nLJournalValidatorGroup       End Get       Set(value As DTOValidatorGroup)           _nLJournalValidatorGroup = value       End Set   End Property  ``` |
-| --- | --- |
+```xml
+<IgnoreDataMember>
+   Public Property NLJournalValidatorGroup As DTOValidatorGroup
+       Get
+           If _nLJournalValidatorGroup Is Nothing Then
+               _nLJournalValidatorGroup = New NLJournalValidatorGroup
+           End If
+           Return _nLJournalValidatorGroup
+       End Get
+       Set(value As DTOValidatorGroup)
+           _nLJournalValidatorGroup = value
+       End Set
+   End Property
+```
 
 ### File system access
 
@@ -93,8 +105,16 @@ This can be done by directly editing the project file. (Unload the project, then
 
 
 
-| ``` 1 2 3 4 5 6 7 8 ``` | ``` <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">   <PropertyGroup>     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>     ...     <MyType>Windows</MyType> ...   </PropertyGroup>  ``` |
-| --- | --- |
+```xml
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <PropertyGroup>
+     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+     ...
+     <MyType>Windows</MyType>
+ ...
+   </PropertyGroup>
+```
 
 # Architecture
 
@@ -124,8 +144,18 @@ DTOs have to be serializable by the serializer used by Sage. This seem to requir
 
 
 
-| ```  1  2  3  4  5  6  7  8  9 10 ``` | ``` <CollectionDataContract()> Public Class NLJournalDetailDTOList     Inherits BusinessListBase(Of NLJournalDetailDTO)     Public Sub New(parent As NLJournalDTO)         SetParent(parent)     End Sub     Public Sub New()       End Sub End Class  ``` |
-| --- | --- |
+```xml
+<CollectionDataContract()>
+ Public Class NLJournalDetailDTOList
+     Inherits BusinessListBase(Of NLJournalDetailDTO)
+     Public Sub New(parent As NLJournalDTO)
+         SetParent(parent)
+     End Sub
+     Public Sub New()
+
+     End Sub
+ End Class
+```
 
 #### Underlying Assemblies
 
@@ -154,15 +184,33 @@ The API class wraps the server side services methods and according to whether th
 
 
 
-| ``` 1 2 3 4 5 ``` | ``` If Sage.ObjectStore.ClientPortal.Portal.IsActive Then       Return CType(Sage.ObjectStore.ClientPortal.Portal.CallMethod(NlJournalAPIServer, "Validate", {batchDTO}), IList(Of ErrorMessageDTO))   Else       NlJournalAPIServer.Validate(batchDTO)   End If  ``` |
-| --- | --- |
+```xml
+If Sage.ObjectStore.ClientPortal.Portal.IsActive Then
+       Return CType(Sage.ObjectStore.ClientPortal.Portal.CallMethod(NlJournalAPIServer, "Validate", {batchDTO}), IList(Of ErrorMessageDTO))
+   Else
+       NlJournalAPIServer.Validate(batchDTO)
+   End If
+```
 
 Note: This is a simplified version of the portal call to illustrate the switch.  The full code could be:
 
 
 
-| ``` 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 ``` | ``` Public Overrides Function Validate(batchDTO As MainBusinessDTO) As IList(Of ErrorMessageDTO)              ..             Dim result As IList(Of ErrorMessageDTO)             If SageDetailsProvider.IsSageOnline Then #If CompilerSageVersion >= 2013 Then                 result = RunAsync(batchDTO, "ValidateAsync", Nothing)  #End If              Else                 result = BusinessServerAPI.Validate(batchDTO)             End If             MapMessagesInList(result)             Return result          End Function ``` |
-| --- | --- |
+```vbnet
+Public Overrides Function Validate(batchDTO As MainBusinessDTO) As IList(Of ErrorMessageDTO)
+    ..
+    Dim result As IList(Of ErrorMessageDTO)
+    If SageDetailsProvider.IsSageOnline Then
+#If CompilerSageVersion >= 2013 Then
+        result = RunAsync(batchDTO, "ValidateAsync", Nothing)
+#End If
+    Else
+        result = BusinessServerAPI.Validate(batchDTO)
+    End If
+    MapMessagesInList(result)
+    Return result
+End Function
+```
 
 RunAsync invokes the CallMethodAsync method on the portal and awaits and then handles the response. RunAsync is entirely conditional on the CompilerSageVersion precompiler condition, as it makes calls to the Sage API that are not available in Sage 2011\.
 

@@ -208,31 +208,38 @@ Use this when:
 
 Lets say you have multiple pages in your car application, each being a mini elm app. Any of the pages might make a call to the back end, and when we are waiting for the call to come back all pages must be disabled. In this case, you would need a disabled: Bool being given to all pages, and you would want any of the pages to be able to change this value.   
   
-Solution: Create a new module:  
-  
-module GlobalState exposing (GlobalState, toggleDisabled)  
-  
-type GlobalState \= GlobalState GlobalState\_  
-  
-type alias GlobalState\_ \= { disabled : Bool }  
-  
-getDisabled : GlobalState \-\> Bool  
-getDisabled (GlobalState state) \=  
-    state.disabled  
-  
-toggleDisabled : GlobalState \-\> GlobalState  
-toggleDisabled (GlobalState state) \=   
-    GlobalState { state \| disabled \= not state.disabled }  
-  
-  
+Solution: Create a new module:
+
+```elm
+module GlobalState exposing (GlobalState, toggleDisabled)
+
+type GlobalState = GlobalState GlobalState_
+
+type alias GlobalState_ = { disabled : Bool }
+
+getDisabled : GlobalState -> Bool
+getDisabled (GlobalState state) =
+    state.disabled
+
+toggleDisabled : GlobalState -> GlobalState
+toggleDisabled (GlobalState state) =
+    GlobalState { state | disabled = not state.disabled }
+```
+
 You don't expose the GlobalState constructors but you provide limited ways of editing the global state through functions like toggleDisabled, and ways of getting the values like getDisabled. You can hold more values in GlobalState and expose more edit/getter functions if need be. The GlobalState is held in the top level model.   
   
 **Important**: Try to keep your GlobalState as small as possible, only hold variables here if necessary.  
   
 Your page's init, view and update functions can now accept the GlobalState if they need it (if they don't need to access GlobalState, keep them as they are). The update function can also update the GlobalState if it wants:  
   
-update : GlobalState \-\> Model \-\> Msg \-\> (Model, Cmd Msg, GlobalState)update globalState model msg \=     case msg of   
-        SaveToBackEnd \-\> (model, httpCmd, GlobalState.toggleDisabled globalState)  
-httpCmd : Cmd MsghttpCmd \= \-\- some cmd which makes a web request  
+```elm
+update : GlobalState -> Model -> Msg -> (Model, Cmd Msg, GlobalState)
+update globalState model msg =
+    case msg of
+        SaveToBackEnd -> (model, httpCmd, GlobalState.toggleDisabled globalState)
+
+httpCmd : Cmd Msg
+httpCmd = -- some cmd which makes a web request
+```
   
 The parent model is responsible for holding the GlobalState, passing it around to pages and updating it if it gets a new GlobalState back from a page update function.

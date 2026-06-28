@@ -10,7 +10,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Intellerator%
 
 ## Setting up a new set of demo dashboards
 
-{Ravi to add content here when ready, but in the meantime, ask Ravi to set it up}  
+\{Ravi to add content here when ready, but in the meantime, ask Ravi to set it up\}  
 
 
   
@@ -37,8 +37,8 @@ To get the URL, Go to Update App \> scroll down within Setup \> Copy link.
 Once users are added, use this template to email them:  
   
 \-\-\-  
-Hi {name},  
-Here’s the link to access Intellerator for customer demos, whether you're presenting remotely or on site: {URL}.   
+Hi \{name\},  
+Here’s the link to access Intellerator for customer demos, whether you're presenting remotely or on site: \{URL\}.   
 What to keep in mind:- You'll need a a Power BI Pro licence to demo Intellerator. Many organisations already have this as part of their Microsoft 365 subscription, so it's worth checking. Here's how:
 - Sign in to [https://powerbi.microsoft.com](https://powerbi.microsoft.com/).
 - Click the gear button in the top ribbon.

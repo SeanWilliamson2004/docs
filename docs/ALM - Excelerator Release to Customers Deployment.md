@@ -30,7 +30,7 @@ The files are prepared for release. Each file is zipped and **the version numbe
 ![](images/Support_Support_Wiki_Images_Release.png) 
 
 The files highlighted in the screenshot above, were in pre\-release at the start of the test cycle but were not ready to be tested so they will be removed from this test folder and not copied to the release folder. The network address of the release folder is:\-   
-192\.168\.3\.212\\Release\\Sage\_1000\_Std\_V3 The following is the front end address for information only. <ftp://codisftp.codis.co.uk/Release/> Username: CodisFtpUser Password: C0di$FtpUs3r In practice we direct all customers to our website with direct links or www.codis.co.uk :\-
+192\.168\.3\.212\\Release\\Sage\_1000\_Std\_V3 The following is the front end address for information only. [ftp://codisftp.codis.co.uk/Release/](ftp://codisftp.codis.co.uk/Release/) Username: CodisFtpUser Password: C0di$FtpUs3r In practice we direct all customers to our website with direct links or www.codis.co.uk :\-
 
 ## Copying to the Codis website
 
@@ -60,7 +60,7 @@ Copy the installation program zip file. (eg.NLJournalEx2\_2\.0\.0\.48\.zip) 
 From: \\Development\\PrereleaseFolder to   
 Backend: \\CodisFtp\\PreRelease
 
-Ask the customer to download the renamed file from: Frontend: <ftp://codisftp.codis.co.uk/Prerelease>
+Ask the customer to download the renamed file from: Frontend: [ftp://codisftp.codis.co.uk/Prerelease](ftp://codisftp.codis.co.uk/Prerelease)
 
 Username: CodisFtpUser   
 Password: C0di$FtpUs3r

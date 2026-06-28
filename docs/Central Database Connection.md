@@ -20,7 +20,7 @@ The details in the screen that pops up. Remove the details from the first screen
 
 There is a small executable that will create the table for you and a link to it from the PC ( or terminal server) on which you install it, so the user can maintain the table from their PC. ( or terminal server)
 
-The executable is on our FTP site :\- <ftp://codisftp.codis.co.uk/Prerelease>
+The executable is on our FTP site :\- [ftp://codisftp.codis.co.uk/Prerelease](ftp://codisftp.codis.co.uk/Prerelease)
 
 Username: CodisFtpUser
 

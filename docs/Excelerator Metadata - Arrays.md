@@ -29,22 +29,29 @@ To designate a property as an array you must either decorate it with the DTOFiel
 
 
 
-| ``` 1 2 ``` | ``` <DataMember()> <DTOFieldArray("HeaderContactArray1Desc", 20, SpecialProperties.ComplexType, 3)> _        Public Property HeaderContractArray1() As List(Of Contact)  ``` |
-| --- | --- |
+```vbnet
+<DataMember()>
+<DTOFieldArray("HeaderContactArray1Desc", 20, SpecialProperties.ComplexType, 3)> _
+    Public Property HeaderContractArray1() As List(Of Contact)
+```
 
 or added to the metadata in separate code: 
 
 
 
-| ``` 1 2 ``` | ``` Dim arrayList As ArrayMetaData                 arrayList = .AddArray(Of TransdataHeaderDTO)(Function(x) x.HeaderContractArray1, 3)  ``` |
-| --- | --- |
+```vbnet
+Dim arrayList As ArrayMetaData
+arrayList = .AddArray(Of TransdataHeaderDTO)(Function(x) x.HeaderContractArray1, 3)
+```
 
 The type used in the array should have the usual attributes added to its properties or added to the metadata in separate code: 
 
 
 
-| ``` 1 2 ``` | ``` arrayList.Add(Of Contact)(Function(x) x.Name, "Name", 20)       arrayList.Add(Of Contact)(Function(x) x.Address, "Address", 30)  ``` |
-| --- | --- |
+```vbnet
+arrayList.Add(Of Contact)(Function(x) x.Name, "Name", 20)
+arrayList.Add(Of Contact)(Function(x) x.Address, "Address", 30)
+```
 
 Note that the properties' details are being added to a list on the array not to the main metadata list
 
@@ -57,8 +64,14 @@ In order to appear as ranges the array has to be included in the Excel metadata.
 
 
 
-| ``` 1 2 3 4 5 ``` | ``` With metaData.ExcelArrayMetaDataList     Dim fld As ExcelBasicMetaDataField     Dim fldArray As ExcelArrayMetaData = .Add(Of TransdataHeaderDTO)(Function(x) x.HeaderContractArray1)      ' Add to list so that you can define properties on it.      With fldArray         fld = .ExcelBasicMetaDataList.Add(Of Contact)(Function(x) x.Name, HeadDetailInd.HeaderDetail, "")  ``` |
-| --- | --- |
+```vbnet
+With metaData.ExcelArrayMetaDataList
+    Dim fld As ExcelBasicMetaDataField
+    Dim fldArray As ExcelArrayMetaData = .Add(Of TransdataHeaderDTO)(Function(x) x.HeaderContractArray1)
+    ' Add to list so that you can define properties on it.
+    With fldArray
+        fld = .ExcelBasicMetaDataList.Add(Of Contact)(Function(x) x.Name, HeadDetailInd.HeaderDetail, "")
+```
 
 Note that the properties' details are being added to a list on the array not to the main metadata list
 
@@ -67,5 +80,9 @@ It is also possible to override the description on the individual rows of the ar
 
 
 
-| ``` 1 2 3 4 ``` | ``` ' Override the row description for element 3 of Name    fld = ExcelBasicMetaDataField.Factory(Of Contact)(Function(x) x.Name)    fld.Description = "Override row desc 3"    .ExcelRowMetaDataList.Add(3, fld)  ``` |
-| --- | --- |
+```vbnet
+' Override the row description for element 3 of Name
+fld = ExcelBasicMetaDataField.Factory(Of Contact)(Function(x) x.Name)
+fld.Description = "Override row desc 3"
+.ExcelRowMetaDataList.Add(3, fld)
+```
