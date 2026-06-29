@@ -14,8 +14,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## List
 
-
-
 | **Document** | **Description** |
 | --- | --- |
 | [Sales Home](Sales Home.md) | Collection of important / frequently used links and resources for Sales |

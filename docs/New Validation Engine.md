@@ -30,9 +30,12 @@ Implement the validation by overriding the InternalValidate method. The first pa
 
 AddMessage can still be used to add validation failure messages. However, the new validation engine does not support the use of literal strings for property names. Instead, actually property values must be used. As such, the BaseProperties property is no longer supported. Instead, set the MessageParameters protected property to the actual values in the InternalValidate method.
 
-
-
-| ``` 1 2 3 ``` | ``` Protected Overrides Function InternalValidate(objectToValidate As LedgerDetailDTO) As Boolean         Dim valid As Boolean = True         MessageParameters = {objectToValidate.TaxCode, objectToValidate.TransactionAnalysis}.ToList  ``` |
+| ``` 1
+ 2
+ 3 ``` | ``` Protected Overrides Function InternalValidate(objectToValidate As LedgerDetailDTO) As Boolean
+         Dim valid As Boolean = True
+         MessageParameters = {objectToValidate.TaxCode, objectToValidate.TransactionAnalysis}.ToList
+  ``` |
 | --- | --- |
 
 Or just pass an array of values to AddMessage as a parameter. 

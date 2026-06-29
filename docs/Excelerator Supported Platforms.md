@@ -12,11 +12,8 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Excelerator%2
 
 See: [Supported Platforms (codis.co.uk)](https://help.codis.co.uk/articles/#%21sage-200-excelerator-online-help-publication/s200-supported-platforms)
 
-  
-
-
 Below text left in in case it is useful.  
-  
+
 Excelerator has multiple versions which work with different versions of Excel, Sage, Windows and CPU architecture (32 or 64 bit). 
 
 ## 

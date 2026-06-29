@@ -25,11 +25,8 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Stage
 11. Cancelled
 12. On hold
 
-  
-  
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-  
-  
-  
+
 This guide explains each sales stage in Sage CRM, what it means, and the key action to progress the opportunity.  
 ![CRM-opportunities-stages-pipeline.PNG](images/Sales_CRM-opportunities-stages-pipeline.PNG)  
 Guiding question: *"**To progress this opportunity to the next stage, what's the ONE thing I can do, such that by doing it, everything else will be easier or unnecessary?**"*  

@@ -110,12 +110,6 @@ If an order exists \- remove any reference to quote and Expiry Date.
 
       8\. Update the whiteboard. 
 
-  
- 
-
-  
- 
-
 ## Historical
 
 In Sage 50 Create the Sales Order /invoice. 

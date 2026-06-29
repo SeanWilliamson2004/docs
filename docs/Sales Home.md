@@ -13,11 +13,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Home.
 
 ![](images/Sales_Sales_Wiki_Images_sales_hero.png_RenditionID_3)  
 
-
 # Team documents
 
 [Sales team Sharepoint/OneDrive folder](/sites/Sales/Shared%20Documents/) \- particularly for documents we're collaborating on  
-
 
 # Presales
 
@@ -96,7 +94,6 @@ Excelerator for Sage 1000/L500 Pricing
 - [Intellerator Training Guide](Intellerator Training Guide.md)
 - [Intellerator User Notes](Intellerator User Notes.md)
 
-  
 # Sage 200 Support
 
 - [Change of Partner Link.pdf](https://codislimited.sharepoint.com/sites/Wiki/Sales/Change%20of%20Partner%20Link.pdf)
@@ -171,8 +168,5 @@ Excelerator for Sage 1000/L500 Pricing
 - Sage's [YouTube video](https://www.youtube.com/watch?v=SghgaX4_FxI) for Excelerator
 - Sage's [YouTube video](https://www.youtube.com/watch?v=5-vm-7KAKUc) for Intellerator \- Ali's Demonstration
 - [https://www.sage.com/en\-gb/products/sage\-200/codis\-excelerator/](https://www.sage.com/en-gb/products/sage-200/codis-excelerator/)
-
-  
-
 
 [View the old Sales Home Page](Sales Home Page.md)

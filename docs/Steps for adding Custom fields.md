@@ -12,17 +12,13 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Steps%20for%2
 
 This document describes how to customise Excelerator using the Excelerator plugin framework.  The plugin framework scans for assemblies in the folder \<??\> looking for assemblies that contain classes that implement certain pre\-defined classes or interfaces.  The framework then loads these assemblies and call given hookin points during processing, allowing the behaviour of Excelerator to be modified.  
 
-
 It is helpful to follow predefined standards for nomenclature and source code control.  Store all work in a new Git repository in Azure Devops named: \<??\>
 
 Excelerator is divided into client\-server architecture even in a pure client deployment.   Data is moved in DTOs (data transfer objects) between Excel, the client layer, the server layer and into Sage.   DTOs are structured according to the business entity being used.  For instances, the sales order Excelerator will use main DTO that has a list of sales order header DTOs (order no, customer etc) and each of those has a list sales order details DTOs.  Custom data can be added in soft lists to each of these DTOs.  
 
-
 You will need to create two projects.   
 
-
 The steps are:  
-
 
 1. Create the Client Side Plugin
 2. Create the Server Side Plugin
@@ -45,10 +41,8 @@ The ExCustomisationStartupBase class has abstract properties and methods that h
 
 And overridable methods:  
 
-
 1. **BeforeDownloading**: This method is invoked before downloading items like Sales order, Quotation… This method should be called from actual module like Sales order's Excelerator class.
 2. **AfterDownloading**: This method is invoked after fetching data from the Server API.
-
 
 > 
 
@@ -60,7 +54,6 @@ The project must include your plugin API class which must be derived from Codi
 
 - **ModuleNames As List(Of String)**.:Use this property to identify the relevant server\-side api. Eg.. for value "SalesOrder", it will link to SalesOrderServerAPI. This module name must be the same as module name define in the AddinDef file.
 
-  
 It also has overridable Methods :  
 - Run : This is the first method called and called just once when the server object instance is created. Override this method to initiate any additional objects.
 - InternalDeleteStart : This method is used to write code for before deleting record.
@@ -78,18 +71,11 @@ ValidationObject which is the main DTO object being validated.  You would typ
 
 Validation should be carried out by validation classes that inherit from Codis.Server.Plugins ValidationBase.  Business rule validation failures should call the method AddMessage(msgText), passing a helpful message.
 
-  
-
-
 # Sage Database object
 
  Create data base object (Persistent classes / schema) using SageObjectStoreBuilder.exe". These are persistent classes are used when required object is not in API.  
 
-
 # Deploy the Plugins and Set the plugin path
-
-  
-
 
 1. Create an output folder with naming convention \<ProjectName\+'output'\> on any drive. Under this folder create another folder 'Customization'. The output of the above two projects should go into 'Customization' folder.
 2. In Excelerator, goto Select Modules option and then go to Display Settings. Then set PluginPath to the output folder.

@@ -10,10 +10,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Comparing%20f
 
 When Excelerator is installed, it registers the Addin, and this registration points to assemblies in a specific folder. You can locate this folder in Excel by going to File, then Options, and finally Add\-ins. The registration process does not take into account the version of Excelerator, so it won't matter if a different version is present in that location. Therefore, to run a different version, you can follow these steps:  
 
-
-  
-
-
 1\. Suppose you have installed Version 2\.
 
 2\. Get a copy of Version 1 assemblies and copy them to another folder. For example, if the installation folder is %localappdata%\\Codis Limited\\Codis Sage 200 SPE2019 Standard Excelerator, you could use %localappdata%\\Codis Limited\\Codis Sage 200 SPE2019 Standard ExceleratorV1\.

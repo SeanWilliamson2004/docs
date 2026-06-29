@@ -19,7 +19,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20M
 - [Sage 200 Product Brochure.pdf](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Information%20Sheets/Sage/S200/Sage%20200%20Product%20Brochure.pdf)
 - [Sage 50 and Sage 200 Comparison.pdf](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Sage%20200%20Brochures/Sage%2050%20and%20Sage%20200%20Comparison.pdf)
 
-  
 # Sage Links
 
 - [Sage Landing Page for Excelerator](https://www.sage.com/en-gb/cp/codis-excelerator/)

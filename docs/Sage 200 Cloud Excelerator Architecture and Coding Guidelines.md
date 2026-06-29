@@ -70,8 +70,6 @@ Remove this from all server side code. It can be done client side, where it will
 
 We can no longer use injection. Public properties that would be inject should be expanded to have no longer be automatic variables. (Use Resharper Ctrl R E) They should then have code added to initialise the private variable to the default concrete class. Note that the property is decorated with the IgnoreDataMember attribute. Without this, Sage will attempt to serialize the properties type, which can result in errors. 
 
-
-
 ```xml
 <IgnoreDataMember>
    Public Property NLJournalValidatorGroup As DTOValidatorGroup
@@ -102,8 +100,6 @@ The collection type is not whitelisted.
 ### Change the project MyType
 
 This can be done by directly editing the project file. (Unload the project, then right\-click edit). In the XML below, change the MyType property to "Test"
-
-
 
 ```xml
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -141,8 +137,6 @@ These assemblies hold DTO types that have to pass from the client to the server 
 DTOs have to be serializable by the serializer used by Sage. This seem to require some particular rules that don't apply to the default WCF serializer. 
 
 - Collection or list types must be decorated with the CollectionDataContract attribute and include a default constructor.
-
-
 
 ```xml
 <CollectionDataContract()>
@@ -182,8 +176,6 @@ This assembly holds:
 
 The API class wraps the server side services methods and according to whether the On\-premise or cloud version of Sage is being used, either directly calls the method or calls it via the Sage dispatcher which calls the cloud version of the method.
 
-
-
 ```xml
 If Sage.ObjectStore.ClientPortal.Portal.IsActive Then
        Return CType(Sage.ObjectStore.ClientPortal.Portal.CallMethod(NlJournalAPIServer, "Validate", {batchDTO}), IList(Of ErrorMessageDTO))
@@ -193,8 +185,6 @@ If Sage.ObjectStore.ClientPortal.Portal.IsActive Then
 ```
 
 Note: This is a simplified version of the portal call to illustrate the switch.  The full code could be:
-
-
 
 ```vbnet
 Public Overrides Function Validate(batchDTO As MainBusinessDTO) As IList(Of ErrorMessageDTO)

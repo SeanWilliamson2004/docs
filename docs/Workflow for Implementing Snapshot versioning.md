@@ -11,22 +11,35 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Workflow%20fo
 
 Seperate the paket.dependencies and paket.references into two sections \- one for snapshot versions and one for production builds.  
 
-
 ```
-framework: auto-detect
-source https://www.nuget.org/api/v2
-source http://nuget.codis.co.uk/nuget
-source C:\Nuget.Local
-
-nuget Codis.Sage200.Base.Types
-nuget Newtonsoft.Json
-
-group LOCAL
-	http file://C:/Users/SWilliamson/Source/Repos/CodisDevelopment/Assemblies/Codis.Excelerator.Plugin.Types.dll
-	
-group BUILD
-	source C:\Nuget.Local
-	nuget Codis.Excelerator.Plugin.Types
+framework: auto-detect
+
+source https://www.nuget.org/api/v2
+
+source http://nuget.codis.co.uk/nuget
+
+source C:\Nuget.Local
+
+
+
+nuget Codis.Sage200.Base.Types
+
+nuget Newtonsoft.Json
+
+
+
+group LOCAL
+
+	http file://C:/Users/SWilliamson/Source/Repos/CodisDevelopment/Assemblies/Codis.Excelerator.Plugin.Types.dll
+
+	
+
+group BUILD
+
+	source C:\Nuget.Local
+
+	nuget Codis.Excelerator.Plugin.Types
+
 
 ```
 
@@ -34,11 +47,13 @@ Public Class Class1
     Dim i As Integer  
 End Class
 
-
 ```
-Public Class Class1
-    Dim i As Integer
-End Class
+Public Class Class1
+
+    Dim i As Integer
+
+End Class
+
 
 ```
 

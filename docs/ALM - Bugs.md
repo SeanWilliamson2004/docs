@@ -10,11 +10,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/ALM%20-%20Bug
 
 A bug is a defect found in the software, where the software fails to work as is expected.   
 
-
 There is a section in this document that describes the role of the fields to be completed.  [https://docs.microsoft.com/en\-us/azure/devops/boards/backlogs/manage\-bugs?view\=azure\-devops\&tabs\=new\-web\-form](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/manage-bugs?view=azure-devops&tabs=new-web-form)
 
 Support should complete:  
-
 
 1. Repro steps.  It can dramatically speed up the time taken to fix a bug by providing accurate reproduction steps.  Put what you think is likely to be relevant to get the bug to occur.  It can be helpful to clearly identify and explain what is the "Expected Behaviour" and the "Actual Behaviour".   Sometimes you may not know how to reproduce the error.  In this case put what you know and it can be discussed with the developer assigned to fixed the bug.
 2. The Priority and Severity.  These are based on our support handbook definitions and can be agreed with the customers.

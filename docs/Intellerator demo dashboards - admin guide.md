@@ -12,14 +12,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Intellerator%
 
 \{Ravi to add content here when ready, but in the meantime, ask Ravi to set it up\}  
 
-
-  
-
-
 ## User access administration
 
 Viewing and Adding users  
-
 
 1. Get email addresses from the partner/customer
 2. Log into Power BI Web \- Codis B2B \- [https://app.powerbi.com/home?ctid\=b45363d0\-8aae\-43ca\-9e1f\-ddb6097861ce](https://app.powerbi.com/home?ctid=b45363d0-8aae-43ca-9e1f-ddb6097861ce)
@@ -35,7 +30,7 @@ To get the URL, Go to Update App \> scroll down within Setup \> Copy link.
 ## Emailing new users
 
 Once users are added, use this template to email them:  
-  
+
 \-\-\-  
 Hi \{name\},  
 Here’s the link to access Intellerator for customer demos, whether you're presenting remotely or on site: \{URL\}.   
@@ -50,6 +45,5 @@ What to keep in mind:- You'll need a a Power BI Pro licence to demo Intellerator
 - The interface is intuitive, so get familiar with it and enjoy using it. If you need any help, feel free to reach out by phone \+44(0\) 20 88 610 610 opt 1, or at [sales@codis.co.uk](mailto:sales@codis.co.uk).
 
 Regards,  
-
 
 \-\-

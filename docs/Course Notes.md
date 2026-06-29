@@ -18,8 +18,6 @@ Add new courses at the **top** of the list
 
 ## SQL language basics 1
 
-
-
 | **Date** | 20\.01\.2016 |
 | --- | --- |
 | **Description** | An intro to the sql language, mainly aimed at support, admins and consultants |

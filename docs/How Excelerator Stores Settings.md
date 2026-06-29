@@ -25,13 +25,11 @@ Roaming Profile location: {SpecialFolder.ApplicationData}\\Codis\\Excelerator.
 
 Be aware that in sites that use roaming profiles for their users, it is common practice to redirect the roaming profile folder to point at a shared network location.  
 
-
 # ConfigurationManager Files
 
 Some settings are stored in roaming or local profile configuration files using the Microsoft Configuration API.   
 
 As of release xxxx the software will switch storing in the roaming profile to the local profile when an error is encountered saving or getting the roaming configuration.    
-
 
 # General Settings
 

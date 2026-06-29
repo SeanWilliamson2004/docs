@@ -10,20 +10,11 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Daily%20Sage%
 
 These are some exercises that you can do daily to keep your Sage 200 knowledge fresh. When starting out with Sage 200, try and do the beginner exercises **without help from online/anyone else**, by simply guessing which buttons to click. It is the guesswork and trial and error which will build your confidence as opposed to following a guide. If you get stuck you can then [consult the documentation](https://desktophelp.sage.co.uk/sage200/professional/Content/Home.htm) or use google/chat GPT.   
 
-
 Before you start these exercises, have a hyper ready and make sure that the financial period for the current date is open (ask someone to help if you don't know what that means). As you do them, it's very important to understand from the customer's point of view **what each feature means**. Eg don't just fill in any value for the VAT code, ask yourself what is a VAT code? Check Google/Chat GPT if you don't know.  
-
 
 Try and practice a little (eg 15 mins) each day. **Little and often is better** than large amounts of practice every few weeks.  
 
-
 Unless stated otherwise or unless you want to, only fill in the minimum info necessary to complete each task. When looking at a module for the first time, it's a good idea to look at the **process map** for that module, which under that module in the menu bar. You don't need to fully understand this map, but it helps put things into perspective as you learn more about Sage 200\.  
-
-
-  
-
-
-
 
 | **Exercise** | **Level** | **Modules** |
 | --- | --- | --- |

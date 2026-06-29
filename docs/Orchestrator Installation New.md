@@ -31,7 +31,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Orchestrator%
 [https://dev.azure.com/codislimited/CodisDevelopment/\_git/CodisDevelopment?version\=GBmaster\&path\=/Sage1000/V3/IP/Codis.System/CodisMaster.sql](https://dev.azure.com/codislimited/CodisDevelopment/_git/CodisDevelopment?version=GBmaster&path=/Sage1000/V3/IP/Codis.System/CodisMaster.sql)
 4. Run CodisMaster.sql on CodisMaster db after updating first line:   
 USE \[CodisMaster]  
-  
+
 Note: This to ensure updates are made to CodisMaster database only
 5. Run Sage200CodisSystem from C:\\Program Files (x86\)\\Codis Excelerator\\CodisIP\\CodisSage200SystemSettings (standard installation directory)  
 ![image009.png](images/PublishingImages_Pages_Orchestrator_Installation_image009.png_ctag_260424)
@@ -42,8 +42,6 @@ Note: This to ensure updates are made to CodisMaster database only
 
 1\. Download Orchestrator Installer from  
 
-
-
 > [Pipelines \- Runs for Orchestrator](https://dev.azure.com/codislimited/CodisDevelopment/_build?definitionId=145)
 > 
 > Artifact \> Installers \> CodisOrchestrator.msi
@@ -53,26 +51,26 @@ Note: This to ensure updates are made to CodisMaster database only
 1. Allowed Server path: This is the root directory that can be browsed from Orchestrator directly (The templates are range definition folder should be there in this directory)
 
 ![](images/PublishingImages_Pages_Orchestrator_Installation_New_Orchestrato_Installation_1.png)  
-  
+
  3\. SQL Server Details1. SQL Connection details: Instance name \- If it's a default instance, leave it as '.', else enter the instance name
 2. Orcehstrator Database: The name for Orchestrator database \- Leave it as Orchestrator
 3. CodisMaster Database: Name of database created earlier for Codis System Settings
 4. Defined authentication method used for connecting CodisMaster and Orchestrator. This detail will be used to save an entry in PolicyValue table in CodisMaster
 
 ![](images/PublishingImages_Pages_Orchestrator_Installation_New_Orchestrato_Installation_2.png)  
-  
+
 4\. IIS Configuration  
 1. Site Name: Name of the site under which Orchestrator will be configured, leave it as default
 2. Application Name: Name of the site, this name is used to access Orchestrator via http://localhost/CodisOrchestrator/
 3. Application Pool Name: Application Pool name used for the site
 
 ![](images/PublishingImages_Pages_Orchestrator_Installation_New_Orchestrato_Installation_3.png)  
-   
+
 5\. App Pool Identity1. Define the user account which will be used for Orchestrator (Note: This account muse have Sage client installed, and have necessary permission for modules)
 2. Account Name must be same as it's in licencing window (eg. AzureAD\\UserName)
 
 ![](images/PublishingImages_Pages_Orchestrator_Installation_New_Orchestrato_Installation_4.png)  
-  
+
 6\. Finish the installation.  
 **Manual Configuration:**  
 1. If the installer does not copy the Sage dlls due to permission issue:

@@ -13,5 +13,4 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Custom%20Fiel
 | MultipleBrowseBase | AfterCopyResult | Raised after each row of data is copied to the spreadsheet | Handle this to copy custom data to the sheet after the browse. |
 | SimpleBrowseBase | AfterCopyResult |  |  |
 
-  
 IPluginServerAPI

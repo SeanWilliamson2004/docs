@@ -29,14 +29,10 @@ This is alongside the subscription key and is associated with the developer.
 Click on the "Get Keys"...
 
 ![2019-04-24_12-27-04.jpg](images/Development_Development_Wiki_Images_Sage_REST_API_2019-04-24_12-27-04.jpg)  
- 
 
 ### Client ID and Scope
 
 See the Authentication section in the guidance notes linked to above.
-
-  
- 
 
 ## Sage 200 Extra On\-Premise
 
@@ -46,5 +42,4 @@ Use the Client ID and Scope as per the guidance.
 
 Use this BaseUrl : [https://api.columbus.sage.com/uk/sage200extra/accounts/v1](https://api.columbus.sage.com/uk/sage200extra/accounts/v1)
 
-  
  Codis Sage 200 Extra Cloud Details [Sage ERP Online Services Details.aspx](Sage ERP Online Services Details.md)

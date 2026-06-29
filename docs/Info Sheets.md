@@ -15,8 +15,6 @@ An **info sheet** is a brochure of each module that is featured in the Excelerat
 
 ## Current info sheets
 
-
-
 | **Product **Description**** |
 | --- |
 | [Sage 200 Excelerator](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Codis%20Information%20Sheets%20-%20pre-release/Excelerator/Excelerator%20Info%20sheets_2014/Recent%20PDF) |

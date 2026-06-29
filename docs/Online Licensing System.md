@@ -21,7 +21,6 @@ Online licensing is backwards compatible with the other methods of licensing: **
 
 See [Online Licensing Trouble.aspx](Online Licensing Troubleshooting.md)  
 
-
 ## Patching a customer on enterprise
 
 In case we need to patch a customer on enterprise, they need to be given the online licensing version of enterprise licensing. See this video for instructions on how to licence while our licensing web services aren't running. This video is mainly for developers/support. 
@@ -86,8 +85,6 @@ This video has voice instructions
 
 ## Developer information
 
-
-
 | Development start date | 01\.08\.2014 |
 | --- | --- |
 | Development end date | 2016 |
@@ -111,7 +108,6 @@ The following technologies were used:
 ### Architecture
 
 ![Architecture.png](images/Licensing_Architecture.png)  
- 
 
 - Sometimes we need to add a person to CRM (e.g. when recording a primary user of a PC, we add that person as a person in the CRM company). The ASP.Net silverlight back end cannot communicate with the CRM web service directly so we have an intermediate web service which calls the CRM service called CRMData that the silverlight back end can call.
 - The AppService is a WCF web service used to licence codis applications. Applications register with the web service and obtain licences.

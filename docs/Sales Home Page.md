@@ -13,8 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Home%
 
 # Wiki Pages
 
-
-
 | [CRM](https://crm.codis.co.uk/crm/eware.dll/uk) | [Hyper Details](Sales Demo Hyper-V Virtual Machines.md) | [Timesheet](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Timesheet/Old%20Copies/Last%20Used%20Copy/Codis%20Timesheet.xltm) | [Time Calculator](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Timesheet/Time%20Calculator.xlsx) | [Holiday Request](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Templates/Holidayform.xls) |
 | --- | --- | --- | --- | --- |
 | [Support Wiki](List of Popular Support Documents.md) | [Development Wiki](List of Popular Development Documents.md) | [Sales Wiki](List of Popular Sales Folders.md) | [Licensing Wiki](List of Popular Licensing Documents.md) | [General Wiki](List of Popular General Documents.md) |
@@ -23,8 +21,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Home%
 
 ## Quotation \& General Agreement Forms
 
-
-
 | [Quote Sage 200 Excelerator v1\.5](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Quotation%20for%20Excelerator/Excelerator%20for%20Sage%20200%20-%20price%20list%201.5.xlsx) | [Quote Sage 1000 Excelerator](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Quotation%20for%20Excelerator/Quote%20for%20Sage%201000%20Excelerator%20(2019).xlsx) | [Quote Sage 1000 Excelerator Enterprise Upgrade 1\.3](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Quotation%20for%20Excelerator/Quote%20Enterprise%20Upgrade%20.xlsx) | [Quote Enterprise Sage 1000 Excelerator](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Quotation%20for%20Excelerator/Quote%20for%20Sage%201000%20Ent%20Excelerator%20(2019).xlsx) | [Excelerator Order Form v1\.8 \- Template.xlsx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Quotation%20for%20Excelerator/Excelerator%20Order%20Form%20%20v1.8.xlsx) |
 | --- | --- | --- | --- | --- |
 | [Reseller Prices Sage 200](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Pricing/Codis/Reseller%20Sage%20200%20Price%20List%20-%20From%2001-01-2016.pdf) |  |  |  | [Codis Reseller Agreement v2\.4\.docx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Agreements/Codis/Codis%20REseller%20AgreementV2.4.docx) |
@@ -32,8 +28,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Home%
 | [Sample Quote API](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Quote/Sample%20Quote%20API) | [Codis EULA v2\.5\.pdf](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Agreements/Codis/Codis%20EULA%20v2.5.pdf) | [Software Support \& Maintenance Agreement.docx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Licence%20Agreements/Support%20Agreement/Support%20Agreement%20v1.0.docx) | [Email to Sage, requesting end user details.docx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Email%20to%20Sage,%20requesting%20end%20user%20details.docx) | [How To Amend Webinar Booking Dates](How To Book A Webinar.md) |
 
 ## Brochures \& Info Sheets
-
-
 
 | [Excelerator Brochure for Sage 200](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Excelerator%20Brochures%202016/Excelerator-Brochure-Sage-200.pdf) | [Excelerator Brochure for Sage 1000](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Excelerator%20Brochures%202016/Excelerator-Brochure-Sage-1000.pdf) | [Info Sheets 200](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Information%20Sheets/Excelerator%20(200)%20PDF) | [Info Sheets 1000](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Information%20Sheets/Excelerator%20(1000)) |
 | --- | --- | --- | --- |
@@ -70,18 +64,16 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Home%
 - Codis **PO** send to Partnerline [partnerline@sage.com](mailto:partnerline@sage.com)
 - Sage Contact Number 08451117733
 - Excelerator for Sage 200 order query Barry Thomas ([Barry.Thomas@sage.com](mailto:Barry.Thomas@sage.com)), Gareth Sargeant([Gareth.Sargeant@sage.com](mailto:Gareth.Sargeant@sage.com)), Vicky Browning([Vicky.Browning@sage.com](mailto:Vicky.Browning@sage.com))
-- Any
-queries regarding **Strings or Key**, and change of links, should be mailed to BP
+- Any
+
+queries regarding **Strings or Key**, and change of links, should be mailed to BP
+
 Services \- bpservices@sage.com; [mmdcontracts@sage.com](mailto:mmdcontracts@sage.com)
 - 
-
-
 
 | [Codis Sage 200 Calculator](/:x:/r/sites/Wiki/_layouts/15/doc.aspx?sourcedoc=%7b73f35cc0-3cd7-4d8b-8da2-18898a140ea5%7d&action=default&uid=%7b73F35CC0-3CD7-4D8B-8DA2-18898A140EA5%7d&ListItemId=23358&ListId=%7b84E4ED56-8DEA-4C49-8C6F-C3133429C1AA%7d&odsp=1&env=prod) | [Sage 200 Proposal](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Sage200%20Proposal/Sage%20200%20Sales%20Proposal%20v3.0.docx) | [BP Sage 200c Std Online PricingV1 Calc \- Price Increase V1\.xlsx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Quote/Sage%20200%20Quote%20Calculater/Sage%20Prices%202018/BPSage%20200c%20Std%20Online%20PricingV1%20Calc%20-%20Price%20Increase%20V1.xlsx) | [Sage 200c Pricing Calculator GBP \- Price Increase V1\.xlsx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Quote/Sage%20200%20Quote%20Calculater/Sage%20Prices%202018/Sage%20200c%20Pricing%20Calculator%20GBP%20-%20Price%20Increase%20V1.xlsx) | [Sage 200c Upgrade](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Sage%20200/Sage%20Upgrade.xlsx) | [Sage 200 Sage Upgrade Proposal v2\.1\.docx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sample%20Proposal/Sage200%20Proposal/Sage%20200%20SageUpgrade%20Proposal%20v2.1.docx) |
 | --- | --- | --- | --- | --- | --- |
 | [Sage 200C Registration Form](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Sage%20Documents/Sage%20200c%20Customer%20Registration%20Form%20-%20Updated%2018.01.2017.pdf) | [UK Sage 200 Cloud Pricing Calculator GBP \- KM 25\.01\.2018\.xlsx](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Pricing/Sage%20200/Archive/UK%20Sage%20200%20Cloud%20Pricing%20Calculator%20GBP%20-%20KM%2025.01.2018.xlsx) | [Excelerator for Sage 200 Cancellation Form 1\.1](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Release/Pricing/Sage%20200/Excelerator%20for%20Sage%20200%20Cancellation%20Form%201.1.xlsx) |  |  |  |
-
-
 
 | **MySage Website Prices** | **Link** (**Note:** To open this link you need to login to MySage Website) |
 | --- | --- |
@@ -93,8 +85,6 @@ Services \- bpservices@sage.com; [mmdcontracts@sage.com](mailto:mmdcontracts@sag
 # Links
 
 ## Website Links
-
-
 
 | **Codis Website** | **Link** |
 | --- | --- |
@@ -117,8 +107,6 @@ Services \- bpservices@sage.com; [mmdcontracts@sage.com](mailto:mmdcontracts@sag
 | Codis Partners Page | [http://www.codis.co.uk/partners](http://www.codis.co.uk/partners) |
 
 ## Support Links
-
-
 
 | [Software Setup Microsoft](file://///cd01nssy001/Data/SoftwareSetups/MicrosoftÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®) | [Software Setup Sage](file://///cd01nssy001/Data/SoftwareSetups/Sage) | [Support Videos](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Videos) | [Templates](file://///cd01sr16104/Excelerator_Templates_Latest) | [Pre\-Release Folder](file://///cd01sr16104/PrereleaseFolder) |
 | --- | --- | --- | --- | --- |

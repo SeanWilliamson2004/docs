@@ -79,12 +79,9 @@ This guide will help to walk end users through the key features and functionalit
 If the dashboard uses Row\-Level Security (RLS), sales, financial, nominal; then explain:  
  "This dashboard implements Row\-Level Security. This means \[explain the specific implications for this dashboard, such as data visibility restrictions based on user roles, eg. For sales dashboard, only manager can see sales for each location and salesperson won't be able to see sales data of other salespersons or locations]. \[Show them how they can implement it in Sage, if they are not using.]"  
 
-
 # Intellerator Modules
 
 There are 7 modules in Intellerator  
-
-
 
 > 1\. Credit Control
 > 
@@ -107,34 +104,27 @@ There are 7 modules in Intellerator
 
 ![](images/PublishingImages_Pages_Intellerator_Training_Guide_CreditControlSummary.png)  
 
-
 #### Total Base
-
 
 > Total Outstanding Amount
 
 Last Year
 
-
 > Amount Overdue last year at the end (if no period is selected), or for the last year's period
 
 #### By Period Graph
-
 
 > Graphical representation of outstanding amount for each month, if click on any bar of any period, it selects that period for entire summary page. To view a more detailed data like transactions, right click on any bar and select 'Drill Through\>Transactions' option.
 
 #### By Ageing Period
 
-
 > Donut chat representing outstanding amounts by ageing period. Selecting a aging period updates the dashboard to a focus mode for the selected ageing period, click on it again gets out of focus mode
 
 #### Top 10 debtors
 
-
 > Graphical representation of debtors with highest amount outstanding.
 
 #### By Ageing Period Over Time
-
 
 > The amount owed per ageing period at each financial period in the selected year. This lets you see the trend in your credit control over time. Better credit control maximises the "Current" area and minimises the other colours. To see your credit position with a particular customer over time, click on that customer in the "Top 10 Customers" chart.
 
@@ -152,11 +142,9 @@ There are 3 ways to apply filters.
 
 *\[image: clip\_image006\.png not found]*#### By Company:
 
-
 > If there are multiple companies then it shows the data for each company for each ageing period. Hovering mouse over the bar, shows the details for each ageing period.
 
 #### By Query Flag:
-
 
 > Transactions can have a query flag in Sage, this view shows balances for each query flag.
 
@@ -168,32 +156,23 @@ This data can be cross checked with Aged Debtors report in Sage
 
 Date in left panel of dashboard is the 'Base date for ageing' in Sage200 Report  
 
-
-   
-
-
 ## SOP
 
 ### SOP \- Summary
 
 ![SOPSummary.png](images/PublishingImages_Pages_Intellerator_Training_Guide_SOPSummary.png)  
 
-
 #### Total Net:
-
 
 > Display total of SOP orders for the selected year
 
 #### Prior Year:
 
-
 > Total of last year's SOP orders (till the period of current year), if a period is selected then it is adjusted accordingly
 
 #### Sales by Period:
 
-
 > SOP order for each period of the selected year
-
 
 > Right click\> Drill through\>Transactions: It lists all the transactions for the selected period, Sales returns have negative amounts.
 
@@ -201,114 +180,68 @@ Transaction's view doesn't have customer codes for each order, which can be conf
 
 #### Top 5 customers:
 
-
 > Lists top 5 customers based on total of SOP orders
 
 #### Top 10 products group:
-
 
 > It shows top 10 product groups, when we drill through it, it shows list of order which have the selected product group
 
 Transactions view display all the order but the ones that don't have the selected product group, it shows order value as 0 which can lead to confusion as user might think it only shows the data for the selected product group.  
 
-
 #### Map:
 
-
 > It uses customers address and display it on the map. The bigger the circle, higher the total of SOP orders
-
-   
-
 
 ### SOP \- Analysis
 
 Different views display SOP orders based on different criteria. Each view has an option to drill through transactions.  
 
-
 ![SOPAnalysis.png](images/PublishingImages_Pages_Intellerator_Training_Guide_SOPAnalysis.png)  
-
-
-  
-
 
 ## Payments Control
 
 This module is similar to Credit Control, but for Purchase Ledger in Sage200\.  
 
-
 ### Sage200 Data Source:
 
 In Sage200, this report can be compared with Aged Creditors report.
-
-  
-
 
 ## POP
 
 It is similar to SOP, but for purchase orders.  
 
-
-  
-
-
 ## Financial Statements
-
-  
-
 
 ![FinStatement01.png](images/PublishingImages_Pages_Intellerator_Training_Guide_FinStatement01.png)  
 
-
-  
-
-
 Financial Statements from Sage are pulled in this report, balance sheets, profit \& loss.  
-
 
 Layotus are configurable in Sage200, and any changes made to these layouts in Sage200 will be applicable on this report in Intellerator.  
 
-
 If the layouts are not designed in Sage200, you may refer to below article on how to configure it:  
-
 
 [Designing financial statements (sage.co.uk)](https://desktophelp.sage.co.uk/sage200/professional/Content/NL/Design%20Financial%20Reports.htm)  
 
-
 Intellerator support multiple layouts, and can swtich quickly from one layout to another with a simple change in layout option in the left panel.  
-
 
 Reports can be filtered by cost centres and departments, if required.  
 
-
-  
-
-
 If a line is selected in the report, a detailed version is loaded in the 2 views at the bottom as shown in below image:  
-
 
 ![FinStatement02.png](images/PublishingImages_Pages_Intellerator_Training_Guide_FinStatement02.png)  
 
-
 Clicking on '?' icon, gives information about what that view represents.  
-
-
-  
-
 
 ### Sage200 Data Source:
 
 Nominal Ledger \> Reports \> Financial Statements  
 To create new layouts:Nominal Ledger \> Ultitlies \> Ledger Setup \> Financial Statement Layouts  
-  
-  
-
 
 ## Nominal Transactions
 
 ### Nominal \- Summary
 
 ![Nominal01.png](images/PublishingImages_Pages_Intellerator_Training_Guide_Nominal01.png)  
-
 
 #### Company and Filters
 
@@ -353,26 +286,19 @@ To create new layouts:Nominal Ledger \> Ultitlies \> Ledger Setup \> Financial S
 
 ### Nominal \- Analysis
 
-  
-
-
 ![Nominal02.png](images/PublishingImages_Pages_Intellerator_Training_Guide_Nominal02.png)  
 
-
 Analysis view has similar options to the Summary, but it has some additional options to filter the data like department and for each nominal code/account name.  
-
 
 ### Sage200 Data:
 
 Nominal Ledger \> Reports\> Account Analysis  
-
 
 ## Stock Valuations
 
 ### Summary
 
 ![stock01.png](images/PublishingImages_Pages_Intellerator_Training_Guide_stock01.png)  
-
 
 #### Company and Filters
 
@@ -404,12 +330,7 @@ Nominal Ledger \> Reports\> Account Analysis
 
 Analysis give more detailed inforamtion about the stocks  
 
-
-  
-
-
 ![stock02.png](images/PublishingImages_Pages_Intellerator_Training_Guide_stock02.png)  
-
 
 ### Sage200 Data:
 

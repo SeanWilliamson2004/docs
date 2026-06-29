@@ -45,11 +45,9 @@ If you're unsure whether you've received a phishing email, there are some additi
 
          ![](images/IT_IT_Wiki_Images_Macro_Warning.png)  
 
-
 - Report any such e\-mails through MS\-Outlook by selecting that email in your Inbox and then click on the **Report Message** tab on the right hand side upper corner and then click on **Phishing** (as shown below).  
 ![](images/IT_IT_Wiki_Images_Report_Phishing_Email.jpg)
 
-  
 ### **What to do if you think you have been a victim of a fraudster?**
 
 If you suspect that you've responded to a phishing scam with personal or financial information, take these steps to minimise any damage: 

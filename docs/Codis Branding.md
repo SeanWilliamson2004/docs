@@ -21,8 +21,6 @@ Taglines should always have correct spelling, grammar and phrasing, and should b
 
 ## Typography
 
-
-
 | **Format** | **Description** |
 | --- | --- |
 | Font | Ubuntu |
@@ -34,8 +32,6 @@ Taglines should always have correct spelling, grammar and phrasing, and should b
 
 ## Imagery
 
-
-
 | **Format** | **Description** |
 | --- | --- |
 | Background | Mainly white, Transparent or Subtle |
@@ -44,8 +40,6 @@ Taglines should always have correct spelling, grammar and phrasing, and should b
 ## 
 
 ## Colour
-
-
 
 | **Name** | **Colour example** | **R** | **G** | **B** | **Hex** | **C** | **M** | **Y** | **K** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -63,8 +57,6 @@ Taglines should always have correct spelling, grammar and phrasing, and should b
 
 ## Info Sheet Page Requirements
 
-
-
 | Columns | 4 |
 | --- | --- |
 | Margin | Wide |
@@ -73,8 +65,6 @@ Taglines should always have correct spelling, grammar and phrasing, and should b
 ## 
 
 ## Useful Links
-
-
 
 | **Document** | **Description** |
 | --- | --- |

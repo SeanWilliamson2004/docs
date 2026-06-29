@@ -14,19 +14,16 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 
 ## Go through each prerequisite.
 
-
 > Form need to be filled by Support: [Codis BI Form](/:x:/r/sites/Wiki/_layouts/15/Doc.aspx?sourcedoc=%7bF144F723-6C63-4DF8-8849-186B2CECBD24%7d&file=Codis%20BI%20Form.xlsx&wdLOR=cBFD75299-510C-442E-8F70-C4D8224560BC&action=default&mobileredirect=true)
 
 ## On the Cutomer's Server
 
 1. #### Gateway is running.
 
-
 > 1\) Perform a search on start menu for "Data Gateway", open the app On\-premise data gateway.  
 > 2\) Check if this app is present and says running.
 > > ![Gateway is online.PNG](images/PublishingImages_Pages_Dashboard_Troubleshoot_Gateway_is_online.PNG)
 2. #### Licence is valid.
-
 
 > 1\) Go to this path on the PC.  
 >     "C:\\Program Files\\Codis BI\\Licences"  
@@ -38,14 +35,12 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 >  at properties of the server to identify it, eg hard disk serial number, motherboard, etc ) due to which licensing software takes same server as different server.  Solution is to re\-licence the server afte confirming with customer.![capture1.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_capture1.png)
 3. #### Loopback service is running.
 
-
 > 1\) Run this URL: [localhost:26061](http://localhost:26061/)  
 > 
 > 
 > 
 > > ![Local host URL small.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_Local_host_URL_small.png)
 4. #### Codis BI user have SQL server permissions.
-
 
 > 1\) Look for user NT SERVICE\\CODIS BI in Database user list.
 > 
@@ -61,7 +56,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
                                 ![Capture.PNG](images/PublishingImages_Pages_Dashboard_Troubleshoot_Capture.PNG)  
 1. #### Running localhost URL for accessing SQL tables and databases.
 
-
 > 1\) Run the URL with correct database name in place of "Demo":   
 > 
 > 
@@ -75,7 +69,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > 
 > > ![Full URL.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_Full_URL.png)
 2. #### .net framework version is atleast 4\.8\.
-
 
 > 1\) Go to this path on the PC:  
 > 
@@ -102,7 +95,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > > ![details tab.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_details_tab.png)
 3. #### SQL Sever 2017 or above.
 
-
 > 1\) Open SQL Server Management Studio.  
 > 2\) Connect to the instance of SQL Server, and then run the following query:  
 > 
@@ -114,7 +106,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > 3\) It should be Microsoft SQL Sever 2017 or more.
 4. #### Database compatibility level is at least 130\.
 
-
 > 1\) Right click on database and select properties.  
 > 
 > 
@@ -123,13 +114,11 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > 
 > 2\) Select Options and look for compatibility level 130 or more.
 
-
 > > ![Compatibility level.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_Compatibility_level.png)
 
 ## On powerbi.com
 
 1. #### Report parameters are correct.
-
 
 > 1\) Go to the company's production workspace on powerbi.com.  
 > 2\) Click on 3 dots next to dataset related to the dashboard which is having the problem. and then open settings.  
@@ -157,7 +146,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > > ![Deployment rules parameter.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_Deployment_rules_parameter.png)
 2. #### Dataset is configured to use the correct gateway connection.
 
-
 > 1\) Open the production workspace of the company.  
 > 2\) Click on 3 dots next to the desired dataset.  
 > 3\) Click on settings.  
@@ -167,7 +155,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Power%20BI%20
 > 
 > > ![Gateway connection.png](images/PublishingImages_Pages_Dashboard_Troubleshoot_Gateway_connection.png)
 3. #### "test connection" on the gateway connection works.
-
 
 > 1\) Open "Manage gateways and connections" by clicking on setings gear icon on top right corner on powerbi.com  
 > 

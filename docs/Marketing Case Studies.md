@@ -10,9 +10,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 
 # Marketing Case Studies
 
-  
- 
-
 ## Proposal for Page Layout
 
 - The top of the page contains the case study's company logo.
@@ -25,11 +22,8 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 - In Summary: Visual icons \+ text that (ideally) provides some powerful stats about the impact of Excelerator.
 - Try it Yourself: End the page with the push to get them to book a seminar.
 
-  
 Sample page on SquareSpace: [https://caterpillar\-tulip\-78l5\.squarespace.com/case\-study](https://caterpillar-tulip-78l5.squarespace.com/case-study)  
-  
-  
-  
+
  ## Questions for Partcipating Companies
 
 Company Name:   
@@ -38,8 +32,6 @@ Your Full Name: 
 Your Job Title: 
 
 1. Please provide a brief overview of your organisation, in terms of what you do? (Max 500 words)
-   
- 
 
 2. What was the challenge(s) you faced in your organisation before upgrading to Sage 200 with Excelerator? (Max 500 words)
 3. How has Sage 200 with Excelerator helped you overcome these challenges since implementation? (Max 500 words)

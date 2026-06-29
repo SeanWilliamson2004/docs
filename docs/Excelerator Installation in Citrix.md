@@ -19,7 +19,6 @@ Save the setup to the folder C:\\Codis Install and follow step by step instructi
 
             ![](images/Support_Support_Wiki_Images_Images_for_solutions_citrix1.jpg)  
 
-
 - Need to disable all users: (It is extremely important to check before running this command as this will log everyone out).
 - Change Logon /Disable (turn off the logged client sessions)
 
@@ -37,35 +36,19 @@ Change directory in control panel to the location where setup (MSI) is copied \-
 
        Type msiexec /a \<setup name\> and press enter to run the MSI  
 
-
-  
-
-
          ![MSI command.png](images/PublishingImages_Pages_Excelerator_Installation_in_Citrix_MSI_command.png)  
-
 
        Install the MSI in a centralised location for eg \- C:\\Program Files (x86\)  
 
-
        Go to the install location from windows explorer, edit adxloader.dll.manifest and change the privileges to administrator and save the file  
-
 
          ![Privileges.png](images/PublishingImages_Pages_Excelerator_Installation_in_Citrix_Privileges.png)  
 
-
-           
-
-
-  
-
-
        Open CMD as admin and navigate to the install location \- cd \<location\>  
-
 
           Run command in CMD \- adxregistrator.exe /install\=Codis.Excelerator.Sage200\.Standard.Addin.dll /privileges\=administrator     
 
         ![administrator command.png](images/PublishingImages_Pages_Excelerator_Installation_in_Citrix_administrator_command.png)  
-
 
 - Then change back to Execution mode
 - Change User/Execute

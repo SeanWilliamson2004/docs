@@ -16,7 +16,6 @@ Policies span a range of areas—from governance and operations to HR and techno
 
 Use the audience tags next to each policy (e.g., **All Staff**, **Managers**, **Technical Teams**, **Finance**, etc.) to quickly identify which documents apply to you.  
 
-
 ## Security \& IT Policies
 
 - [Codis Password Policy](https://codislimited.sharepoint.com/sites/Wiki/_layouts/15/viewer.aspx?sourcedoc=%7bd2f9c8c4-930e-445e-b28a-ba2f1fd1fbe1%7d)

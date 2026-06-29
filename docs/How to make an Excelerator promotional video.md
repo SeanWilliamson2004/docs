@@ -12,9 +12,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20ma
 
 # Recording the video using Snagit
 
-  
- 
-
 1\. Go to the start menu and open up Snagit.
 
 2\. Open up Excelerator on Excel.
@@ -24,7 +21,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20ma
 4\. Unpin the blue connection bar. See image below.
 
 ![](images/Sales_Sales_Wiki_Images_Blue_Hyper_name_bar.png)  
- 
 
 5\. Ensure you have the full screen caputured ready to be recorded.
 
@@ -36,9 +32,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20ma
 
 9\. Save as a MP4 ready to be imported into Adobe Premiere Pro.
 
-  
- 
-
 **Helpful Tips:**
 
 \- Do not record the video all in one go. Take your time, and make things easier for yourself by recording the video in 2 parts.
@@ -49,13 +42,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20ma
 
 \- Try to keep the video around 3 minutes long. 
 
-  
- 
-
 # Video assets\- Images, Sounds \& Music
-
-  
- 
 
 The video assets will be the additional branding that we will need to add into Premiere Pro to make the video look more professional. 
 
@@ -81,18 +68,9 @@ The files that you will be looking for are:
 
 **\- Background Music** (There are several you can choose from, personally I would choose the 'Happiness' track. But this is up to you)
 
-  
- 
-
 Download the above files and save them in a folder on your desktop or somewhere in File Explorer.
 
-  
- 
-
 # Using Adobe Premiere Pro CC
-
-  
- 
 
 Once you have all the recordings, video assets \& images, you are ready to import them into Premiere Pro. First thing you need to do is open up Adobe Premiere Pro.
 

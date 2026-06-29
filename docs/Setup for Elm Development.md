@@ -17,7 +17,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Curriculum%20
 5. Test it out by creating a new directory, running elm init inside it using powershell, then under the src folder add a Main.elm and paste in any small one\-page elm program, these can be found on the [guide](https://guide.elm-lang.org/).
 
 You should get auto complete, code hints etc. If you press Enter a few times in the middle of the code to create extra new lines, you should see those new lines dissapear when you save.  
-  
+
 # Codis curriculum
 
 ## Beginning

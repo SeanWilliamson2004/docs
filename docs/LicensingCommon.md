@@ -19,8 +19,6 @@ Do not reference this project from any projects that will be installed on the us
 
 The following folders are under the **Common** folder: 
 
-
-
 | **Folder** | **Description** |
 | --- | --- |
 | OAuth | Used to obtain a person (and subsequently their company) from CRM, given their email address. They must be a **licence administrator**, otherwise an exception will be thrown. |
@@ -49,9 +47,12 @@ Usually only one licence type will need to be accessed at a time. Because of thi
 
 To save time, entities must be [eager loaded](https://msdn.microsoft.com/en-us/data/jj574232.aspx) into the context before being used. This is usually done with a string.
 
-
-
-| ``` 1 2 3 ``` | ``` ' Load all blogs, all related posts, and all related comments   ' using a string to specify the relationships  Dim blogs2 = context.Blogs.Include("Posts.Comments").ToList()  ``` |
+| ``` 1
+ 2
+ 3 ``` | ``` ' Load all blogs, all related posts, and all related comments  
+ ' using a string to specify the relationships 
+ Dim blogs2 = context.Blogs.Include("Posts.Comments").ToList()
+  ``` |
 | --- | --- |
 
 ### XML Transforms
@@ -60,5 +61,14 @@ Tables in the CRM database do not have any primary keys. Because of this, entity
 
 
 
-| ``` 1 2 3 4 5 ``` | ``` <Target Name="BeforeBuild">   <XslTransformation XmlInputPaths="DataAccess/Model/LicenceModel.edmx" OutputPaths="edmxTransformedTemp.edmx" XslInputPath="DataAccess/Model/XmlTransforms/Transform.xslt" />   <Copy SourceFiles="edmxTransformedTemp.edmx" DestinationFiles="DataAccess/Model/LicenceModel.edmx" />   <Delete Files="edmxTransformedTemp.edmx" /> </Target>  ``` |
+| ``` 1
+ 2
+ 3
+ 4
+ 5 ``` | ``` <Target Name="BeforeBuild">
+   <XslTransformation XmlInputPaths="DataAccess/Model/LicenceModel.edmx" OutputPaths="edmxTransformedTemp.edmx" XslInputPath="DataAccess/Model/XmlTransforms/Transform.xslt" />
+   <Copy SourceFiles="edmxTransformedTemp.edmx" DestinationFiles="DataAccess/Model/LicenceModel.edmx" />
+   <Delete Files="edmxTransformedTemp.edmx" />
+ </Target>
+  ``` |
 | --- | --- |

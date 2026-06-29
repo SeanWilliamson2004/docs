@@ -13,10 +13,10 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Excelerator%2
  Oracle\* will not install
 - EngineStart.exe error
 - Error: EngineStart.exe has generated errors and will be closed by Windows\*. You will need to restart the program.  
-  
+
 **Cause:**  
  The Just\-In\-Time.dll driver may not properly recognize the Intel® Pentium® 4 processor, and may generate an error when executed on the Pentium 4 processor platform.  
-  
+
 **Solution:**  
  Intel has identified that applications which use the Symantec Just\-In\-Time\* Compiler library file ("symcjit.dll" for Microsoft Windows\* operating system and "symc\_jlt.nlm" for Novell NetWare\* 5\.1\) may not run properly on Pentium® 4 processor systems because the library does not properly identify the processor.  
  The failure typically is that the affected application such as Oracle 8i, simply terminates. Under Microsoft Windows\*, the properties of the DLL are: "Symantec Java! Just\-In\-Time Compiler Version 3\.10\.107 for JDK 1\.2 Copyright (C) 1996\-99 Symantec Corporation Dynamic Link Library file". DLLs older than this will also not work. To confirm the version you are using, select the DLL, right click on the selected DLL and select Properties, and then the Version tab. Intel encourages all Software developers to do the following immediately:   
@@ -33,25 +33,21 @@ Search the directory structure created in step 2 for the existence of the filena
 Rename each copy of the SYMCJIT.DLL to SYMCJIT.OLD.   
 Run the SETUP.EXE from the \\TEMP\\install\\win32 directory and install Oracle 8\.1\.x.   
 If you have any other questions on this work around, please contact Oracle.  
-  
-   
-  
+
 HKEY\_LOCAL\_MACHINE\\SOFTWARE\\ORACLE\\OLEDB  
-  
+
 Fetchsize \- defaults to 100\.  Set higher e.g. 300  
-  
-   
-  
+
 Root)OraHOme91  
-  
+
             (a)Oracle Programmer  
-  
+
             (b)Development Tools  
-  
+
                         1\)Oracle Object For OLE  
-  
+
                         2\)Oracle ODBC Driver  
-  
+
                                     (i)3\)Oracle NET CLient Manager  
-  
+
                         3\)Oracle OLEDB Provider

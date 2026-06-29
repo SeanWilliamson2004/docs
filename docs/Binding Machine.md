@@ -30,8 +30,6 @@ Click [Here](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wi
 
 ## Specification
 
-
-
 | Auto Shutoff | N/A |
 | --- | --- |
 | Beep at the End of Binding Cycle | N/A |

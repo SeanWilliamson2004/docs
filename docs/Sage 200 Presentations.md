@@ -13,8 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20200%20
 
 The page will primarily focus the Sage 200 Power Point presentations. They can be used for presenting, editing and for reading about Codis...... 
 
-
-
 | **Presentation Name** | **Link to the Presentation** |
 | --- | --- |
 | First Cell | Two lines in this cell |

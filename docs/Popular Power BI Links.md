@@ -15,7 +15,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Popular%20Pow
 - [Power BI External Tenant](https://app.powerbi.com/home?ctid=b45363d0-8aae-43ca-9e1f-ddb6097861ce)
 - [Doing a release](Steps for Merging changes in Release branch.md)
 - [Using Power BI for Azure DevOps Intellerator](Using Power BI for Azure DevOps Intellerator.md)
-  
 
 Training  
 - [DAX Puzzles](DAX Puzzles.md)

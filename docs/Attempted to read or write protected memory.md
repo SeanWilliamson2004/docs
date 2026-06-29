@@ -9,7 +9,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Attempted%20t
 ---
 
 problem was solved for the client. by deleting file from C:\\Users\\Username\\AppData\\Roaming\\\*\*\*\*\*\*\*\* 200, rename \*\*\*\*\*\*\*\*.MMS.Desktop.Common.Resources.dll to .old (could also delete file if you desire) then restart the program \- does this resolve?  
-  
+
 Article 39716  
-  
+
 [https://ask.sage.co.uk/scripts/ask.cfg/php.exe/enduser/std\_adp.php?p\_faqid\=39716\&p\_pv\=1\.584](https://ask.sage.co.uk/scripts/ask.cfg/php.exe/enduser/std_adp.php?p_faqid=39716&p_pv=1.584)

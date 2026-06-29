@@ -12,7 +12,6 @@ Project Objective \& Background
 
 The purpose of this project is to migrate from a 3rd\-party integration to **Codis Orchestrator** and **Excelerator**.  
 
-
 ### The 3rd Party System
 
 A 3rd\-party solution fetched order XML files exported by Fresho via SFTP. This solution generated Sales Orders (SOP) within Sage 200, which were then processed through standard Sales Order Processing to output customer invoices.
@@ -37,7 +36,6 @@ To support direct stock management out of a financial ledger layout, the SL Invo
 - Warehouse Location
 - Bin Location
 
-
 > **Critical Requirement:** These extended inventory ranges within the SL Invoice module will *only* work when the **Stock Adjustment License** is activated.
 
 ## Key Configurations \& Considerations
@@ -58,14 +56,13 @@ Orchestrator and Excelerator capabilities have been optimized to interact direct
 - To map incoming Fresho XML order structures into the standardised tabular rows required by Excelerator, a **Transformation File (XSLT)** must be applied within the Orchestrator/Excelerator import routine.
 ## Automated Integration Process \& Workflow
 
-
 ```
 The integration operates as a headless automated service managed by Orchestrator via an SFTP pipeline.
 
 
 ```
 [ Fresho SFTP Server ] ──> [ Orchestrator Pulls XML ] ──> [ XSLT Map to Template designed using Excelerator ] ──> [ Validate & Save to Sage ]  
-  
+
 ### Step-by-Step Execution
 
 1. SFTP Retrieval: Orchestrator connects to the Fresho SFTP server and checks the directory for newly exported XML files.
@@ -73,20 +70,12 @@ The integration operates as a headless automated service managed by Orchestrator
 3. Validation & Post: Orchestrator validates the data. If cleared, it posts the financial data directly to the Sales Ledger and updates stock levels via a Stock Adjustment.
 4. File Routing & Fault Tolerance:
 
-
 	- Successful Runs: Successfully processed XML files are immediately moved out of the root folder and archived into the processed directory on the SFTP server.
 	- Failed Runs: If a file fails validation or database entry, it remains in the root SFTP folder. It will be systematically picked up again for automated retries on subsequent scheduled execution loops.
 
 ### Automated System Alerts
 
 - Failure Notifications: Schedules are configured to monitor transaction flags. If an integration run encounters an error or a file repeatedly fails validation, Orchestrator will automatically generate and send an email alert outlining the details of the failure.
-  
-  
-  
-  
-  
-
-
 
 ```
 

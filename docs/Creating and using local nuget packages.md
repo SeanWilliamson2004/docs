@@ -35,51 +35,47 @@ For changes to a source project to be used immediately by a consuming project, t
 
 The method we use to generate packages has evolved.  The functionality available in a .net core project to specify package generation settings is available in a .net framework project, except the settings must be entered by editing the project file rather than through the UI.  It is not necessary to invoke nuget pack (and its issue of ensuring that the nuget.exe is available) as we did.  Instead, reference the NuGet.Build.Tasks.Pack package and set the properties it uses.  A nuspec file is not needed.   Note that in both methods we use an environment variable to determine whether to target a local folder or nuget feed.  
 
-  
+```
+PropertyGroup>
 
+    <PackageId>$(MSBuildProjectName)</PackageId>
+
+    <Version>$(GitVersion_NuGetVersionV2)</Version>
+
+    <Authors>Codis Limited</Authors>
+
+    <Company>Codis Limited</Company>
+
+    <PackageOutputPath>$(SolutionDir)\output-packages</PackageOutputPath>
+
+    <PackageOutputPath Condition="'$(LOCAL_NUGET_PATH)' != ''">$(LOCAL_NUGET_PATH)</PackageOutputPath>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+  </PropertyGroup>
 
 
 ```
-PropertyGroup>
-    <PackageId>$(MSBuildProjectName)</PackageId>
-    <Version>$(GitVersion_NuGetVersionV2)</Version>
-    <Authors>Codis Limited</Authors>
-    <Company>Codis Limited</Company>
-    <PackageOutputPath>$(SolutionDir)\output-packages</PackageOutputPath>
-    <PackageOutputPath Condition="'$(LOCAL_NUGET_PATH)' != ''">$(LOCAL_NUGET_PATH)</PackageOutputPath>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
-
-```
-
-  
-
 
 See NuGet Metadata below to see how we apply this in CodisDevelopment.  
 
-
-  
-
-
 The old method, in case you find it in code:  
-  
 
+```
+ <PropertyGroup>
+
+      <PackageOutputPath>..\output-packages</PackageOutputPath>
+
+      <PackageOutputPath Condition="'$(LOCAL_NUGET_PATH)' != ''">$(LOCAL_NUGET_PATH)</PackageOutputPath>
+
+    </PropertyGroup>
+
+    <Exec Command="..\Codis.Core\tools\nuget pack $(ProjectFileName) -Symbols -Version $(GitVersion_NuGetVersionV2) -OutputDirectory $(PackageOutputPath) -Properties Configuration=$(ConfigurationName) -IncludeReferencedProjects />
 
 
 ```
- <PropertyGroup>
-      <PackageOutputPath>..\output-packages</PackageOutputPath>
-      <PackageOutputPath Condition="'$(LOCAL_NUGET_PATH)' != ''">$(LOCAL_NUGET_PATH)</PackageOutputPath>
-    </PropertyGroup>
-    <Exec Command="..\Codis.Core\tools\nuget pack $(ProjectFileName) -Symbols -Version $(GitVersion_NuGetVersionV2) -OutputDirectory $(PackageOutputPath) -Properties Configuration=$(ConfigurationName) -IncludeReferencedProjects />
-
-```
-  
-  
-
 
 Don't use the post\-build task.  This is a property that is evaluated early in the build process, which means that it cannot use properties that have their values set after the post\-build property is evaluated but before the post\-build target is executed.  
-
 
 See [https://docs.microsoft.com/en\-us/nuget/create\-packages/creating\-a\-package](https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package).  
 
@@ -89,12 +85,7 @@ See [https://docs.microsoft.com/en\-us/nuget/create\-packages/creating\-a\-packa
 
 In the main CodisDevelopment repo, we use the Directory.Build.props to set metadata consistently based on assembly versions set by gitversion, and properties.    
 
-
 This includes setting different semantic versions methods based on whether the build is on the devops server or not, to achieve consist versions in both build scenarios.  
-
-
-   
-
 
 ## Consuming a local package
 

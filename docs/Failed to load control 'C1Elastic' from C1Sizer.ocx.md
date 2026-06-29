@@ -19,7 +19,6 @@ As a default location for :
 64 bit machines C:\\Windows\\SysWOW64   
 32 bit machines C:\\Windows\\System32   
 
-
 Change to that location 
 
 First unregister :\-   

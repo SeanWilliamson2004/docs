@@ -104,8 +104,6 @@ Assist with setup and UAT.
 
 ## Setups and EndPoints
 
-
-
 | **Setup Name** | **Control Panel** |  | **Endpoint** |
 | --- | --- | --- | --- |
 | System Settings | IPSystemSettings | Logo |  |
@@ -119,9 +117,6 @@ Assist with setup and UAT.
 | CostOfSalesCodesServiceSetup | CostOfSalesCodesServiceSetup |  | [http://localhost/CostOfSaleCodesService](/CostOfSaleCodesService) |
 | EnterpriseClientSuite | Codis Enterprise Client Suite | Logo |  |
 
-  
- 
-
 ## How to do Online Licensing of Sage 1000 Enterprise Excelerator
 
 [https://codislimited.sharepoint.com/sites/Wiki/Pages/Enterprise%20Online%20Licensing.aspx](Enterprise Online Licensing.md "https://codislimited.sharepoint.com/sites/wiki/pages/enterprise%20online%20licensing.aspx")  
@@ -129,15 +124,11 @@ Assist with setup and UAT.
 
 [S1000 Enterprise Web Services Installation (sharepoint.com)](S1000 Enterprise Web Services Installation.md)  
 
-
-  
-  
 ## 
 
 ## Online Licensing Enterprise \- Developer's Notes
 
 [https://codislimited.sharepoint.com/sites/Wiki/Pages/Online%20Licensing%20Enterprise%20\-%20Developer's%20Notes.aspx](Online Licensing Enterprise - Developer's Notes.md "https://codislimited.sharepoint.com/sites/wiki/pages/online%20licensing%20enterprise%20-%20developer%27s%20notes.aspx")  
- 
 
 ## Upgrade user list for licensing
 

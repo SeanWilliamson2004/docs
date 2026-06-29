@@ -10,10 +10,11 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Notes%20for%2
 
 # Notes for release Sage 200 Standard Excelerator Suite V3\.1 Release
 
+**Release Number** : 3\.2\.400\-1 
 
-**Release Number** : 3\.2\.400\-1 
  **Release completed** : Wed Jan 19 2022 15:13:33 GMT\+0000 (Greenwich Mean Time)  
-**Build Number**: 
+**Build Number**: 
+
  **Compared Release Number** : 3\.2\.86\-1  
 **Build Trigger PR Number**: 
 

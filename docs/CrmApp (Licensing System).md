@@ -21,14 +21,57 @@ Under the **modules** folder, there is a folder for each licence type. There is
 
 Most components take the following form:  
 
-| ```  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 ``` | ``` Class MyView        Inherits UserControl          Sub New(vm as IViewModel)               DataContext = vm     '======   Interface IViewModel   '======   Class BaseViewModel        Implements IViewModel  ``` |
+| ```  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15 ``` | ``` Class MyView
+        Inherits UserControl
+
+        Sub New(vm as IViewModel)
+               DataContext = vm
+
+ '======
+
+ Interface IViewModel
+
+ '======
+
+ Class BaseViewModel
+        Implements IViewModel
+  ``` |
 | --- | --- |
 
 Each module then inherits the base viewmodel to add a component: 
 
 
 
-| ``` 1 2 3 4 5 6 7 8 ``` | ``` Class StandardViewModel        Inherits BaseViewModel          Class EnterpriseViewModel        Inherits BaseViewModel   Class TCViewModel        Inherits BaseViewModel  ``` |
+| ``` 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8 ``` | ``` Class StandardViewModel
+        Inherits BaseViewModel       
+  
+ Class EnterpriseViewModel
+        Inherits BaseViewModel
+  
+ Class TCViewModel
+        Inherits BaseViewModel
+  ``` |
 | --- | --- |
 
 The correct viewmodel is injected into the view depending on what section the user clicked on. 

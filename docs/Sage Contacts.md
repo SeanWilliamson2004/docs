@@ -16,8 +16,6 @@ The table on this page will display **contact information** of Sage. It will for
 
 ## General Sage contact information
 
-
-
 | **Contact** | **Details** |
 | --- | --- |
 | **Partner Line** | [partnerline@sage.com](mailto:partnerline@sage.comfor) for Sage licenses or strings |
@@ -27,8 +25,6 @@ The table on this page will display **contact information** of Sage. It will for
 ### 
 
 ## Prices for Sage 500/1000
-
-
 
 | **Reason for Contact** | **Name** | **Email** | **Number** |
 | --- | --- | --- | --- |
@@ -44,8 +40,6 @@ The table on this page will display **contact information** of Sage. It will for
 ### 
 
 ## Prices for Sage 200 and MMS
-
-
 
 | **Reason for Contact** | **Name** | **Email** | **Number** |
 | --- | --- | --- | --- |

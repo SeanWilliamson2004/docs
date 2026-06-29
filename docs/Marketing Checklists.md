@@ -10,9 +10,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 
 ## **Tutorial Video Editing Checklist**
 
-  
-
-
 - When beginning the editing process, ensure you have access to the temporary audio. It will help maintain the correct length for different shots and enable you to compose the entire video in the best way possible
 - Every video will begin with Codis' branding animation.
 - A one\-line introduction to the video's subject matter goes before the Codis' logo animates.
@@ -31,8 +28,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 
 ## **YouTube Thumbnail Guidelines and Video Uploading Checklist**
 
-
-
 | Thumbnail Resolution (Dimensions) | Minimum 1280(w)x720(h), Maximum 1920(w)X1080(h) (keep this aspet ratio locked) |
 | --- | --- |
 | Thumbnail Image Details | Diagonal split (an excelerator screenshot at the left side \+ a thin line in the middle \+ a Sage's screenshot at the right side) |
@@ -45,7 +40,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 | Adding the video link to email signature | Whenever a new video is posted, take the help of Raghuwinder and request him for putting the title and link of the latest youtube video in the email signature. |
 | Adding a link to the blog post/video on the Excelerator modules page | Every time a new module video is published on YouTube, its link should be added on the codis.co.uk/excelerator\-modules page. If the module text does not exist on the page then it has to be extended with the new module text and related content links (video and info sheet). |
 
-  
 ## **Blog posting checklist:**
 
 - Compose a blog as a draft
@@ -74,17 +68,15 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20C
 
 **Newsletter blog post**  
 
-
 - The newsletter will be published along with the publication of splashscreen mailer. It will have the same news items of the splashscreen mailer. But it will be a full\-page design a like a nomral web page.
 - If you are duplicating an older blog post and then thinking to update its items to avoid extra work then make sure you also change its description and excerpt.
 - When a new post with old description and excerpt is tried to shared on twitter and linked, then these platform will pick up the description on old post. Now, event after updating the description and excerpt with new one, the linkedin and twitter will continue to show the new post with old description or exceprts. It happens because whenver but an URL on social platform, they immediately create a capture of image, description and title and other meta things that present on a web page at the time it's shared. Now if you want to change meta description, the socail platforms will continue to pick the old stuff. So make sure you make changes in description and excerpt befoe sharing it on social platfroms.
 
 **E shot**  
 
-
 - The eshot will be sent along with the publication of splashscreen mailer. It will have the same news items of the splashscreen mailer. But it will be designed in mail chimp like a mailer.
 - **E\-shot sending checlist**  
-  
+
 When sending an e\-shot, there will be certain things we will need to take care of in order to make the sending completely faultless. Let us understand these things in three stages of sending an eshot.
 - **Before**
 - Make sure that the design is completely matching with the design of the newsletter blog post which itself follows the design of the splash screen mailer.
@@ -94,7 +86,6 @@ When sending an e\-shot, there will be certain things we will need to take care 
 - Cross check all the trackable URLs in analytics
 - Send test emails and get approval
 
-  
 - **During**
 - When sending an eshot, click on the drop down aside the edit button and choose the create campaign option   
 ![Screenshot 2022-05-19 220006.png](images/Marketing_Screenshot_2022-05-19_220006.png)
@@ -120,10 +111,7 @@ When sending an e\-shot, there will be certain things we will need to take care 
 - **How to prepare an eshot performace report**  
 adding soon.........
 
-  
-  
 **Social media post**  
-
 
 - Every new newsletter blog post should be published on our social media accounts; LinkedIn and Twitter
 - Pick the URL of the newsletter blog post (make sure its meta is updated) and put it into the share boxes of these platforms.
@@ -131,30 +119,12 @@ adding soon.........
 - Add a post description that you want your audience to show, and discover hashtags related to sage.
 - Don't create your own hashtag but discover the ones that are already being used.
 
-  
 **Query for contacts**  
-  
+
 \-\- truncate the table firstTRUNCATE TABLE dbo.unsubscribed;GO\-\- import the fileBULK INSERT dbo.unsubscribedFROM 'C:\\Users\\Administrator\\Downloads\\unsubscribed.csv'WITH(        FORMAT\='CSV',        FIRSTROW\=2)GOUPDATE PersonSET Person.Pers\_OptOut \= 'Y'FROM PersonLEFT JOIN CRMEmailPhoneData epd\_pers ON epd\_pers.epd\_EntityID \= 13AND epd\_pers.epd\_RecordID \= Pers\_PersonIDWHERE epd\_pers.epd\_EmailAddress in(    SELECT unsubscribed.Email    FROM unsubscribed)GOSELECT DISTINCT TRIM(ISNULL(Pers\_FirstName, '')) as 'First Name',TRIM(ISNULL(Pers\_LastName, '')) AS 'Last Name',LOWER(epd\_pers.epd\_EmailAddress) as 'Email Address'FROM PersonLEFT JOIN CRMEmailPhoneData epd\_pers ON epd\_pers.epd\_EntityID \= 13AND epd\_pers.epd\_RecordID \= Pers\_PersonIDLEFT JOIN Company ON Pers\_CompanyId \= Comp\_CompanyIdAND Comp\_Deleted IS NULLLEFT JOIN CRMEmailPhoneData epd\_comp ON epd\_comp.epd\_EntityID \= 5AND epd\_comp.epd\_RecordID \= Comp\_CompanyIDWHERE Pers\_Deleted IS NULLAnd (Person.Pers\_Status \= 'Active' or Person.Pers\_Status is null)And (Company.Comp\_Status \= 'Active' or Company.Comp\_Status is null)And (Company.comp\_c\_fortesting \<\> 'Y' or Company.comp\_c\_fortesting is null)And (Person.Pers\_OptOut \<\> 'Y' or Person.Pers\_OptOut is null)And (Company.Comp\_OptOut \<\> 'Y' or Company.Comp\_OptOut is null)And (epd\_pers.epd\_EmailAddress is not null)And (epd\_pers.epd\_EmailAddress LIKE '%\_@\_\_%.\_\_%')GO  
-  
+
 **How to create an audience in MailChimp**  
-  
+
 What this video tutorial by mailchimp: https://mailchimp.com/help/create\-audience/  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   
 
-
-  
-
-
-  
-  
-  
 ##

@@ -10,10 +10,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20Cr
 
 The following process worked and was carried out on a PC:  
 
-
-  
-
-
 1. [Install Powershell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4).  I used winget. This may not be needed but everything worked after I did this.
 2. Run Powershell 7\. I had to open the install folder and run pwsh.exe.
 3. You can [work in Visual Code with powershell.](https://learn.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/using-vscode?view=powershell-7.4)

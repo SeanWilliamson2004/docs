@@ -28,7 +28,6 @@ FTP allows us to share larger files with external parties. SFTP is known as Secu
 [Release](https://codislimited-my.sharepoint.com/:f:/r/personal/codis_support_codis_co_uk/Documents/FTP/Release?csf=1&e=eOQSqf)
 
 [General](https://codislimited-my.sharepoint.com/personal/codis_support_codis_co_uk/_layouts/15/onedrive.aspx?csf=1&e=tYjisL&cid=f25b616a-2b7e-4391-bd24-943d90179844&FolderCTID=0x0120002EEA93101B7C8C48B0EF7E3922E45E36&id=/personal/codis_support_codis_co_uk/Documents/FTP/General)  
- 
 
 **If you are accessing remotely from Customer's Site and you want to upload their data, use below link \- Frontend**   
 [ftp://codisftp.codis.co.uk](ftp://codisftp.codis.co.uk/)
@@ -63,15 +62,12 @@ Open the respective folder where you want to upload the data, then copy and pa
 
 [General](https://codislimited-my.sharepoint.com/personal/codis_support_codis_co_uk/_layouts/15/onedrive.aspx?csf=1&e=tYjisL&cid=f25b616a-2b7e-4391-bd24-943d90179844&FolderCTID=0x0120002EEA93101B7C8C48B0EF7E3922E45E36&id=/personal/codis_support_codis_co_uk/Documents/FTP/General)  
 
-
 **If you are accessing remotely use below link \- Frontend (For customers with below credentials)**  
 [ftp://codisftp.codis.co.uk](ftp://codisftp.codis.co.uk/)
 
 ### Login as User (required for download)
 
 ![](images/Support_Support_Wiki_Images_FTP_FTP_Login.png)  
-  
-
 
 ### Codis FTP External Parties \- Quick guide (Filezilla):
 
@@ -101,7 +97,6 @@ The details for this are as below:
 
 Backend (For Codis Internal Use Only): Look for the folder name of the respective company's SFTP Username.  
 
-
 [**\\\\CD01NSSY001\\Homes**](file://///cd01nssy001/Homes)
 
 Frontend (For Client / Customer):\- 
@@ -115,9 +110,6 @@ Username: specific to customer and created when SFTP details are created for the
 Password: specific to customer and created when SFTP details are created for the customer 
 
 A small FTP client software may have to be downloaded and installed from [this](https://filezilla-project.org/download.php?show_all=1) link . 
-
-  
- 
 
 ### Secure FTP External Parties \- Quick guide (Filezilla):
 

@@ -12,7 +12,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20200%20
 
 This is a master page for the release process, giving an overview and collating other pages.  
 
-
 ## Process Overview
 
 1. Agree that a release is needed.  Frequent releases will mean that Codis will quickly gain value from programming investment, and ensure that we can respond more quickly to sudden demand.
@@ -39,11 +38,6 @@ This is a master page for the release process, giving an overview and collating 
 9. Unlock and View.  Preview the resulting page to check it looks ok.
 
 ## See Also
-
-  
-
-
-
 
 | Creating and completing a test plan. | [Planning for Testing a Release.aspx](Planning for Testing a Release.md) |
 | --- | --- |

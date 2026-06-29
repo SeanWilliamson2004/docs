@@ -14,7 +14,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Restore%20SQL
 1. Open SQL Server Management Studio (SQL Server Management Studio v17\.9\.1 example shown below).  
  Right\-click on Databases and select **Import Data\-tier Application**.  
 ![](images/Support_Support_Wiki_Images_Bacpac_to_Bak_Picture1.png)  
-  
+
 You will see the below screen. Now, click Next.  
  ![](images/Support_Support_Wiki_Images_Bacpac_to_Bak_Picture2.png)
 2. Click on Browse and select the. bacpac file you downloaded from Azure in the previous step and click Next as shown below –  
@@ -40,6 +40,6 @@ You will see the below screen. Now, click Next.
  ![](images/Support_Support_Wiki_Images_Bacpac_to_Bak_Picture10.png)
 10. Click OK and you will see it executing. Once 100% completed, you will see the following screen –  
  ![](images/Support_Support_Wiki_Images_Bacpac_to_Bak_Picture11.png)  
-  
+
 Thats's it! You have created SQL Server .bak file from Azure database .bacpac file.  
 ![](images/Support_Support_Wiki_Images_Bacpac_to_Bak_Picture12.png)

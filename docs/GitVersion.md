@@ -51,9 +51,6 @@ There is a Gitversion pipeline task.  It will version the build using the same 
 
 You can do this for the master branch using the Tags tab in DevOps.  Add a tag e.g. 1\.0\.0 to give a starting version number of 1\.0\.0\.  You may then need to merge the master branch into your working branch.
 
-  
- 
-
 ## WIX Projects
 
 Gitversion can be used to apply the same versioning methodology as that being used to version assemblies.  This avoids any challenges involved in retrieving versions from target assemblies.

@@ -15,8 +15,6 @@ This is a list of printer manuals used in the office.
 
 ## List
 
-
-
 | **Manual** |
 | --- |
 | [HP LaserJet Pro MFP M225dw User Guide](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Printer%20Manuals/HP%20LaserJet%20Pro%20MFP%20M225dw%20User%20Guide.pdf) |

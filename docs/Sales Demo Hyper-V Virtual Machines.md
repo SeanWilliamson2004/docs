@@ -13,7 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sales%20Demo%
 
 **These hypers can be accessed through remote desktop connection internally and externally through Dial\-Up VPN Connection.**   
 
-
 ## Codis Physical PC CD01DT10005 Details Running Sales Hypers
 
 PC Name: CD01DT10005  
@@ -21,21 +20,15 @@ IP Address: 192\.168\.3\.230
 Username: azuread\\codis@codis.co.uk  
 Password: C0di$Gener1c
 
-  
-
-
 ## **1\. Sage 200C2020R1**
 
 CRM Company Name: Ali SAGE200C2020R1 (SALES)  
 
-
 **Unattended Team Viewer details**  
-
 
 User ID \- 
 
 Password \-   
-
 
 ## **1\. Sage 200c**
 
@@ -65,13 +58,9 @@ CRM Username: admin (with no password)
 
 **Unattended Team Viewer details**  
 
-
 ID \- 608996743
 
 Pass \- C0di$Demo2022  
-  
-   
-
 
 ## 2\. Sage 1000
 
@@ -101,13 +90,6 @@ TeamViewer Host Details:
 user id 1026793941server id 1028520931  
 Password: C0di$Demo  
 
-
-  
-
-
-  
-
-
 ### **Credentials:**
 
 Sage 1000 Username: manager (with no password)
@@ -136,7 +118,6 @@ Internal IP Address: 192\.168\.3\.231
 Username: Sage200\\Administrator  
 Password: C0di$Demo  
 
-
 ### Credentials:
 
 Sage 200: Windows User  
@@ -149,7 +130,6 @@ CRM Username: admin (with no password)
 Operating System: Windows 2016 Server Standard 64Bit  
 Office: Microsoft® Office 2016 Professional Plus 32Bit  
 Sage: Sage 50c Accounts Professional  
- 
 
 ### Login Info:
 
@@ -159,7 +139,6 @@ Username: Sage50\\Administrator
 Password: C0di$Demo
 
 **Teamviewer details:**  
-
 
 Server ID:  873559184
 
@@ -192,7 +171,6 @@ CRM Company Name: Demo PPS\-HIPERLINK
 Licence Administrator : Demo PPS\-HIPERLINK  
 Email Address : demo.ppshiperlink@gmail.com  
 Password : PP$H1perlink2018  
-
 
 ### **Software Specification:**
 

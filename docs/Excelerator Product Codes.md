@@ -12,7 +12,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Excelerator%2
 
 **Product Codes** The purpose of this page is to specify how the procedure for creating new Codis Product Codes.   
 
-
 ## Background
 
 Every product sold by Codis have a unique product code. The products which require the most planning are Codis Products in general and Excelerator Modules in particular.   
@@ -34,19 +33,24 @@ The product code needs to be agreed before development can release a product. Th
 
 A central spread sheet is used to control all product codes. This spread sheet is available at this [file location](https://codislimited.sharepoint.com/sites/Wiki/Sales/Sales%20Wiki/Documents/Licences%20Database/2013%20new%20version/Testing%20-%20before%20release/Product%20Codes/Product%20Codev1.8.xlsx). The spread sheet records the product details and characteristics (e.g. the version of Sage, whether standard or Licence and Maintenance (L\&M) etc. The spread sheet records both a long and short name along with a unique product code. The spread sheet controls the product codes which need to be unique.
 
-
-
-
-
-
 |  | **Questions** | **Notes** |
 | --- | --- | --- |
-| 1 | What Sage version is  the product for? | E.g. Sage 200 or Sage  1000 |
-| 2 | Is this Standard and  Terminal/Citrix or Enterprise? | Every Standard  product should have an additional Terminal/Citrix module created |
-| 3 | What's the Reseller  Price? |  |
-| 4 | What's the Direct  Customer Price? |  |
-| 5 | Should an additional  Licence \& Maintenance line be created as well? | All Codis products  should have L \& M created as well |
-| 6 | What Seed number  should be used in CRM? | Developers can give  you this information. |
+| 1 | What Sage version is
+  the product for? | E.g. Sage 200 or Sage
+  1000 |
+| 2 | Is this Standard and
+  Terminal/Citrix or Enterprise? | Every Standard
+  product should have an additional Terminal/Citrix module created |
+| 3 | What's the Reseller
+  Price? |  |
+| 4 | What's the Direct
+  Customer Price? |  |
+| 5 | Should an additional
+  Licence \& Maintenance line be created as well? | All Codis products
+  should have L \& M created as well |
+| 6 | What Seed number
+  should be used in CRM? | Developers can give
+  you this information. |
 |  | **Group (E, S, C,A,W,I)** | **Description** |
 |  | E | Excelerator |
 |  | S | Sage |
@@ -62,10 +66,8 @@ A central spread sheet is used to control all product codes. This spread sheet i
 |  | US | User |
 |  | **PR/LM** | **Description** |
 |  | PR | Product |
-|  | LM | Licence \&  Maintenance |
-
-  
-
+|  | LM | Licence \&
+  Maintenance |
 
 ### CRM
 
@@ -83,9 +85,6 @@ Any marketing materials and downloads should also quote the product code. The Si
 ### Brochures and Flyers
 
 For Sales to fill out 
-
-  
-
 
 ## Stages of Creating Product Code
 
@@ -116,8 +115,6 @@ Before the module is released it needs to go through a thorough testing process.
 The product is launched to the Codis Community. 
 
 ## Elements of a Product Code
-
-
 
 | **Heading** | **Description** |
 | --- | --- |

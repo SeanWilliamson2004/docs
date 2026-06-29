@@ -13,8 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## Professional services
 
-
-
 | **Document** | **Description** |
 | --- | --- |
 | [Statement Of Work](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Documents/ProfessionalServices/StatementOfWork.docx) |  |
@@ -31,8 +29,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 ## 
 
 ## Support
-
-
 
 | **Document** | **Description** |
 | --- | --- |
@@ -71,8 +67,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## Product/Quality control
 
-
-
 | **Document** | **Description** |
 | --- | --- |
 | [Issue List Sage 200 Excelerator](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Data/Testing/Sage200Testing/2011/all%20modules.xlsx) | Sage 200 Excelerator Issue |
@@ -92,8 +86,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 ## 
 
 ## Help manuals
-
-
 
 | **Document** | **Description** |
 | --- | --- |

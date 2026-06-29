@@ -19,7 +19,7 @@ In the Registry
 \>HKEY\_LOCAL\_Machine\\ SOFTWARE\\Microsoft\\Office\\15\.0\\ClicktoRun\\REGISTRY\\MACHINE\\Software\\Wow6432Node\\Codis   
 Also check this folder permissions:\-   
 Access to the registry (this entry was not there on Karol's PC and EE worked without it. key 'HKEY\_LOCAL\_MACHINE\\Software\\Codis\\Enterprise\\Security\\Settings'      
-  
+
 **Solution 2**   
 Access to the registry key 'HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\Excel\\AddIns\\ADXXLForm' is denied.   
 Go into regedit.exe (just type regedit in Windows search) and right click the above folder \-\> Permissions. Tick the full control tickbox. (Give full access to Addins folder).  

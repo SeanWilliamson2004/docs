@@ -14,7 +14,6 @@ As a result of testing of Phase 1 at WBA, an issue was identified with Phase 1 o
 The [DRPPP](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/649941/payment-practices-performance-reporting-requirements-oct-2017.pdf) (section 41\) refer to 3 statistics.  The issue is with the 3rd statistic that has to be reported on. The [DRPPP](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/649941/payment-practices-performance-reporting-requirements-oct-2017.pdf) defines this 3rd statistic:  
 *"iii. the percentage of payments due within the reporting period which were not paid within the agreed payment period"*  
 
-
 In [Phase 1](PPPS Phase 1 Requirements.md), this was taken to be just unpaid invoices when in fact invoices that were paid, but not within the agreed terms should also be included.  
 
 There are a couple of keys points

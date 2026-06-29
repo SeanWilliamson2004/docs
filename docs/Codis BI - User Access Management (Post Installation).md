@@ -11,7 +11,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20BI%20
 
 # 
 
-
 > - **This page is about managing access of \*Codis\* users to live customer dashboards, and not for managing end user access.**
 > - ****There are three places where the User Access to Customer Dashboards should be managed on powerbi.com:****
 

@@ -13,7 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Help%20Tipalt
 
 Tipalti is a cloud\-based financial technology platform designed to simplify and automate global accounts payable (AP), procurement, expense management, and payment processes.  
 
-
 ## 1\. Overview of Tipalti Sandbox
 
 The Tipalti Sandbox is a testing environment that simulates real\-world operations without connecting to the public banking system. Key features include:
@@ -63,11 +62,9 @@ The integration between Tipalti and Sage 200 supports both purchase orders (POs)
 - Invoice Capture: Begins in Tipalti, with full payment details visible in the system.
 - Matching: Supports 2\-way and 3\-way matching for POs.
 
-  
 ## 4\. Integration Using Orchestrator
 
 The integration process involves three modules: suppliers, invoices, and payments. \-\-\- (for Omnes Healtcare)  
-
 
 ## Prerequisites
 
@@ -75,7 +72,6 @@ The integration process involves three modules: suppliers, invoices, and paymen
 - Permissions for designated file system folders.
 - Range definition files for field mapping.
 
-  
 ## Folder Structure
 
 Orchestrator
@@ -136,7 +132,6 @@ Orchestrator
 1. Review logs in Orchestrator for detailed error messages.
 2. Correct errors in CSV files or range definitions before reprocessing.
 
-  
 ## 6\. Testing Checklist
 
 Use this checklist to ensure all steps are completed successfully:

@@ -12,23 +12,13 @@ Default Location
 
 The default location for Enterprise licenses is C:\\ProgramData\\Codis\\License
 
-  
-
-
 Define location in Codis IP  
-
 
 \- Login to Codis IP  
 
-
 \- Go to COnfiguration\> System Parameters\> Edit  
 
-
 \- Change the override license parh to the location we need for License files  
-
-
-  
-
 
 Define location in Database
 
@@ -42,14 +32,8 @@ Define location in Database
 
 Update PolicyValue  
 
-
 Set Value \= '\<path\>'  
 
-
 where EnterpriseLicenceFolder like ""  
-
-
-  
-
 
 \*note \- \<path\> is the path we need for license folder. Please enter it without adding \<\>

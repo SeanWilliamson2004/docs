@@ -72,30 +72,23 @@ The CompareToSnapshot method returns false if any differences are found. Differe
 
 The snapshot template includes a definition of the system keys and project settings that are likely to influence how data is entered and saved in Sage. When the snapshot is taken, the values stored in those system keys is recorded. Project settings cannot be captured in this way, as they are held in an encrypted table. These have to be specified when the snapshot is defined using: 
 
-
-
 | ``` 1 ``` | ``` UseProjectInSnapshot(context, snapShot, "DA0370") ``` |
 | --- | --- |
 
 When the comparison test is run, the system key setting can be applied by running: 
-
-
 
 | ``` 1 ``` | ``` RowComparisonHelper.SetSystemKeys(db, snapShotCompareTo) ``` |
 | --- | --- |
 
 And project settings by running:
 
-
-
 | ``` 1 ``` | ``` RowComparisonHelper.OverrideProjects(db, snapShotCompareTo) ``` |
 | --- | --- |
 
 Often, both these are called as part of a 
 
-
-
-| ``` 1 ``` | ``` Protected Sub CompareResultToSnapshot(baseDTO As NLJournalBaseDTO, snapShotDesc As String)  ``` |
+| ``` 1 ``` | ``` Protected Sub CompareResultToSnapshot(baseDTO As NLJournalBaseDTO, snapShotDesc As String)
+  ``` |
 | --- | --- |
 
 method that is included in the base comparison test class. 

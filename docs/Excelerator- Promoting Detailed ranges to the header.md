@@ -33,8 +33,6 @@ A good example of this is V1 Purchase Ledger Excelerator.  [http://www.codis.co
 
 As can be seen, supplier and invoice ranges can be in the head of the spreadsheet.  In this example, one invoices is entered with multiple NL distribution lines:
 
- 
-
 | **Batch** | 0001 |  |
 | --- | --- | --- |
 | **Supplier** | S001 |  |
@@ -47,8 +45,6 @@ As can be seen, supplier and invoice ranges can be in the head of the spreadshee
 
 Or the invoice placed in the list.  In this example two invoices are entered:
 
-
-
 |  | **Batch** | 0001 |  |
 | --- | --- | --- | --- |
 |  | **Supplier** | S001 |  |
@@ -59,8 +55,6 @@ Or the invoice placed in the list.  In this example two invoices are entered:
 | INV2 | 1\-01\-10\-10\-002 | V | 100 |
 
 Or multiple suppliers and invoices entered in the list.  In this example, two invoices are entered for different suppliers:
-
-
 
 | **Batch** | 0001 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -74,8 +68,6 @@ Or multiple suppliers and invoices entered in the list.  In this example, two i
 ## Promotion to Header
 
 We then also had further requirements to allow some ranges from the invoice header or detail in the head of the sheet in a single cell, whilst other ranges such as invoices were placed in the list detail section.  The value entered in the head would be used for all header\-details or details in the list.  The table below shows an example of this where the project code, which is on the invoice detail nominal and project distributions, is promoted so that a single project code "ADVERTISING" used for all nominal and project distributions.
-
- 
 
 | **Batch** | 0001 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -97,8 +89,6 @@ Really, all ranges should be control ranges and there are rules about what data 
 
 The multiple supplier and invoice example shown above works well where data is imported from a 3rd party source, but if using Excelerator to speed enter data then there is a lot of unnecessary rekeying of data.  In these circumstance, entering data as shown in the table below may be easier and this has been found to be a user requirement.  
 
- 
-
 | **Batch** | 0001 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
 | **Supplier** | **Invoice** | **Effective Date** | **Nominal Code** | **VAT Code** | **Value** |
@@ -118,8 +108,6 @@ The logical data model can have parent\-child relationships.  For instances bat
 
 However, there is a challenge if a logical data entity has multiple children.  If all the parent data is in the header, then it could possible to have two lists.  
 
-
-
 | **Account** | S001 |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
 | **Reference** | XXXX |  |  |  |  |  |
@@ -131,8 +119,6 @@ But if the parent data is in a list, then this will not work.
 One other possible solution is to have a single list common for all children data but this only work where the children entities have similar properties. (For example \- product, service and at a stretch, comment lines on an order.)  
 
 Another possible solution is to limit the size of the extra children data's list and then to have that data entered in different columns (rather than rows) across the sheet.
-
-
 
 | **Account** | S001 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

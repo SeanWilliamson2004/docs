@@ -15,16 +15,12 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## Framework
 
-
-
 | **Document** |
 | --- |
 | [Codis Development Framework \- IOC Spring\-Net](Codis Development Framework - IOC Spring.Net.md) |
 | [S1000 Server Side Assembly Description](Codis Development Framework - S1000 Server Side Assembly Description.md) |
 
 ## Testing
-
-
 
 | **Document** |
 | --- |
@@ -35,15 +31,11 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## Builds and Release
 
-
-
 | **Document** |
 | --- |
 | [Build Procedures](Software Builds.md) |
 
 ## Supporting Documentation
-
-
 
 | **Description** | **Link** |
 | --- | --- |
@@ -54,8 +46,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 | Archived Documentation | [Archived Documentation](https://codislimited.sharepoint.com/sites/Wiki/Development/Development%20Wiki/Documents/OldDevelopmentDocumentation/Archived%20Documentation) |
 
 ## Reference material
-
-
 
 | **Document** |
 | --- |

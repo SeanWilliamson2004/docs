@@ -16,8 +16,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%201000%2
 
 You have probably encountered the issue where by the scheme owner can't be assigned rights because there is already a different scheme owner, and have different ways of working around this. You may already know about this, but just in case, this stored procedure will 'repair' the scheme user. You run it against the sage db: 
 
-
-
 | ``` 1 ``` | ``` EXEC sp_change_users_login 'Auto_Fix', 'scheme' ``` |
 | --- | --- |
 

@@ -13,8 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 
 ## Documents
 
-
-
 | [IT Asset Management](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Templates/Codis%20IT%20Asset%20Management.docx) |
 | --- |
 | [Codis Asset Details](/:x:/s/Wiki/Eaz1oGDssndNhHpZPK4Gqv4B_FlLdEn5N0R4phwzfPl6Aw?e=jg9YRQ) |
@@ -26,12 +24,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/List%20of%20P
 [| Steps to Deploy Excelerator Build to Website |
 | --- |](https://codislimited.sharepoint.com/sites/Wiki/IT/IT%20Wiki/Documents/Steps%20to%20Deploy%20a%20Build.docx)   
 
-
 **This is a list of all links/urls.** 
 
 ## Links/URLs
-
-
 
 | [Codis Software Setups](file://cd01nssy001/Data/SoftwareSetups) |
 | --- |

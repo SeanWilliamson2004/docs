@@ -10,7 +10,4 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20Re
 
 # How to Replace a Pull\-Up Banner
 
-  
-
-
 The video below demonstrates how to replace the panel of a pull\-up banner.

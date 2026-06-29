@@ -73,7 +73,6 @@ Sage 1000 tests require access to a set of predefined databases.  These databas
 
 Sage 200 tests are not current run as part of the build process but automated runs need to be introduced.  A Sage instance is required in a known, rewindable state is required for these tests to work.  
 
-
 # Assumptions
 
 1. Legacy operations are not critical as patches are rarely applied.  Access to the output \- the installers \- is critical.

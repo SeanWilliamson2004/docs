@@ -13,7 +13,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20Wiki.
 
 Welcome to Codis Wiki. This is a knowledgebase wikipedia for Codis staff members to share information. New to wiki? [Get Started](How To Use This Library.md)  
 [Codis Policies.aspx](Codis Policies.md "Codis Policies")  
-  
+
 ## Popular links
 
 - [Request Help From IT](https://forms.office.com/Pages/ResponsePage.aspx?id=8D1FWsx57UGhau27c-8eK46F8ez4zIVKh5iniKVsWCNUNzRNUkVNUUc3MkxDVkdSR1BESzNONzNXTi4u)
@@ -44,7 +44,7 @@ Welcome to Codis Wiki. This is a knowledgebase wikipedia for Codis staff membe
 ## Popular categories
 
 These are some documents you may find useful:   
-  
+
 - [General](List of Popular General Documents.md)
 - [Sales](List of Popular Sales Folders.md)
 - [Support](Support Home Page.md)

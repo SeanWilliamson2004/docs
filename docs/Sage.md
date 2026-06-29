@@ -11,8 +11,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage.aspx
 
 **Below is the list of all important Sage URLs.**
 
-
-
 | [My Sage](https://my.sage.co.uk/) | [Sage Help Centre](https://my.sage.co.uk/public/help.aspx#/customer) | [Sage Partner Hub](https://partnerhub.sage.com/) |
 | --- | --- | --- |
 | [Sage CRM Help](https://help.sagecrm.com/) | [Sage CRM Community](https://community.sagecrm.com/) | [Sage University](https://sageu.com/en-gb/home.html) |

@@ -15,7 +15,6 @@ Steps to create Hyper:\- 
 2. 2\.  In Hyper V Manager: \- Actions \> New \> Virtual Machine.
 3. 3\.  Rename\>Next
 
-  
        ![1.png](images/PublishingImages_Pages_Steps_to_create_Hyper_1.png)4. 4\. Select Generation 2
 5. 5\. Increase memory as per requirement, usually 4096 MB   
     Uncheck Use “Dynamic Memory for this Virtual Machine “
@@ -24,14 +23,13 @@ Steps to create Hyper:\- 
 6. 6\. Default Switch
 7. 7\. Rename same as step3 and Next
 ![3.png](images/PublishingImages_Pages_Steps_to_create_Hyper_3.png)  
-  
+
 8. 8\. Select ISO that we downloaded \& Finish.
 9. ![4.png](images/PublishingImages_Pages_Steps_to_create_Hyper_4.png)
 10. 
 11. 9\. Once it finishes, right click on new hyper\>Settings.      Uncheck “Use Automatic Checkpoints”      In Integrated services\>check Gues services (It will allow to copy paste data to this hyper)
 12. ![5.png](images/PublishingImages_Pages_Steps_to_create_Hyper_5.png)
 13. 10. 10\. Connect to the hyper and select Language and enter the key from link(step1\)Note: Used MAK key in SAGE200C2025R1 for Windows Server 2025 
-
 
 	11. 11\. Select Desktop Experience![6.png](images/PublishingImages_Pages_Steps_to_create_Hyper_6.png)
 

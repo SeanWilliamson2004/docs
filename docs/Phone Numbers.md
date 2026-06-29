@@ -15,8 +15,6 @@ Main Number: **\+442088610610**
 
 Fax Number: **\+442085157049** 
 
-
-
 | **Name** | **Extension** | **Direct Dialling Inwards (DDI)** | **Mobile Number** |
 | --- | --- | --- | --- |
 | Adam | 47 | \+442085157047 | \+447725227027 |

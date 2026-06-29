@@ -60,20 +60,15 @@ Object Definition Pitfalls If your constructor includes any data access, the obj
 
 ## Example
 
-  
-
-
 ExceleratorBase has a number of properties.  Here is one:       Public Property ExcelMetaData As ExcelMetaData That is not set to anything in the code anywhere.  It is set by the spring container and we use the container to provide our objects.  It sets it based on configuration we give it. For that property, there is a line in a configuration file ObjectConfiguration.xml in Codis.Excelerator project.The line is:       
 ```
-<object name="ExcelMetaData" type="Codis.Excelerator.MetaData.ExcelMetaData, Codis.Excelerator" />
+<object name="ExcelMetaData" type="Codis.Excelerator.MetaData.ExcelMetaData, Codis.Excelerator" />
+
 
 ```
 
-  
-
-
  So if we load that configuration file when creating the container, classes that inherit ExceleratorBase will have their ExcelMetaData property set to a singleton instance of Codis.Excelerator.MetaData.ExcelMetaDataThis particular object will not change and you will use that configuration. However, that class Codis.Excelerator.MetaData.ExcelMetaData has properties:  
-  
+
 These also need to be set.These are both set on a per\-module basis.  If you look at ObjectConfiguration in Codis.Excelerator.NLJournals2 it has the line:
 
 ####

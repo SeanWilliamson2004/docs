@@ -21,13 +21,11 @@ Professional services use the CRM for top level control of projects. Once a cust
 
 ![](images/Support_Support_Wiki_Images_CRM_Consultancy_WorkFlow.PNG)   
 
-
 Professional Services are responsible for the case from the time it is created until the case is signed off. Sales and invoicing respectively are responsible for creating and invoicing the case. 
 
 The case should remain with Team Consultancy even after it has been assigned to a consultant.
 
 **Sales will close the case and it should not be closed by the consultant that carried our the work.**  
-
 
 ### **Pre\-Requisites Sent**
 
@@ -43,33 +41,25 @@ The Pre\-Requisite document should be saved against the consultancy case.
 
  The consultancy case will remain at this status until the consultancy work is commenced.  
 
-
 ### **Scheduled**
 
  This case action should be selected when the consultant is ready to start the consultancy work.  
 
 The "C" Communication actions may be used to record time for the work carried out for the duration of the project although not mandatory.  
 
-
 An Activity Report must be prepared for sending to the customer once the work has been completed so that the work can be approved.   
-
 
 It may be preferable to prepare this in advance so that all tasks are documented to serve as a reminder.  
 
-
 The case can then progressed to the next stage which is Awaiting Sign Off.  
-
 
 Examples of Activiy Reports can be found on completed consultancy cases and a blank one here (to be added).  
 
-
 The document is a word document but should be saved in pdf format for sending to the customer. This is to prevent it being altered.  
-
 
 ### **Awaiting Sign Off**
 
 Once the Activity Report has been sent to the case contact, select this case action to mark the consultancy as Awaiting Sign Off.  
-
 
 ### **Awaiting Invoice**
 

@@ -19,14 +19,10 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Elm%20Resourc
 Elm [syntax](https://elm-lang.org/docs/syntax) and [Basics](https://package.elm-lang.org/packages/elm/core/latest/Basics)
 
 [Elm guide](https://guide.elm-lang.org/)  
-  
 
-
-  
 Intermediate[Elm advanced](https://frontendmasters.com/courses/advanced-elm/) course (needs registration)
 
 Important: [the evolution of an elm view](Evolution of an Elm view.md).  
-
 
 [The life of a file](https://www.youtube.com/watch?v=XpDsk374LDE "https://www.youtube.com/watch?v=xpdsk374lde") 
 
@@ -35,14 +31,5 @@ Important: [the evolution of an elm view](Evolution of an Elm view.md).
 [Immutable relational data](https://www.youtube.com/watch?v=28OdemxhfbU "https://www.youtube.com/watch?v=28odemxhfbu") 
 
 [Make data structures](https://www.youtube.com/watch?v=x1FU3e0sT1I "https://www.youtube.com/watch?v=x1fu3e0st1i")
-
-  
-
-
-  
- 
-
-  
- 
 
 #

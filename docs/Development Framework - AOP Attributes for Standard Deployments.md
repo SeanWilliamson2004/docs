@@ -12,21 +12,15 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Development%2
 
 Below is a typical configuration for a standard deployment.
 
-
-
 | 123456789 | `<``object` `id``=``"ApplyPermissionsIfAttribute"` `type``=``"Spring.Aop.Support.AttributeMatchMethodPointcutAdvisor, Spring.Aop"``>` `<``constructor-arg` `name``=``"advice"` `>``<``object` `name``=``"StandardAPIAdvice"` `type``=``"Codis.Excelerator.Sage200.Standard.Core.StandardSage200APIAdvice, Codis.Excelerator.Sage200.Standard"` `/>``</``constructor-arg``>``<``property` `name` `=``"CheckInterfaces"` `value``=``"true"` `/>``<``property` `name``=``"attribute"``value``=``"Codis.API.Types.Attributes.CompanyPermissionRequiredAttribute,Codis.API.Types"` `/>``</``object``>` |
 | --- | --- |
 
 and
 
-
-
 | 12345678910111213141516 | `<``object` `type``=``"Spring.Aop.Framework.AutoProxy.AttributeAutoProxyCreator , Spring.Aop"``>``<``property` `name``=``"AttributeTypes"``>``<``list``>``<``value``>Codis.API.Types.Attributes.CompanyPermissionRequiredAttribute, Codis.API.Types</``value``>``</``list``>``</``property``>``<``property` `name``=``"InterceptorNames"``>``<``list``>``<``value``>ApplyPermissionsIfAttribute</``value``>``<``value``>CacheResultByCompanyInterceptor</``value``>``</``list``>``</``property``>``<``property` `name``=``"CheckInherited"``>``<``value``>true</``value``>``</``property``>``</``object``>` |
 | --- | --- |
 
 The BusinessAPI class should be inherits by the API class. This applies the CompanyPermissionRequiredAttribute to the whole class.
-
-
 
 | 12 | `<CompanyPermissionRequired()>``Public` `MustInherit` `Class` `BusinessAPI` |
 | --- | --- |

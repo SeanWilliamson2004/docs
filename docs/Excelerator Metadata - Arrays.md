@@ -27,8 +27,6 @@ Arrays are list(of \< type \>) properties on the DTO. They have to be designated
 
 To designate a property as an array you must either decorate it with the DTOFieldArray property: 
 
-
-
 ```vbnet
 <DataMember()>
 <DTOFieldArray("HeaderContactArray1Desc", 20, SpecialProperties.ComplexType, 3)> _
@@ -37,16 +35,12 @@ To designate a property as an array you must either decorate it with the DTOFiel
 
 or added to the metadata in separate code: 
 
-
-
 ```vbnet
 Dim arrayList As ArrayMetaData
 arrayList = .AddArray(Of TransdataHeaderDTO)(Function(x) x.HeaderContractArray1, 3)
 ```
 
 The type used in the array should have the usual attributes added to its properties or added to the metadata in separate code: 
-
-
 
 ```vbnet
 arrayList.Add(Of Contact)(Function(x) x.Name, "Name", 20)
@@ -55,14 +49,11 @@ arrayList.Add(Of Contact)(Function(x) x.Address, "Address", 30)
 
 Note that the properties' details are being added to a list on the array not to the main metadata list
 
-  
 The array length is a default length. 
 
 ## Excel Metadata
 
 In order to appear as ranges the array has to be included in the Excel metadata. The array itself needed to be specified, as do the individual properties. At this point the array length and descriptions can be overridden. 
-
-
 
 ```vbnet
 With metaData.ExcelArrayMetaDataList
@@ -75,10 +66,7 @@ With metaData.ExcelArrayMetaDataList
 
 Note that the properties' details are being added to a list on the array not to the main metadata list
 
-  
 It is also possible to override the description on the individual rows of the array: 
-
-
 
 ```vbnet
 ' Override the row description for element 3 of Name

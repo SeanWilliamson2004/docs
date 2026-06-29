@@ -12,16 +12,11 @@ Hashing a password is one way transaformation on a password. Hash password can n
 
 We have introduced a hash password utility application to change the codis ip user password to hash. In Codis IP web application rather than enrypting and decrypting user password we store the user password in hash. On user login the entered password is converted into hash and compare with stored user hash password for verification. Hash password processing is used in changing user password.  
 
-
 Use this link to download application and click the file named "Codis.IP.PasswordHashUtility.UI.exe" to launch application  
-
 
 NOTE: For Password Hashing feature, this Utility creates the Salt field in SecurityUsers table automatically if not present.
 
 https://dev.azure.com/codislimited/CodisDevelopment/\_build/results?buildId\=14490\&view\=artifacts\&pathAsName\=false\&type\=publishedArtifacts
-
-  
-
 
 1\)Open the application by clicking it and you will see 
 
@@ -30,6 +25,5 @@ https://dev.azure.com/codislimited/CodisDevelopment/\_build/results?buildId\=144
 2\)Click on either All or Single radio button. On choosing the "All" changes the password of all users in codis ip.
 
 3\)On choosing "Single " changes the password for specifed user only.   
-
 
     ![App2.PNG](images/PublishingImages_Pages_Codis_IP_Password_Hash_App2.PNG)

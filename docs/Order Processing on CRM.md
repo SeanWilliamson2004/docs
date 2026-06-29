@@ -155,13 +155,7 @@ Finally, go to the company's summary page and update the following (as shown in 
 
 **Use Alignment Date:** Tick the box.
 
-  
- 
-
 ### 2\.4\.4 Update the whiteboard!
-
-   
- 
 
 # 3\. Creating a consultancy case on CRM.
 

@@ -17,8 +17,6 @@ A default Excelerator template is a spreadsheet template for Excelerator that co
 
 You can find the current release Excelerator templates as follows. 
 
-
-
 | **Name** | **Description** | **Location** |
 | --- | --- | --- |
 | Sage 200 V3 | Templates that will be with the Excelerator that comes packaged with Sage 200 V3 | [Sage 200 V3 Latest Templates](file://///cd01sr16104/Excelerator_Templates_Latest/V3%20Sage%20200%20Excelerator%20Templates) |
@@ -33,8 +31,6 @@ These are guidelines for to be used when creating Excelerator templates. The sam
 ### Demo Template
 
 These are templates used for demos. Ubuntu can be used because we have it installed on our computers. 
-
-
 
 | **Area** | **Guidelines** |
 | --- | --- |
@@ -57,8 +53,6 @@ These are templates used for demos. Ubuntu can be used because we have it instal
 
 These come without Ubuntu because it may not be installed on the users pc. 
 
-
-
 | **Area** | **Guidelines** |
 | --- | --- |
 | Font | Arial Narrow |
@@ -79,8 +73,6 @@ These come without Ubuntu because it may not be installed on the users pc.
 ### Sage Branded Release Template
 
 These come without Ubuntu because it may not be installed on the users pc. 
-
-
 
 | **Area** | **Guidelines** |
 | --- | --- |

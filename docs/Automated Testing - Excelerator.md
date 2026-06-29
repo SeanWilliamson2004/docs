@@ -83,8 +83,6 @@ Tests that update records should rollback those changes (see above as to how. Th
 
 **Assembly not loaded error:** Sometimes when running tests you can get an error that an assembly won't load because the file is found despite it being referenced and marked to copy local. A workaround for this problem is to either include the item as a DeploymentItem on the tests\-see below. This can be a bit labourious, and another technique that can work is to directly use the assembly in code.
 
-
-
 ```vbnet
 <TestMethod()>
 <DeploymentItem("Codis.SageEnterprise.Distribution.Common.dll"), DeploymentItem(TestWkb1Deploy)>
@@ -96,6 +94,5 @@ End Sub
 ### Sage 1000 Standard Excelerator Connection Configuration
 
 TestBaseOpenXML and TestBaseOpenXMLRollback both use the **TargetDatabase** to determine which Sage database to use.  This is set to S5V71B1 by default but can be overridden in sub\-classes.  
-
 
 This is acheived by having the Codis.Excelerator.Standard.ConfigurationProvider replace the usual configuration provider.  The database settings in this object are then overridden in the SetUpObjects method.

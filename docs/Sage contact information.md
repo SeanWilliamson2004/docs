@@ -10,9 +10,8 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%20contac
 
 These are contact details for Sage, should we have any questions for them.  
 
-
 Codis Limited Sage Business Partner Account: 00555113  
-  
+
 1. Sage Support: 01914795933
 2. Sage CRM Support: 01189270491
 3. Sage 1000 Support: Paul Collier 01189270206

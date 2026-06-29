@@ -13,12 +13,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Timesheets.as
 
 ## **[Time Calculator](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Timesheet/Time%20Calculator.xlsx)**
 
-  
-
-
 ## [**Timesheet Template**](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Timesheet/Codis%20Timesheet.xltm)
-
-  
-
 
 ## **Enable Timesheet Template Macros**

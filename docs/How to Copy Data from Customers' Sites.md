@@ -21,37 +21,46 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/How%20to%20Co
 
 ### 1\. Access the shared folder
 
-- If you do not already have access, request a link to the shared 
+- If you do not already have access, request a link to the shared 
+
  **CustomersData** folder in OneDrive.
-- Open the link in OneDrive and select 
+- Open the link in OneDrive and select 
+
  **“Add shortcut to My files”**.
 - After a short delay, the folder will appear in File Explorer.
 
 ### 2\. Create a dedicated folder
 
-- Within **CustomersData**, create a new folder specifically
+- Within **CustomersData**, create a new folder specifically
+
  for the dataset being transferred.
-- Add a `README.md` file to this folder explaining why the data
+- Add a `README.md` file to this folder explaining why the data
+
  is required (for example, a case or ticket number).
 
 ### 3\. Transfer the data
 
-- Use TeamViewer file transfer to copy the files directly into the newly
+- Use TeamViewer file transfer to copy the files directly into the newly
+
  created folder.
-- The shared **CustomersData** folder should appear under
+- The shared **CustomersData** folder should appear under
+
  *Local Computer* in File Explorer, typically at:
 
-
 ```
-C:\Users\<username>
-e.g. C:\Users\Sean.Williamson
+C:\Users\<username>
+
+e.g. C:\Users\Sean.Williamson
+
 
 ```
 ### 4\. Restore the data
 
-- Copy the data from this folder to the customer’s Sage server and perform
+- Copy the data from this folder to the customer’s Sage server and perform
+
  the restore.
-- Delete all `.bak` files created during this process once the
+- Delete all `.bak` files created during this process once the
+
  restore is complete.
 
 ### 5\. Clean up

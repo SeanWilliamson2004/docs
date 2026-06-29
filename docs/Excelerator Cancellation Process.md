@@ -9,7 +9,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Excelerator%2
 ---
 
 ![](images/Sales_Sales_Wiki_Images_Sales_Process_Excelerator_Cancellation_Process.png)  
- 
 
 ## 1\.1
 
@@ -23,11 +22,7 @@ c) uncheck billable
 
 d) check cancel and type a note (e.g. cancellation requested by customer/reseller, or see Documents in CRM)  
 
-
 e) Save
-
-  
- 
 
 ## 1\.2
 

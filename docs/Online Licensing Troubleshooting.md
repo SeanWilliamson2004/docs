@@ -15,16 +15,13 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Online%20Lice
 See also: [Excelerator Client Installation and Setup Guide.aspx](Excelerator Installation Troubleshooting.md)
 
 This diagnostic tool:  [DiagnosticWithUI](/:u:/s/Wiki/EbE6LKbC7DBKmJD4kLMskkwBMWsUBChf-6a1EGRdmGzhlQ?e=jJqVEH)can be used to diagnose errors with registering new PCs or with existing licences. Extract the folder and run a command line (in the folder shift \+ right click \+ "open powershell here"). From there type "lic" and TAB, it should auto complete to ".\\LicenceDiagnostic.exe". Follow one of the commands to use, eg ".\\LicenceDiagnostic.exe diag" or ".\\LicenceDiagnostic.exe read".  
-  
-
 
 ## Firewall Ports \& URLs To Unblock
 
-  
 **TCP/IP Ports**  
 Http: 80  
 Https: 443  
-  
+
 **URLs**  
 [https://auth.codis.co.uk](https://auth.codis.co.uk/) [https://licence.codis.co.uk](https://licence.codis.co.uk/)   
 [https://my.codis.co.uk](https://my.codis.co.uk/)    
@@ -41,16 +38,7 @@ Https: 443
 
 Registration Screen Flashes past without a chance to enter your Microsoft or Google ID.  
 
-
-   
- 
-
 This happens because there is already a Microsoft or GoogleID is already held in a cookie.  You can remove all cookies or change the default browser but it is probably easier to copy the path that is displayed for the web page asking to choose which provider, and to paste that into an In\-Private windows (for IE) or a Incognito window (for Chrome).  
-
-
-   
-  
- 
 
 \- If the licence keeps changing Licence Method
 

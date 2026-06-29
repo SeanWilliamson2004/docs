@@ -10,17 +10,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Geological%20
 
 These interfaces superceeded the [FelineSoft interfaces](Geological Society Felinesoft interfaces.md).  
 
-
 The interfaces import data from a CRM system \- a customised Dynamics CRM, into Sage200\.   The interfaces are a combination of Excelerator imports and Orchestrator exports.  There are plans to move the Excelerator imports to Orchestrator at some point.  The Excelerator imports use the CSV Import tool.  
 
-
 The touchpoints are:  
-
-
-  
-
-
-
 
 | **Touchpoint** | **Notes** |
 | --- | --- |
@@ -30,10 +22,7 @@ The touchpoints are:
 | Sage stock levels \=\> CRM | Orchestrator export |
 | CRM sales orders \=\> Sage sales orders | Sales Orders Excelerators import. |
 
-  
-
-
 Other touchpoints were considered and progressed, but it was decided to limit the scope of the implementation.  
-  
+
 Sales Cash  
 Sales Invoices

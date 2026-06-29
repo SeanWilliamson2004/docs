@@ -11,8 +11,4 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Intellerator%
 
 [Intellerator Releases and Testing.xlsx](/sites/SupportDevelopment/Shared%20Documents/Intellerator%20Releases%20and%20Testing/Intellerator%20Releases%20and%20Testing.xlsx)  
 
-
-  
-
-
 [Master NL\+SL\+PL\+DefaultNLcodes with Periods Open.bak](https://codislimited.sharepoint.com/sites/Wiki/Support/Master%20NL+SL+PL+DefaultNLcodes%20with%20Periods%20Open.bak)

@@ -10,9 +10,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Simplifying%2
 
 SCENARIO 1: **Subquery to GROUP BY**  
 
-
 \-\-Unsimplified query  
-
 
   SELECT
 
@@ -28,13 +26,11 @@ SCENARIO 1: **Subquery to GROUP BY**
 
                   )  
 
-
              FROM
 
               MovementBalance 
 
           INNER JOIN BinItem ON BinItem.BinItemID \= MovementBalance.BinItemID  
-
 
           WHERE
 
@@ -52,12 +48,9 @@ SCENARIO 1: **Subquery to GROUP BY**
 
   FROM StockItem;  
 
-
    Here in this code we are initially using the SUM function and then joining a table further by adding a subquery using WHERE and then filtering using the AND function which all is then aliased as Quantity. Instead this can be achieved by initially extracting all tables and joining them using a JOIN function and using an IIF to give the conditions, and finally using the GROUP BY statement.  
 
-
    \-\- This equals  
-
 
   SELECT 
 
@@ -79,12 +72,9 @@ SCENARIO 1: **Subquery to GROUP BY**
 
        ) AS Quantity   
 
-
               FROM   
 
-
                        StockItem   
-
 
                       LEFT JOIN BinItem ON BinItem.ItemID \= StockItem.ItemID 
 
@@ -92,12 +82,7 @@ SCENARIO 1: **Subquery to GROUP BY**
 
      GROUP BY StockItem.ItemID  
 
-
-  
-
-
 SCENARIO 2 : **Coalesce**  
-
 
  \-\- unsimplified query
 
@@ -113,9 +98,7 @@ SCENARIO 2 : **Coalesce**
 
       SomeTable;  
 
-
        In this case the Outer coalesce is not required as the Sum of 2 coalesces used here will never give a null value. Hence the outer coalesce can be removed.  
-
 
   \-\- this equals
 

@@ -39,15 +39,15 @@ Over the last four years, releases include Microsoft Office 2010 (two version 32
  Microsoft Office 2013 (two version 32 and 64 bit)   
 Microsoft Office 365 (two versions 32 bit and 64 bit).  
 **Microsoft has released 6 new versions of Excel in the last four years.**   
-  
+
 Each release add significantly to the features and functions of the various applications.   
 None more so than the Excel application.   
 Features like spark lines, slicers and power view are now almost indispensable functionality with Microsoft Excel.   
 64 bit technology allows MS Excel to handle ever greater volumes of data at ever greater speeds.   
-  
+
 In order for Codis to keep Excelerator abreast of these changes it requires a major rewriting of the underlying Excelerator core.   
 Codis designed and developed Excelerator V3 for this purpose.   
-  
+
 Codis Excelerator V3 (both standard and Enterprise ranges) support Microsoft Excel 2010 (both 32 and 64 bit),   
 Microsoft Excel 2013 (32 and 64 bit) and Microsoft Excel 365 (32 and 64 bit) 
 
@@ -112,7 +112,6 @@ It is possible to hide these fields from the user or allow users to view the dat
 All future Codis development for new modules will be added to the V3 version.   
 This already includes modules for:  
 
-
 1. **Exchange Rates** – allowing users to easily oversee and maintain exchange rates for different pre\-defined currencies.
 2. **Cost of Sales Codes** – allows users to update and create different cost of sales codes and their related Nominal Codes.
 3. **Multi Company Cash Book** – is a very exciting module. It not only allows transactions for different companies in the same spread sheet –   
@@ -131,7 +130,6 @@ This step in itself simplifies the process License Renewal **requests are sent b
 Ultimately Excelerator product will be re\-licensed automatically when the invoice is paid.   
 Historically the user had to put a phone call to our office, call out a sequence of numbers and would then have to type in another number sequence, supplied by the operator. 
 
-  
 Now, the user copies a License Renewal Request on to an e\-mail and Codis returns a new e\-mail with the activation codes.   
 The activation codes are then copied into the Activation and the License is renewed. 
 

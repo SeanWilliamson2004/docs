@@ -22,28 +22,22 @@ Within SQL Server 2012 SP2, right click 'Databases' and select 'Import Data\-tie
 
 Delete the following entities from the sql database if present:   
 
-
 ## Stored Procedures
 
-   
 Spr\_EstGetAmendedStatus  
 Spr\_MrpUsageLevelGetUniqueProducts  
 Spr\_UsageLevelWhereUsed  
 spr\_ReseedTable  
- 
 
 ## Functions (Scalar\-valued Functions)
 
-   
 Fn\_EstAppendTo  
 Fn\_EstApplyMarkup  
 Fn\_EstQtyBreakSellingPrice   
 Fn\_EstStageAmended  
- 
 
 ## Views
 
-   
 vw\_EstimateList  
 vw\_MrpRecommendationsWithNeededByDate  
 vw\_NeededByDate  

@@ -17,7 +17,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Sage%201000%2
 
 ## Release of Excelerators
 
-  
 The programs for Enterprise and Standard are still different but the templates are the same, unlike in previous versions. 
 
 ### Testing
@@ -64,7 +63,6 @@ Includes the manifest file in the zip
 Includes file versions in the manifest   
 Includes a build reason in the manifest
 
-  
 Note: the Prerelease area only has the latest version of a file that includes the version number in its name. The PreviousRelease folder will have copies of all versions. 
 
 ## Prerelease version

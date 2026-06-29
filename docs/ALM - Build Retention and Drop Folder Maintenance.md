@@ -18,13 +18,17 @@ If the retention policy does not work, then it is fairly straightforward to sele
 
 To clean up the drop folders use [\\\\Cd01sr16104\\tfs\\Codis.BuildComponents\\PowershellScripts\\BuildCleanUp.ps1](file://///cd01sr16104/tfs/Codis.BuildComponents/PowershellScripts/BuildCleanUp.ps1) run from the powershell.  The script should be amended to set the file prefix and drop folder variables.
 
-
 ```
-$filePrefix="1016*"
-$dropFolderRoot="\\Cd01sr16104\tfs\TFSSage1000Drop\" 
-
-$filePrefix="17\.*"
-$dropFolderRoot="\\Cd01sr16104\tfs\TFSSage200Drop\" 
+$filePrefix="1016*"
+
+$dropFolderRoot="\\Cd01sr16104\tfs\TFSSage1000Drop\" 
+
+
+
+$filePrefix="17\.*"
+
+$dropFolderRoot="\\Cd01sr16104\tfs\TFSSage200Drop\" 
+
 
 ```
 

@@ -21,7 +21,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Developer's%2
 - Interface
 - Generics(lists,dictionaries,etc)
 
-  
 ## Intermediate OOP
 
 - Lamda Functions
@@ -35,7 +34,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Developer's%2
 - Exercise 1
 - Exercise 2
 
-  
 ## Core products
 
 - Prerequisites: OOP

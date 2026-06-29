@@ -37,14 +37,9 @@ This version of Sage 200 offers cut\-down functionality and the server side is h
 
 Sage 200c Professional is a highly flexible solution that is ideal for SME’s ranging from 10 – 200 staff members with approximately £1 million – £50 million turnover. It covers all business sectors, enabling the solution to grow alongside your company. For businesses that are cross\-departmental or have notably complex processes, Sage 200c Professional is the ideal Solution. Sage 200c Professional has also been designed to work with a range of different software applications, enabling businesses with specific industry needs to add modules to cover in\-depth areas such as project accounting, commercials, construction, manufacturing, wholesale and retail.
 
-  
-
-
 ## 
 
 ## [**Sage 200 Professional and Sage 200 CRM \- A complete guide to version numbers, compatibility and download links**](https://gb-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid=210303143522330)
-
-
 
 |  | **Base** | **S.P. 1** | **S.P. 2** | **S.P. 3** | **S.P. 4** | **S.P. 5** | **S.P. 6** | **S.P. 7** | **S.P. 8** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,12 +59,7 @@ Sage 200c Professional is a highly flexible solution that is ideal for SME’s r
 
 **Note:** Please refer [**this**](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Documents/To%20Find%20out%20Sage%20200%20Service%20Pack%20Info%20from%20SQL%20Database.pdf) document to find out Service Pack information from SQL database.
 
-  
-
-
 ## **Sage 200c Professional On\-Premises Versions**
-
-
 
 | 200 Version | Build \- Install Source | Internal Number | Database Version | Release Date |
 | --- | --- | --- | --- | --- |
@@ -96,14 +86,10 @@ Sage 200c Professional is a highly flexible solution that is ideal for SME’s r
 
 ## **Sage 200 Developer Links**
 
-
-
 | [Sage 200 2011 Data Structure](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Documents/0044%20-%20Sage200Dev_Understanding_the_sage_200_database_v2011.pdf) | | [Sage 200 Table and Joins](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Documents/Sage%20200%20Training%20Material/0044%20-%20Sage200Dev_Understanding_the_sage_200_database_v2011.pdf) | [Sage 200 Web Service \- Walk Through](https://codislimited.sharepoint.com/sites/Wiki/Development/Development%20Wiki/Documents/Sage%20200%20Web%20Service%20-%20Walk%20Through.pdf) |
 | --- | --- | --- | --- |
 
 ## **Sage 200 Features And Requirements**
-
-
 
 | [Sage 200 Guides](http://desktophelp.sage.co.uk/sage200/installation/Content/Guide-section.htm?cshid=guides) | [Sage 200 Professional \- Compatibility Checker](https://gb-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid=200427112411004) | | | [Sage 200c Professional Help](http://desktophelp.sage.co.uk/sage200/professional/Content/Home.htm) |
 | --- | --- | --- | --- | --- |

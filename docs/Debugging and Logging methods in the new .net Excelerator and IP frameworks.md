@@ -36,8 +36,6 @@ Sample Configurations for 4\). A LoggingAdvice object should be defined and inte
 
 In Codis.WCF.SageEnterprise.CBReceipts – which is currently soft coded and deployed:
 
-
-
 ```xml
 <object name="LoggingAdvice" type="Spring.Aspects.Logging.SimpleLoggingAdvice, Spring.Aop">
      <property name="LogUniqueIdentifier" value="true"/>
@@ -68,8 +66,6 @@ In Codis.WCF.SageEnterprise.CBReceipts – which is currently soft coded and dep
 
 In the web.config:
 
-
-
 ```xml
 <logger name="CallTrace">
        <level value="DEBUG"/>
@@ -78,8 +74,6 @@ In the web.config:
 ```
 
 This appender does Log Viewer format:
-
-
 
 ```xml
 <appender name="CallTraceRollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
@@ -96,8 +90,6 @@ This appender does Log Viewer format:
 ```
 
 Sample configuration for 1\) In web config:
-
-
 
 ```xml
 <system.serviceModel>
@@ -137,8 +129,6 @@ Sample configuration for 1\) In web config:
 
 Sample Configuration for 2\)
 
-
-
 ```xml
 <trace autoflush="true">
    <listeners>
@@ -148,8 +138,6 @@ Sample Configuration for 2\)
 ```
 
 Sample Configuration for 3\) Below configures a logger for level Debug. Our logger can use this and other levels.
-
-
 
 ```xml
 <log4net debug="false">

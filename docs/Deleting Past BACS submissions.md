@@ -13,6 +13,6 @@ The BACS system can only store a maximum of 99 submissions. Submissions should b
 
 - Each transaction within the submission has been either accepted by BACS or suspended by the user.
 - An input report relating to the submission has been received from BACS.   
-  
+
 Please see screenshot below on how to delete past bacs submissions.  
 ![](images/Support_Support_Wiki_Images_Images_for_solutions_Deleting_Past_BACS_submissions.jpg)

@@ -15,8 +15,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Professional%
 
 ## List
 
-
-
 | **Document** | **Description** |
 | --- | --- |
 | [Activity Report](https://codislimited.sharepoint.com/sites/Wiki/Support/Support%20Wiki/Documents/Activity%20Report%20Template%20v2.0.doc) | Replaced By CRM Mail merge facility |

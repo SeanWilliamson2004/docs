@@ -15,8 +15,6 @@ This is a list of phone manuals for the Avaya phones used in the office and it's
 
 ## List
 
-
-
 | **Manual** |
 | --- |
 | [Polycom SoundStation 2 Phone User Guide](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Phone%20Manuals/Polycom%20SoundStation2%20Phone%20User%20Guide.pdf) |

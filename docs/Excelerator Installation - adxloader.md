@@ -73,8 +73,6 @@ Please note that for a per\-machine extension, all users must have appropriate p
 
 By default, adxregistrator.exe loads the latest version of the .NET Framework installed on the PC. This can be a problem if your assembly uses version\-sensitive components. To bypass this, you can use the /CLRVersion switch that accepts a string value in the format below:
 
-
-
 | major\[\[.minor].build] |
 | --- |
 
@@ -163,8 +161,6 @@ We use these terms to name the registry keys described below:
 
 Depending on the value of the RegisterForAllUsers property of the add\-in module (to access it in the Properties window, click the designer surface of the module), the main registry entry of a COM add\-in, the add\-in key is:
 
-
-
 | {HKLM or HKCU}\\Software\\Microsoft\\Office\\{host}\\AddIns\\{your add\-in ProgID} |
 | --- |
 
@@ -178,21 +174,15 @@ The other keys – the ProgId key and CLSID key – are demonstrated in the figu
 
 Registering a UDF adds a value to the following key:
 
-
-
 | HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\{Office version}.0\\Excel\\Options |
 | --- |
 
 The value name is OPEN or OPEN{n} where n is 1, if another UDF is registered, 2 \- if there are two other XLLs registered, etc. The value contains a string, which is constructed in the following way:
 
-
-
 | str \= "/R " \+ "" \+ pathToTheDll \+ "" |
 | --- |
 
 If an Excel add\-in is turned off in the Excel Add\-ins dialog, see the path to the add\-in's loader in:
-
-
 
 | HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\{version}.0\\Excel\\Add\-in Manager |
 | --- |
@@ -211,9 +201,26 @@ Add\-in Express provides the shim of its own, called Add\-in Express loader. The
 
 The manifest (*adxloader.dll.manifest*) is the source of configuration information for the loader. Below, you see the content of a sample manifest file.
 
-
-
-| ``` 1  2  3  4  5  6  7  8  9 10 ``` | ``` <?xml version="1.0" encoding="utf-8"?>    <configuration>     <assemblyIdentity name="MyAddin14, PublicKeyToken=f9f39773da5c568a" />     <loaderSettings generateLogFile="true" shadowCopyEnabled="false"                       privileges="user" configFileName="app.config"                     minOfficeVersionSupported="{major[.minor]]}"                     clrVersion="{major[[.minor].build]}">      <logFileLocation>C:\MyLog.txt</logFileLocation>    </loaderSettings>   </configuration>    ``` |
+| ``` 1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10 ``` | ``` <?xml version="1.0" encoding="utf-8"?>   
+ <configuration>  
+   <assemblyIdentity name="MyAddin14, PublicKeyToken=f9f39773da5c568a" />  
+   <loaderSettings generateLogFile="true" shadowCopyEnabled="false"    
+                   privileges="user" configFileName="app.config"  
+                   minOfficeVersionSupported="{major[.minor]]}"  
+                   clrVersion="{major[[.minor].build]}">   
+   <logFileLocation>C:\MyLog.txt</logFileLocation>  
+  </loaderSettings>  
+ </configuration>  
+  ``` |
 | --- | --- |
 
 The manifest file allows generating the log file containing useful information about errors on the add\-in loading stage. The default location of the log file is *{user profile}\\Documents\\Add\-in Express\\adxloader.log*. You can change the location using the *logFileLocation* attribute; relative paths and folder constants are acceptable, see [Get details about add\-in registration/unregistration](https://www.add-in-express.com/docs/net-deploying-addins.php#documenting-process). The manifest file allows you to enable the Shadow Copy feature of the Add\-in Express loader, which is disabled by default (see [Deploying \- shadow copy](https://www.add-in-express.com/docs/net-deploying-debugging-tips.php#Shadow%20copy)).

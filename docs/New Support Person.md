@@ -17,8 +17,6 @@ The purpose is to ensure that the user is giving a grounding on the day to day w
 
 ## Checklist
 
-
-
 | **Heading** | **Area** |
 | --- | --- |
 | Office Shared area | Tea Coffee water Sink, Cups, CutleryDishwasherCleanlinessToiletsFire BookExits, Key Codes |

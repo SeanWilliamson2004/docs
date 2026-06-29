@@ -10,7 +10,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/S200%20Cash%2
 
 This document describes the functionality released in May 2021 for the two menu options in S200 Excelerator:  
 
-
 - SL Receipt Allocation
 - PL Pay Allocation
 
@@ -20,16 +19,8 @@ These provide the functionality for Sales and Purchase ledger to:
 3. Allocate existing open items (invoices, cash, credit notes etc) against one another.
 
 The Excelerator will have two modes, depending on ranges on the sheet.  The first mode covers 1\. and 2\. \- where cash items are created.  Having a bank range on the sheet indicates this mode is active.  The other mode is for only allocations without any cash items being created.  
-  
+
 A typical sheet for just creating cash items might look like this...  
-  
-
-
-
-
-
-
-
 
 | Bank Code | 1 |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
@@ -40,24 +31,7 @@ A typical sheet for just creating cash items might look like this...
 | DIR001 | Direct | Direct | CBRCSH1 | CBRSEC1 | 50\.00 |
 |  |  |  | CBRCSH2 | CBRSEC2 | 70\.00 |
 
-  
 For cash creation and allocation.   For this, note that the cash payments appear as positive.  The browse on items to allocate to should only show debits  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 | Bank Code | 2 |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -68,15 +42,6 @@ For cash creation and allocation.   For this, note that the cash payments appe
 |  |  |  |  |  |  |  |  |  | 7938 | BGT001\_ 09/07/2009 |  | 291\.92 | 291\.92 |
 
 Allocations without creation of a cash item are done in a single set of columns.  Note that in this mode, both credit and debits are available from the browse, and that debitsappear as negatives...  
-  
-  
-
-
-
-
-
-
-
 
 | Supplier | Short Name | URN | Ref | Outstanding | Allocate Amount |
 | --- | --- | --- | --- | --- | --- |

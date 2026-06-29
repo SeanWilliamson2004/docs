@@ -14,10 +14,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Marketing%20a
 
 When taking a new module to market, please follow the below process which is also in chronological order:  
 
-
-  
-
-
 **Write a blurb that explains the new module**
 
 - Written by Kash
@@ -34,7 +30,7 @@ When taking a new module to market, please follow the below process which is als
 **Add module to Product Guide page**[**www.codis.co.uk/product\-guide\-for\-excelerator\-for\-sage\-200**](http://www.codis.co.uk/product-guide-for-excelerator-for-sage-200)
 
 - Added by Kash
-  
+
 **Produce Video**
 
 - Ali and Kash to decide what the video will show.
@@ -47,13 +43,12 @@ When taking a new module to market, please follow the below process which is als
 
 - Kash to write tutorial based on video.
 
-  
  **Email shot to Partners and Customers**
 
 - Kash to prepare email content
 - Special Requirements: Email list of partners and customers provided by Ricky
 - TEMPLATE: [https://us14\.admin.mailchimp.com/campaigns/edit?id\=473841](https://us14.admin.mailchimp.com/campaigns/edit?id=473841)
-  
+
 **Blast Social Media Channels**
 
 - Kash to produce content for each platform.

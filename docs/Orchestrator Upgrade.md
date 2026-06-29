@@ -19,7 +19,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Orchestrator%
 
  ![Picture1.png](images/PublishingImages_Pages_Orchestrator_Upgrade_Picture1.png)  
 
-
 **Step 2: Uninstall Existing Components**
 
 1. Uninstall **Sage 200 Services**.
@@ -61,7 +60,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Orchestrator%
 
           ![Picture4.png](images/PublishingImages_Pages_Orchestrator_Upgrade_Picture4.png)       
 
-
 **Step 7: Update Application Pool Identity**
 
 1. In **IIS Manager → Application Pools**, locate **CodisSage200WebServices**.
@@ -72,11 +70,7 @@ Username: Administrator
 
 Password: Admin123
 
-   
-
-
 ![Picture5.png](images/PublishingImages_Pages_Orchestrator_Upgrade_Picture5.png)   
-
 
 **![Picture6.png](images/PublishingImages_Pages_Orchestrator_Upgrade_Picture6.png)**
 

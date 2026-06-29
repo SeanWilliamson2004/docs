@@ -22,7 +22,6 @@ We are suppose to book the room when this has been authorised by Mohan.
 
 (4\) Any tea or coffee order is placed on the day.
 
-
 **Booking details:** 
 
 Regus telephone: 02890 396342
@@ -32,10 +31,6 @@ Account Name : Codis Ltd
 Account number : 8475869
 
 Contact person: **Aideen Smyth**, her **DD** **0203879641****9**.
-
-  
- 
-
 
 Email confirmation: forward the email confirmation received from Regus to Codis Accounts, Mohan and Raghu.
 

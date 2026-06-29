@@ -24,7 +24,6 @@ For purposes of the Program, "customer information" means any information about 
 
 This Program and the safeguards it contemplate shall be implemented and maintained by an employee or employees ("Program Coordinator") designated by Codis. The Program Coordinator shall design, implement and maintain new safeguards as he or she determines to be necessary from time to time. The Program Coordinator shall report to Codis Managing Director \[and those board members who have responsibility for overseeing the Program.] The Program Coordinator may delegate or outsource the performance of any function under the Information Security Program as he or she deems necessary from time to time. In the event the Program Coordinator leaves the employment of Codis, the Codis Managing Director shall take over the responsibilities of the Program Coordinator until a new Program Coordinator is designate.  
 
-
 # Risk Assessment
 
 The Program Coordinator shall conduct a risk assessment to identify reasonably foreseeable internal and external risks to the security, confidentiality and integrity of customer information that could result in its unauthorized disclosure, misuse, alteration, destruction or other compromise, and assess the sufficiency of any safeguards in place to control these risks. The risk assessment shall cover all relevant areas of Codis's operations, as determined by the Program Coordinator. At a minimum, the risk assessment shall cover the following:
@@ -35,16 +34,13 @@ The Program Coordinator shall conduct a risk assessment to identify reasonably f
 
 Once the Program Coordinator has identified the reasonably foreseeable risks to Codis's customer information, the Program Coordinator will determine whether Codis's current policies and procedures in these areas sufficiently mitigate the potential risks identified. If not, the Program Coordinator shall design new policies and procedures that meet the objectives of the Program. Final policies and procedures that meet the objectives of the Program shall be made part of the Program.  
 
-
 # Audit
 
 The Program Coordinator shall regularly test or audit the effectiveness of Codis's safeguards' key controls, systems, and procedures, to ensure that all safeguards implemented as a result of the risk assessment are effective to control the risks identified in the risk assessment. The Program Coordinator shall revise current safeguards and/or implement new safeguards as necessary to ensure the continued viability of the Program.  
 
-
 # Overseeing Service Providers
 
 The Program Coordinator shall be responsible for overseeing Codis's service providers who handle or have access to customer information. The Program Coordinator shall take reasonable steps to select and retain service providers that can maintain safeguards to protect the specific customer information handled or accessed by each service provider that are consistent with the level of safeguards employed by Codis for such information. The Program Coordinator shall review and approve each service provider contract prior to its execution by Codis to ensure that each contract contains appropriate obligations of the service provider to comply with Codis's safeguarding requirements.  
-
 
 # Periodic Revaluation of the Program
 
@@ -55,7 +51,6 @@ The Program Coordinator shall revaluate and modify the Program from time to time
 - Any other circumstances that the Program Coordinator knows, or has reason to know, may have a material impact of the Program.
 
 In order to assist the Program Coordinator in the regard, Codis shall keep the Program Coordinator apprised of the nature and extent of all third\-party relationships and any operational changes or other matters that may impact the security or integrity of Codis's customer information.  
-
 
 # [Information Security Policies and Procedures – Employee Training and Management](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/Templates/Employee%20HandbookV1_5.pdf)
 
@@ -128,24 +123,20 @@ In keeping with the objectives of the Program, Codis shall implement, maintain 
 
 6\.       The Program Coordinator shall develop and maintain appropriate oversight or audit procedures to detect the improper disclosure or theft of customer information.  
 
-
-  
-
-
 [# Information Security Policies and Procedures – Detecting, Preventing and Responding to Attacks, Intrusions or Other Systems Failures](Dealing with Phishing & Spam Emails.md)  
 1\.       The Program Coordinator shall ensure Codis has adequate procedures to address any breaches of Codis's information safeguards that would materially impact the confidentiality and security of customer information. The procedures shall address the appropriate response to specific types of breaches, including hackers, general security compromises, denial of access to databases and computer systems, etc.  
 2\.       The Program Coordinator shall utilize and maintain a working knowledge of widely available technology for the protection of customer information.  
-  
+
 3\.       The Program Coordinator shall communicate with Codis's computer vendors from time to time to ensure that the Codis has installed the most recent patches that resolve software vulnerabilities.  
-  
+
 4\.       Codis shall utilize anti\-virus software that updates automatically.  
-  
+
 5\.       Codis shall maintain up\-to\-date firewalls.  
-  
+
 6\.       The Program Coordinator shall manage Codis's information security tools for employees and pass along updates about any security risks or breaches.  
-  
+
 7\.       The Program Coordinator shall establish procedures to preserve the security, confidentiality and integrity of customer information in the event of a computer or other technological failure.  
-  
+
 8\.       The Program Coordinator shall ensure that access to customer information is granted only to legitimate and valid users.  
-  
+
 9\.      The Program Coordinator shall notify customers promptly if their customer information is subject to loss, damage or unauthorized access.

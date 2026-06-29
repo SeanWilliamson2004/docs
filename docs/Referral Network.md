@@ -10,11 +10,9 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Referral%20Ne
 
 Codis has a referral network \- anyone who refers business to us, if registered as a lead, earns a 10% commission  
 
-
 On our [Codis Referral Network](https://www.codis.co.uk/codis-referral-network) web page, the messaging is: "Earn a 10% commission for every new customer you refer who adopts Sage 200\. Recommend Sage 200 to businesses in your network and get paid when they invest in their first year's subscription"
 
 This aligns and integrates with the Sage Referral Network \- [sage.com/en\-gb/cp/referralnetwork](https://www.sage.com/en-gb/cp/referralnetwork/)  
-
 
 Benefits to the customer
 
@@ -22,7 +20,6 @@ Benefits to the customer
 2. relationship/reputational: referring trusted vendors can strengthen a professional’s role as a strategic advisor
 
 Benefits to Codis  
-
 
 1. lead generation: more qualified sales opportunities
 2. commercial: potential referral revenue \- if the referrer doesn't want it / can't accept it \- that we can then reallocate to the new customer and/or apply a discount to the referring customer

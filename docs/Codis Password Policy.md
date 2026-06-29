@@ -13,12 +13,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20Passw
 
 **Policy Number: PWD\-002**  
 
-
 **Effective Date: 01\.04\.2023**  
-
-
-   
-
 
 ## 1\. Purpose
 
@@ -34,21 +29,17 @@ This policy applies to all employees, contractors, consultants, and other person
 
 3\.2\. The password manager shall be used to generate and store complex passwords that adhere to the company's password complexity requirements (as outlined below).  
 
-
 Generate the passwords from [**Password Generator**](https://1password.com/password-generator/) (Strictly for 1Password Master Password) and then either from 1Password app or its suggested passwords from browser extension.  
-
 
 - **1Password Master Password (Example shown below): Memorable Password, Full Words and Length 4\.**
 
          ![](images/IT_IT_Wiki_Images_1Password_Memorable.jpg)  
-
 
 - **Windows HELLO PIN****(Example sho****wn below)****: Numeric Digits and Length 6\.**
 
 **![](images/IT_IT_Wiki_Images_1Password_PIN.jpg)**- **Website Login (Including your Microsoft365 and CRM)****(Example sho****wn below)****: Random Password, Numbers, Symbols and Length 19\.**
 
 **![](images/IT_IT_Wiki_Images_1Password_Random.jpg)**  
-
 
 3\.3\. Access to the password manager shall be provided only to authorized personnel based on their job responsibilities and access requirements.
 
@@ -60,17 +51,11 @@ Generate the passwords from [**Password Generator**](https://1password.com/passw
 
 4\.3\. All passwords must be stored and managed exclusively within the password manager application.
 
-   
-
-
 ## 5\. Multi\-Factor Authentication (MFA) Integration
 
 5\.1\. Wherever possible, the password manager shall be integrated with multi\-factor authentication (MFA) for an additional layer of security.
 
 5\.2\. MFA should be enabled for accessing the password manager itself and for any systems or applications that support MFA.
-
-   
-
 
 ## 6\. Password Rotation and Management
 

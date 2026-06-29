@@ -28,16 +28,9 @@ C:\\Program Files\\Microsoft SQL Server\\MSSQL15\.MSSQLSERVER\\MSSQL\\Backup
 9. You can also select destination for your database, if you want.
 10. Then click on "Ok".
 
-  
 #### B. Provide permissions to the database
 
-  
-
 > While using the "Codis BI Web Services" for making Power BI Reports/Dashbords/Apps for customers, **if we** **create or restore a new sage database****, then in that case we will have to run the following query on SQL Server.** Which will add Codis BI as a secure user of that database and will also provide some security permissions. Otherwise the data will not be fetched.
-
-  
-
-
 
 > > use DatabaseName;
 > 
@@ -47,18 +40,13 @@ C:\\Program Files\\Microsoft SQL Server\\MSSQL15\.MSSQLSERVER\\MSSQL\\Backup
 > 
 > > EXEC sp\_addrolemember 'db\_datareader', \[NT SERVICE\\Codis BI];
 
-  
-  
-
 > Some points to be noted:
 
 1. Run this Query on the same PC where Codis BI is already installed fro the customer.
 2. You can Run this Query in SQL Server Management Studio.
 3. Replace "DatabaseName" with New database name.
 
-  
 #### C. Get Access to Workspace and Data Gateway
-
 
 > Ask the Codis Admin to give you the permissions in order to get the Access to Customer's workspace and Data Gateway.
 
@@ -73,7 +61,6 @@ C:\\Program Files\\Microsoft SQL Server\\MSSQL15\.MSSQLSERVER\\MSSQL\\Backup
 **Note:** In case of multiple databases, you can write them comma seperated without leaving any spaces*.*
 7. Then click on "Apply".
 
-  
 #### E. Refresh the Dataset
 
 1. Go to Customer workspace.
@@ -81,8 +68,6 @@ C:\\Program Files\\Microsoft SQL Server\\MSSQL15\.MSSQLSERVER\\MSSQL\\Backup
 3. Hit "Refresh" at top left side.
 4. If successfull, it will show you date and time.
 
-  
 #### F. Revoke Access to workspace and Data Gateway.
-
 
 > Ask the Codis Admin to revoke your Access to Customer's workspace and Data Gateway.

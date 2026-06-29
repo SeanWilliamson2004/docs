@@ -13,8 +13,6 @@ This is a list of general how\-to documents.
 
 ## List
 
-
-
 | **Document** |
 | --- |
 | [How to Install and Configure DrayTek Smart VPN Client](https://codislimited.sharepoint.com/sites/Wiki/General/General%20Wiki/Documents/How%20To/How%20to%20Install%20and%20Configure%20DrayTek%20Smart%20VPN%20Client.pdf) |

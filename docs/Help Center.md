@@ -15,9 +15,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Help%20Center
 
 ## Popular Topics
 
-  
-
-
 | [Codis](https://help.codis.co.uk/) |
 | --- |
 | [Sage](Sage.md) |

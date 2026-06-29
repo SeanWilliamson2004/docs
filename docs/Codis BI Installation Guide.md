@@ -49,7 +49,7 @@ search engine e.g., google.com, and visit any website to generate a password.
 1. Create a **Workspace** for the company before login to their server.  
 Click on Workspaces\>Create a workspace.  
 ![6.1 Create Workspace](images/Support_Support_Wiki_PowerBI_Images_Screenshot_20221121_170223.png)  
-  
+
 ![6.1 Create workspace 2](images/PublishingImages_Pages_Codis_BI_Installation_Steps_with_Snaps_Screenshot_20221121_170407.png)
 2. Now in that workspace Click on "Access" to add a Group named as "**AllSupport**"  
 and make it Admin and Click on Add.  
@@ -69,12 +69,8 @@ customer's workspace.
 
 ***8\)***    ***Now all the preparations have been made before going into the customer Machine.***
 
-  
-
-
 9\)     **Log on to Customer Server** preferably by TeamViewer,  
 but after checking some things mentioned below.  
-
 
 1. When you log in to their server, their IT person will be watching, that IT person must  
 be added to the CRM under their company's people tab and that person must  
@@ -86,11 +82,10 @@ person's name and go to "Change" and then follow onscreen accordingly.
 
 10\)  Go to the link to download Codis Power BI Installer File.  
 [Codis BI installer \- OneDrive (sharepoint.com)](https://codislimited-my.sharepoint.com/personal/kurren_nischal_codis_co_uk/_layouts/15/onedrive.aspx?csf=1&web=1&e=gXFngC&OR=Teams-HL&CT=1686137268947&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA1MDEwMDQyMiIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&cid=c5168c13-c378-4eb5-9ce2-0b97ae50bfb8&id=/personal/kurren_nischal_codis_co_uk/Documents/Power%20BI/Codis%20BI%20installer&FolderCTID=0x0120007B01A9333A960B45B211D84B4A6DA98A&view=0)  
-  
+
 Click on More info\>Run anyway  
 ![10 Run anyway](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Screenshot_2022-11-21_134129.png)  
 ![10 Run anyway 2](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Screenshot_2022-11-21_134226.png)  
-
 
 11\)  Then Right click and select "Run as administrator".
 
@@ -104,12 +99,8 @@ Click on More info\>Run anyway
 
 15\)  Then it will open**Licence Program.** Or it can also be opened by following this path.  
 
-
 16\)  (C:) \> Program files \> Codis BI \> Licences \> Licences.exe  
 ![16 Licence Program.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Licence_Program.PNG)  
-  
-  
- 
 
 17\)  **Then register the server for Licence**.
 
@@ -126,14 +117,11 @@ that could be Company Email or Gmail, select accordingly.
 18\)  Then it will show the list of couple of products.  
 ![18 List of products.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_List_of_products.PNG)  
 
-
 19\)  Click on refresh once. It should say Licence Refreshed Successful.  
-
 
 20\)  It will give an Error  
 *"The Licence for Codis Integrated Platform has expired. Contact your IT administrator".*  
 You can ignore that error.   
-
 
 21\)  Before moving forward, **check** one more thing.
 
@@ -157,18 +145,13 @@ which has **valid expiry date**.
 managing data gateway for them.  
 ![24 Codis Email data gateway.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Codis_Email_data_gateway.PNG)  
 ![24b Microsoft_Azure_gateway.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Microsoft_Azure_gateway.PNG)  
-  
-
 
 25\)  Now, when prompted, use the first option, which is: *Register a new gateway on this computer*.  
 
-
 ![25 Register a new gateway.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Register_a_new_gateway.PNG)  
-
 
 26\)  Now *"New On\-premises data gateway name"* is their **Company name**, it must be the **exact match**to the company name entered on **CRM**.  
 ![26 Data Gateway Name.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Data_Gateway_Name.PNG)  
-
 
 27\)  Use the **Recovery key** which was generated in step 5\.
 
@@ -180,8 +163,6 @@ managing data gateway for them.
 ![30 Gateway is online.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_Gateway_is_online.PNG)*
 
 31\)  Then Close it.  
-  
- 
 
 **32\)** Final Check on customer server before starting ***Configurations*****:**
 
@@ -249,7 +230,6 @@ it must show green tick mark right before the Web URL.
 
 37\)  Putting **Databases names as Parameter**.  
 
-
 1. Open Parameters, which is available on the same page.
 2. Put Databases Names comma separated without spaces. Which we must have  
 got from customer before this session in the Form.  
@@ -273,10 +253,8 @@ as comma separated without spaces)
 [http://localhost:26061/table?tableName\=SYSCompany\&databases\=Test,Demo](http://localhost:26061/table?tableName=SYSCompany&databases=KnDemo)  
 ![40 Dbase loobback test url.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_with_Snaps_40_Dbase_loobback_test_url.PNG)  
 
-
 41\)  Also Before logging off from Customer, Delete Both Installation files.  
 ![41 Delete files.PNG](images/PublishingImages_Pages_Codis_BI_Installation_Steps_with_Snaps_41.1_Delete_files.PNG)  
-
 
 42\)  Now **Create an App**.
 
@@ -300,7 +278,6 @@ as comma separated without spaces)
 
 43\)  Then click on **Publish App**. Then it will provide the Link.  
 ![43 Successfully Published Link.png](images/PublishingImages_Pages_Codis_BI_Installation_Steps_with_Snaps_43_Successfully_Published_Link.png)  
-
 
 44\)  That Link can be sent to the customer to view the reports once row level securities are configured.
 

@@ -19,8 +19,6 @@ Generally, test classes should inherit from Codis.SageEnterprise.Test.TestBase o
 
 System keys and Project Settings control different configurations of Sage 1000\. We need to test that our APIs behave correctly under these differing configurations. It would be difficult to have lots of different datasets, each with a different system key combination and project settings, so to work around this, we have a means of overriding this settings for individual tests. As we use [IOC Principles](http://www.springframework.net/doc/reference/html/background.html#background-ioc) and the [Spring IOC Container](http://www.springframework.net/doc-latest/reference/html/objects.html), why can replace the object used to retrieve Sage configuration. This is done in the Codis.SageEnterprise.Test ObjectConfiguration.xml file with the lines: 
 
-
-
 ```xml
 <object name="SageConfig" type="Codis.SageEnterprise.Test.TestConfiguration, Codis.SageEnterprise.Test" />
 <object name="ProjectConfig" type="Codis.SageEnterprise.Test.TestProjectConfiguration, Codis.SageEnterprise.Test" />
@@ -30,15 +28,11 @@ Providing this file is included in your container configuration after the standa
 
 Project settings can then be set in a test: 
 
-
-
 ```vbnet
 ProjectConfig.UseDa0659 = True
 ```
 
 and system keys overridden: 
-
-
 
 ```vbnet
 SageConfig.OverrideKey("NLYEAR", "14")
@@ -58,8 +52,6 @@ This reads the environment variable TARGETSERVER. If this is not found, "(local)
 
 You can check which target Sage database is being used with the following code. You do not have to use CECurrencyDAO. Any DAO will do.
 
-
-
 ```vbnet
 Public Property CECurrencyDAO() As ICECurrencyDAO
 <TestMethod> _
@@ -67,7 +59,6 @@ Public Sub ValidateTest()
     Debug.Print("Connection string:" & CType(CType(CECurrencyDAO, AdvisedProxy).m_targetSource.GetTarget, CECurrencyDAO).DbProvider.ConnectionString)
 End Sub
 ```
-
 
 ## Mocks Classes
 

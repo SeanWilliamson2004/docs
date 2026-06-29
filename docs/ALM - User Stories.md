@@ -20,8 +20,6 @@ It is important to remember that User Stories are high level definitions of requ
 
 Even though a User Story is meant to be a high level definition, there are nonetheless some features that can make a good User Story. These are often described using the mnemonic INVEST(from [Wiki](https://en.wikipedia.org/wiki/INVEST_%28mnemonic%29)): 
 
-
-
 | **Letter** | **Meaning** | **Description** |
 | --- | --- | --- |
 | I | Independent | The user story should be self\-contained, in a way that there is no inherent dependency on another user story. |

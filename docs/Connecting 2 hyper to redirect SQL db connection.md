@@ -16,12 +16,10 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Connecting%20
 	- **External** → VMs get IP from your physical LAN (they’ll be like real PCs on your network).
 	- **Internal** → VMs can talk to each other \+ host, but not to outside internet.
 	- **Private** → VMs talk only to each other (no host, no internet).  
-	
+
 	👉 I recommend **Internal** if you just want VM1 ↔ VM2 communication.
 4. Assign this switch to **both VM1 and VM2**:
 	- Right\-click VM → **Settings** → **Network Adapter** → pick the switch you created.
-
-
 
 ---
 
@@ -35,8 +33,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Connecting%20
 	- If it replies, networking is fine.
 	- If not, check firewall or switch settings.
 
-
-
 ---
 
 ## 🔹 Step 3: Enable SQL Remote Access (on VM1\)
@@ -47,8 +43,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Connecting%20
 	- Scroll to the bottom, make sure **TCP Port \= 1433** (default).
 	- Apply and restart the SQL Server service.
 
-
-
 ---
 
 ## 🔹 Step 4: Firewall Rule on VM1
@@ -56,24 +50,19 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Connecting%20
 1. Open **Windows Defender Firewall → Advanced Settings**.
 2. Add **Inbound Rule** → Port → TCP → 1433 → Allow.
 
-
-
 ---
 
 ## 🔹 Step 5: Connect from VM2
 
 On VM2, open SQL Server Management Studio (SSMS) or any client and connect to:
 
-
 ```
 Server name: <VM1_IP>,1433Authentication: SQL Authentication or Windows Authentication (if domain/trusted setup)
 ```
 
-
 ---
 
 ✅ After this, VM2 will be able to query the SQL instance running on VM1\.
-
 
 ```
 ping <VM1_IP>

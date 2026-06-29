@@ -16,28 +16,14 @@ It’s best suited for configuration tweaks, report changes, or process advice, 
 
 Pre\-Pay blocks are valid for 12 months from purchase and are non\-refundable, offering flexibility and cost savings for ongoing improvements.
 
-  
-
-
 ## Sales assets
-
-  
-
 
 [Pre\-Pay Consultancy Days \- Codis](/:b:/s/Sales/EeASjPxsRtFOnKGyWJrC6QYBMQyBHbzLl1YgjJ_Vyny_NQ?e=SUBOod) \- customer\-friendly PDF  
 
-
-  
-
-
 ## Comms templates
-
-  
-
 
 ### Reactive Support team version suggesting pre\-pay days
 
-  
 Subject: A flexible way to make Sage 200 improvements
 
 Hi \[Customer Name],
@@ -52,13 +38,7 @@ Would you like me to arrange a quick call to discuss the best block size for you
 
 Regards,
 
-  
-
-
 ### Proactive Account Manager version of the Pre\-Pay Consultancy Days
-
-  
-
 
 Subject: Unlock more from Sage 200 with flexible consultancy time
 

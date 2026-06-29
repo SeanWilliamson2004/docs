@@ -10,21 +10,11 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Self-hosted%2
 
 Documentation describing the demands of the builds and how those are meant with different build servers.   
 
-
 As of 11 March 2026\.  
 
-
 See below for details of Sage200TestEnvironment.  
-  
+
 **Build Servers**  
-
-
-
-  
-
-
-
-
 
 | **Name** | **Capabilities** | **Plan of what to do** |
 | --- | --- | --- |
@@ -33,11 +23,6 @@ See below for details of Sage200TestEnvironment.
 | CD01SR22106 | visualstudioSage200TestEnvironment | No change |
 | CD01SR22108 | visualstudioInstallshield2018BuildWIX | Provisioned |
 | CD01SR22109 | visualstudioWIXSage200TestEnvironmentSage1000TestDatabases | Provisioned |
-
-
-  
-
-
 
 | **Builds** | **Purpose** | **Demands** | **Provided by(As\-Is)** | **Provided By****(Proposed)** |
 | --- | --- | --- | --- | --- |
@@ -63,7 +48,6 @@ See below for details of Sage200TestEnvironment.
 ## Sage200TestEnvironment
 
 The Sage200TestEnvironment requires the following:  
-
 
 1. SQL Server installed.
 2. A Sage 200 server and client installed.

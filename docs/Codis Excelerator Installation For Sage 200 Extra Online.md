@@ -18,7 +18,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20Excel
 1\. Find out Sage 200 Extra Online Version by logging into [**https://www.sageerponlineservices.com**](https://www.sageerponlineservices.com/) with the customer's Sage ID. Check respective site Sage version.
 
 ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture.JPG)  
- 
 
 2\. Get the latest SDBX Add\-On file location from Agam for the required Sage 200 Excelerator to be installed based on the version found in Step 1\. Transfer the respective SDBX file through TeamViewer on Customer's PC who has got access to Sage 200 System Administration App. Example shown below  
  ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture1.JPG)
@@ -69,9 +68,6 @@ Double click the **ClientInstallLocation** registry key and copy the Value data.
 
 ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture10.jpg) 
 
-   
-
-
 4\. Locate the appSettings section and copy the **sci:ClientID** and **sci:Audience**keys underneath **\<!\-\- Sage ID settings \-\-\>**.
 
 ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture11.jpg) 
@@ -80,7 +76,8 @@ Double click the **ClientInstallLocation** registry key and copy the Value data.
 
 ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture12.jpg) 
 
-6\. Insert the copied **sci:ClientID** and **sci:Audience** keys under **\<appSettings\>** section which is
+6\. Insert the copied **sci:ClientID** and **sci:Audience** keys under **\<appSettings\>** section which is
+
 mostly towards the end of the file as shown below
 
 ![](images/Support_Support_Wiki_Images_Sage_200_Extra_Online_Excelerator_Installation_Capture13.jpg) 

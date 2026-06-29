@@ -17,7 +17,6 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Orchestrator%
 
 2\.      Install IIS URL Rewrite:  
 
-
 1. [URL Rewrite : The Official Microsoft IIS Site](https://www.iis.net/downloads/microsoft/url-rewrite)
 
 3\.      Download and install Windows Hosting Bundle from :
@@ -31,24 +30,25 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Orchestrator%
 2. Create new data base 'CodisMaster'  
 ![image007.png](images/PublishingImages_Pages_Orchestrator_Installation_image007.png)
 3. Run CodisMaster.sql after updating first line: USE \[CodisMaster]  
-  
+
 C:\\Program Files (x86\)\\Codis Excelerator\\CodisIP\\CodisSage200SystemSettings  
-  
+
 Note: This SQL script is old and doesn't include salt column. To update the salt column, download Codis IP Hash Utility from pipeline and run the exe.  
-  
+
 Alternative for this is to run CodisMaster script downloaded from Sage1000 IP:  
-  
+
 [https://dev.azure.com/codislimited/CodisDevelopment/\_git/CodisDevelopment?version\=GBmaster\&path\=/Sage1000/V3/IP/Codis.System/CodisMaster.sql](https://dev.azure.com/codislimited/CodisDevelopment/_git/CodisDevelopment?version=GBmaster&path=/Sage1000/V3/IP/Codis.System/CodisMaster.sql)
 4. Run Sage200CodisSystem  
-  
+
 ![image009.png](images/PublishingImages_Pages_Orchestrator_Installation_image009.png)  
-  
+
 Test the connection details and save.
 5. Complete the licencing process.
 
 5\.      Run the SQL scripts for Orchestrator, should be run in the following sequence:
 
-1. IPWebsiteApplicationFeature.sql – Run
+1. IPWebsiteApplicationFeature.sql – Run
+
 this query on CodisMaster Database
 2. Orchestrator.sql – Creates new database for Orchestrator
 3. Orchestrator\_DefaultData\_1\.sql
@@ -65,15 +65,11 @@ Once Orchestrator Database is created, update CodisMaster database with below up
 
 Create following entry in MasterPolicy table in CodisMaster database 
 
-
-
 | **Key** | **Description** | **IsConfigurable** | **CategoryID** | **ValueType** |
 | --- | --- | --- | --- | --- |
 | OrchestratorConnectionString | OrchestratorConnectionString | 0 | SystemParameters | String |
 
 Create following entry in PolicyValue table in CodisMaster database and provide your Orchestrator database connection string in 'Value' column.
-
-
 
 | **Key** | **Value** | **Description** |
 | --- | --- | --- |
@@ -81,17 +77,13 @@ Create following entry in PolicyValue table in CodisMaster database and provide 
 
 DatabaseName: Orchestrator
 
-   
-
-
 6\.      Create Orchestrator website:
 
 a.      Download artifacts from Orchestrator pipeline
 
 b.      Open IIS and create a new application pool named 'CodisOrchestrator'  
-  
-![image011.png](images/PublishingImages_Pages_Orchestrator_Installation_image011.png)  
 
+![image011.png](images/PublishingImages_Pages_Orchestrator_Installation_image011.png)  
 
 c.      Go to Sites\>Default Web site \> Add application
 
@@ -101,9 +93,7 @@ Path: Location of the artifact downloaded
 
  ![image013.png](images/PublishingImages_Pages_Orchestrator_Installation_image013.png)  
 
-
  ![image015.png](images/PublishingImages_Pages_Orchestrator_Installation_image015.png)  
-
 
 d.      Update following details in the web.config
 
@@ -126,17 +116,16 @@ d.      Update following details in the web.config
                     \</site\>  
 \</sites\>
 3. Just after closing the \`sites\` element and after \`webLimits\` tag:  
-  
+
                 \<serviceAutoStartProviders\>  
                     \<add name\="ApplicationPreload" type\="Codis.Orchestrator.Server.ApplicationPreload, Codis.Orchestrator.Server " /\>  
                 \</serviceAutoStartProviders\>
 
 8\.      Updates in IIS:  
 
-
 1. Set application pool properties for Orchestrator application pool to:
 1. .NET CLR version: .NET CLR Version v4\.0\.30319  
-  
+
 Normally, for a .NET Core app, you'd use No managed code, but if you do that, the application preload option won't work.
 2. Managed pipeline mode: Integrated
 
@@ -154,14 +143,13 @@ Normally, for a .NET Core app, you'd use No managed code, but if you do that, th
 ![image021.png](images/PublishingImages_Pages_Orchestrator_Installation_image021.png)
 3. Enter:  
  hostName: (Leave it blank)  
-  
+
  initializationPage: /hangfire  
 ![image023.png](images/PublishingImages_Pages_Orchestrator_Installation_image023.png)
 
 9\. Update web.config in OrchestratorWeb to point toward correct endpoint address  
 For export cancellation, use helper service.  
 ![image027.png](images/PublishingImages_Pages_Orchestrator_Installation_image027.png)  
-
 
 10\.      Install the CodisSage200Webservices on the server using the installer.
 
@@ -172,19 +160,16 @@ For export cancellation, use helper service.
 11\.   For Mollies and Resident we use customisation in NL to avoid duplication:  
  Download the artifact from : [https://dev.azure.com/codislimited/CodisDevelopment/\_build?definitionId\=150](https://dev.azure.com/codislimited/CodisDevelopment/_build?definitionId=150)  
 
-
 Create folder named 'NLJournalCustomisation' in C:\\Program Files (x86\)\\Codis Excelerator\\Codis Sage200 Services\\bin  
-  
-Copy the dll from the artifact to the folder.  
-  
-Add the below key to web.config of the wcf service  
-  
-  
-\<add key\="NLJournalAvoidDuplicatePluginPath" value\="C:\\Program Files (x86\)\\Codis Excelerator\\Codis Sage200 Services\\bin\\NLJournalCustomisation\\" /\>  
-  
-Run the sql script from the artifact.  
-  
-Note: We need to setup Identity as any Admin account that has access to Sage  
 
+Copy the dll from the artifact to the folder.  
+
+Add the below key to web.config of the wcf service  
+
+\<add key\="NLJournalAvoidDuplicatePluginPath" value\="C:\\Program Files (x86\)\\Codis Excelerator\\Codis Sage200 Services\\bin\\NLJournalCustomisation\\" /\>  
+
+Run the sql script from the artifact.  
+
+Note: We need to setup Identity as any Admin account that has access to Sage  
 
 ![image025.png](images/PublishingImages_Pages_Orchestrator_Installation_image025.png)

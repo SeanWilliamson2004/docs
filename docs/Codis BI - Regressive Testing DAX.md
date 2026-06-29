@@ -11,7 +11,7 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/Codis%20BI%20
 # Description
 
 Sometimes, when changes are made to the model or DAX in order to resolve a bug, it can inadvertently affect other functionalities in the dashboard. Consequently, the dashboard might produce undesired results in calculations that were previously correct before those changes were implemented.  
-  
+
 Regression testing helps identify such errors, which is why it is recommended after every bug fix.# Guidelines
 
 1. Keep unit tests as small as possible. Eg if the same test can be done on only 1 invoice, filter to only that 1 invoice.
@@ -27,25 +27,18 @@ DEFINE    VAR Age10 \= CALCULATE(        \[Invoice Age],        'Invoi
     )  
     VAR TestsWithResult \= ADDCOLUMNS(        Tests,        "Test Pass", IF( \[Expected Value] \= \[Actual Value], "True", "False" )    )    VAR TestSummary \= ROW(        "Tests Passed", COUNTROWS(FILTER(                TestsWithResult,                \[Test Pass] \= TRUE()            )),        "Tests Failed", COUNTROWS(FILTER(                TestsWithResult,                \[Test Pass] \= FALSE()            ))    )  
 EVALUATE    TestSummary  
-  
-EVALUATE    TestsWithResult
-  
+
+EVALUATE    TestsWithResult
+
 ### Output TestWithResult:
 
 ### DAX Tests Output.png
 
-  
-
-
 # Test Data
-
-  
-
 
 ### Test Database SQL Script:
 
 Example of test database SQL script made exclusively for Credit Control Dashboard.  
-
 
 \-\- DO NOT AMEND THE TEST DATA OF PREVIOUS TESTS! \-\- USE \[master];  
 ALTERDATABASE CreditControlTestSET    single\_userWITH    ROLLBACK IMMEDIATE;  
@@ -73,7 +66,5 @@ INSERT INTO    SYSFinancialYear (        SYSFinancialYearID,        Fi
 INSERT INTO    SYSAgeingPeriod (        SYSAgeingPeriodID,        SalesLedgerOrPurchaseLedger,        DaysPeriodStartsAfter    )VALUES    (1, 0, 30),    (2, 0, 60),    (3, 0, 90),    (4, 0, 120);  
 INSERT INTO    SLAllocationType (SLAllocationTypeID, Name)VALUES    (0, N'Manual Receipt'),    (1, N'Write Off'),    (2, N'Reverse Posting'),    (3, N'Automatic Allocation'),    (4, N'Small Values Write Off'),    (5, N'Contra Entry'),    (6, N'Free Text Invoice'),    (7, N'Reverse Finance Charge'),    (8, N'Manual Notification'),    (9, N'Manual Opening Balance'),    (10, N'Manual Payment');  
 INSERT INTO    SLCustomerAccount (        SLCustomerAccountID,        CustomerAccountNumber,        CustomerAccountName,        CustomerAccountShortName    )VALUES    (101, 1001, 'Thomas Edison', 'Thomas'),    (102, 1002, 'Kapil Sharma', 'Kapil');  
-  
-
 
 ###

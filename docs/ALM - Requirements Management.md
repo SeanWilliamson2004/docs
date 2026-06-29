@@ -29,7 +29,6 @@ Work Items are entered into Dev Ops either in the "Queries" screen under the "W
 
 Codis has some field added to the user story and bug forms.  These should be completed if possible.  
 
-
 - Product Group and Product.  The Products available in the drop down depend on the Product Group selected.   Some products need to be added.
 - CRM Case Number \- If there is a CRM case relating to this issue, please enter it here.  It can be really helpful in tracking fixes.
 

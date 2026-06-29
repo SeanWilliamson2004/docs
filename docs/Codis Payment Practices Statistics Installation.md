@@ -45,9 +45,6 @@ Also:
 
 The following policies need to be configured in Codis IP.   
 
-
-
-
 | Policy Key | Description | Example value | Notes |
 | --- | --- | --- | --- |
 | DRPPConnectionString | A connection string to the PPS database | Data Source\=\<PPS SQL Server\>;Integrated Security\=False;User ID\=\<SQL Username \-full access to PPS database\>;Password\=\<SQL User's Password\>;Initial Catalog\=PPS;Connect Timeout\=30; | It is recommended that a dedicated sql user be set up with access just to the PPS database |
@@ -73,20 +70,21 @@ The mappings are key to PPS functionality.   Upgrades to the functionality mig
 
 As of March 2020, there are changes to allow the mapping policy used to be selected by the user.  This requires changes to the data:  
 
+```
+Insert into SystemCategory values('PPSMappingPolicies','PPS Mapping Policies')
+
+go
+
+update MasterPolicy
+
+set CategoryID='PPSMappingPolicies' 
+
+where [Key] in ('PPSSage1000','PPSSage200')
+
+go
 
 
 ```
-Insert into SystemCategory values('PPSMappingPolicies','PPS Mapping Policies')
-go
-update MasterPolicy
-set CategoryID='PPSMappingPolicies' 
-where [Key] in ('PPSSage1000','PPSSage200')
-go
-
-```
-
-  
-  
 
 ### PPS Database
 
@@ -97,19 +95,19 @@ Older implementations created the PPS database with the incorrect default collat
 There was also an issue with older installation where the LogFile column on the history table was named LogFIle.  This wasn't noticed until the collation was changed.
 
 As of March 2020, there are changes to allow the mapping policy used to be selected by the user.  The selected policy is recorded in the History table.  
-  
 
 ```
-ALTER TABLE History 
-ADD [MappingPolicy] [varchar](200) NULL
-go
+ALTER TABLE History 
+
+ADD [MappingPolicy] [varchar](200) NULL
+
+go
+
 
 ```
-  
-  
+
 ## Troubleshooting
 
 The following can occur.  If you click "Cancel" you will see more details of the actual error behind it.  Typically, it is because the product isn't licenced.  
-
 
 ![PPSLicensingError.png](images/PublishingImages_Pages_PPS_Installation_PPSLicensingError.png)

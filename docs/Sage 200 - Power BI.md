@@ -12,10 +12,9 @@ Installation and setup to use Power BIstep 1 Setting up with MS Office 365 licen
 step 2 Installing Azure Active Directory Proxy Tunnel https://www.youtube.com/watch?v\=f92lzvY\-myostep 3 How to setup and use Power BI https://www.youtube.com/watch?v\=5iYXTUm1Nso \- use https://aka.ms/pbidesktopstore to download power BI desktop \- open sage 200\>tools \-\> installer \-\> install microsoft power BI connector  
  \- Sage API endpoints \- https://developer.columbus.sage.com/docs\#/uk/sage200extra/accounts/v1/customer\_contacts  
  Note\- to download reports, press f1 and type power bi report\>download one of the templates\>open \> select company and it will generate the report.  
-  
+
 Power BI sample report link https://my.sage.co.uk/ProductDownloads/Details/bd9a24dc\-fe6a\-47a9\-986c\-8c503cac052a  
-  
-  
+
 FAQ for API \- https://gb\-kb.sage.com/portal/app/portlets/results/viewsolution.jsp?solutionid\=200427112454709\&sl\=\&linw\=  
 \- Check licenses for Sage users ( office 365, Azure Premium P1/P2, Power BI Pro).\- Check/ create Sage IDs for users that would use Power BI. (my.sage.co.uk)\- Ask for Sage Form from Sage technical support\- Get the customer details filled in and send it back to bpsales@sage.com \- the reply might take upto 48 hours\- The administrator would recieve an email with Get Started link \> open and accept all the terms and conditions.\- Open the Sage ID in my.sage.co.uk and accept the terms and conditions.  
 Schedule the call with Administrator for the steps below\- download and install Azure Proxy installer from this link https://my.sage.co.uk/ProductDownloads/Details/b620ec3b\-d3f0\-4f38\-af78\-f07bee8f9e39 and follow the steps mentioned in the program.   

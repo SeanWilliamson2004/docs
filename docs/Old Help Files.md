@@ -16,8 +16,6 @@ Help files used to be edited using Fast Help software [http://www.fast\-help.com
 
 The FastHelp databases for these help projects are held under [HelpFiles](https://codislimited.sharepoint.com/sites/Wiki/Development/Development%20Wiki/Documents/HelpFiles). The following software had help produced in this way:
 
-
-
 | **Software** | Source Folder in HelpFiles folder | Output Location | Notes |
 | --- | --- | --- | --- |
 | V1 Standard Excelerator | ExceleratorHelp | [http://www.codis.co.uk/sage\-1000\-excelerator\-help\-v1/getting\-started](http://www.codis.co.uk/sage-1000-excelerator-help-v1/getting-started) |  |

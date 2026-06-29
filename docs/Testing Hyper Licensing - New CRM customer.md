@@ -25,9 +25,8 @@ Kurren SAGE1000V4
 Suraj S200C2017
 
 Create a fictious username and make a generic gmail id as userfirstname.hypername@gmail.com (For Example: Suraj.S200C2017@gmail.com) and make this a licence administrator for this company.  
-   
+
 **Please Note:** It is very important not to create users for test hyper\-v CRM companies as Codis employees actual username and their actual email IDs so as to avoid any confusion while filling and tagging emails in CRM against their correct identity for Codis.  
- 
 
 ### Testing check box
 

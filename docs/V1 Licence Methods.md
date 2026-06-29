@@ -9,10 +9,8 @@ original_url: https://codislimited.sharepoint.com/sites/Wiki/Pages/V1%20Licence%
 ---
 
 Case "A": LicenseAlgorithm \= COMPNO\_MACADDR        ' MAC address        Case "B": LicenseAlgorithm \= COMPNO\_BIOS \+ COMPNO\_HDSERIAL      ' Bios \+ hdserial        Case "C": LicenseAlgorithm \= COMPNO\_FILESTART       ' filestart        Case "D": LicenseAlgorithm \= COMPNO\_ENHANCED  
-  
-https://www.softwarekey.com/help/plusman/Content/Concepts/Concepts\_Computer\_ID\_Number.htm  
-  
 
+https://www.softwarekey.com/help/plusman/Content/Concepts/Concepts\_Computer\_ID\_Number.htm  
 
 | ID TYPE | \# | DESCRIPTION |
 | --- | --- | --- |
@@ -28,20 +26,13 @@ https://www.softwarekey.com/help/plusman/Content/Concepts/Concepts\_Computer\_ID
 | COMPNO\_ENHANCED | 65536 | Uses the [Enhanced Computer ID Algorithms](https://www.softwarekey.com/help/plusman/Content/Concepts/Enhanced_Computer_ID_Algorithms.htm) |
 | COMPNO\_SERVER\_MACADDR | 131072 | Provide a server's UNC path, host name, or IP address through either the filename or the hard drive parameter (you may leave one as an empty string) and this will compute a number based on that server's MAC address. Please be considerate of the possibility of redundant Network Interface Cards (NIC) when using this algorithm (you may need to authorize the server once for each NIC). |
 
-  
-  
 https://www.softwarekey.com/help/plusman/Content/Concepts/Enhanced\_Computer\_ID\_Algor  
-  
-
 
 | COMPNO\_MACADDR | 32 | Calculates a number based upon the Ethernet (MAC) address of an installed Ethernet LAN adapter. |
 | --- | --- | --- |
 | COMPNO\_FILESTART | 64 | Identifies the starting location of a non\-movable file. It is very unlikely for two computers to store the same file in the same location. A path and filename must be specified. |
 
-  
 At some point Seema said this:  
-  
-
 
 Licence Method A: PC’s and Servers
 
