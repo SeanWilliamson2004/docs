@@ -38,7 +38,7 @@ A setup project created as described in [Creating MSI Installers](https://www.ad
 - creates an instance of the add\-in module
 - invokes the registration code provided by the Add\-in Express module; there is a special module for each Office extension type, see [Add\-in Express modules](https://www.add-in-express.com/docs/net-components-overview.php#adx-modules)
 
-When doing all the things above, adxregistrator.exe writes them into a log file, its default location is {user profile}\\Documents\\Add\-in Express\\adxregistrator.log. What follows below is a description of the process and how you can customize it. See also [Troubleshooting add\-in registration](https://www.add-in-express.com/docs/troubleshooting-tips.php#troubleshooting_add-in_registration) and [Shims, Loader and Add\-in Express .NET Setup projects](https://www.add-in-express.com/creating-addins-blog/2006/08/04/shim-loader-mscoree/) and the Addin Express developers guide: [adxnet.pdf](https://codislimited.sharepoint.com/sites/Wiki/Development/adxnet.pdf)
+When doing all the things above, adxregistrator.exe writes them into a log file, its default location is `{user profile}`\\Documents\\Add\-in Express\\adxregistrator.log. What follows below is a description of the process and how you can customize it. See also [Troubleshooting add\-in registration](https://www.add-in-express.com/docs/troubleshooting-tips.php#troubleshooting_add-in_registration) and [Shims, Loader and Add\-in Express .NET Setup projects](https://www.add-in-express.com/creating-addins-blog/2006/08/04/shim-loader-mscoree/) and the Addin Express developers guide: [adxnet.pdf](https://codislimited.sharepoint.com/sites/Wiki/Development/adxnet.pdf)
 
 ### Specifying the assembly to register
 
@@ -104,7 +104,7 @@ Every Add\-in Express module provides a static (Shared in VB.NET) method with th
 
 ### Get details about add\-in registration/unregistration
 
-The process of registration/unregistration is documented in a log file, the default location of which is {user profile}\\Documents\\Add\-in Express\\adxregistrator.log. The registrator supports the /LogFileLocation switch that allows you to specify the path and file name of the log file. Also, the log file will not be generated if you use /GenerateLogFile\=false; omitting that switch means the file will be generated.
+The process of registration/unregistration is documented in a log file, the default location of which is `{user profile}`\\Documents\\Add\-in Express\\adxregistrator.log. The registrator supports the /LogFileLocation switch that allows you to specify the path and file name of the log file. Also, the log file will not be generated if you use /GenerateLogFile\=false; omitting that switch means the file will be generated.
 
 When specifying the path to the log file, you can refer to a system folder using a widespread notation, a sample of which is %UserProfileFolder%. Below is the list of supported folder IDs (please find their definitions here ):
 
@@ -161,7 +161,7 @@ We use these terms to name the registry keys described below:
 
 Depending on the value of the RegisterForAllUsers property of the add\-in module (to access it in the Properties window, click the designer surface of the module), the main registry entry of a COM add\-in, the add\-in key is:
 
-| {HKLM or HKCU}\\Software\\Microsoft\\Office\\{host}\\AddIns\\{your add\-in ProgID} |
+| `{HKLM or HKCU}\Software\Microsoft\Office\{host}\AddIns\{your add-in ProgID}` |
 | --- |
 
 If the RegisterForAllUsers property of the add\-in module is true, the plug\-in is registered in HKEY\_LOCAL\_MACHINE, otherwise the key is located in HKEY\_CURRENT\_USER.
@@ -174,17 +174,17 @@ The other keys – the ProgId key and CLSID key – are demonstrated in the figu
 
 Registering a UDF adds a value to the following key:
 
-| HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\{Office version}.0\\Excel\\Options |
+| `HKEY_CURRENT_USER\Software\Microsoft\Office\{Office version}.0\Excel\Options` |
 | --- |
 
-The value name is OPEN or OPEN{n} where n is 1, if another UDF is registered, 2 \- if there are two other XLLs registered, etc. The value contains a string, which is constructed in the following way:
+The value name is OPEN or `OPEN{n}` where n is 1, if another UDF is registered, 2 \- if there are two other XLLs registered, etc. The value contains a string, which is constructed in the following way:
 
 | str \= "/R " \+ "" \+ pathToTheDll \+ "" |
 | --- |
 
 If an Excel add\-in is turned off in the Excel Add\-ins dialog, see the path to the add\-in's loader in:
 
-| HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\{version}.0\\Excel\\Add\-in Manager |
+| `HKEY_CURRENT_USER\Software\Microsoft\Office\{version}.0\Excel\Add-in Manager` |
 | --- |
 
 ## 
@@ -201,29 +201,20 @@ Add\-in Express provides the shim of its own, called Add\-in Express loader. The
 
 The manifest (*adxloader.dll.manifest*) is the source of configuration information for the loader. Below, you see the content of a sample manifest file.
 
-| ``` 1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
- 10 ``` | ``` <?xml version="1.0" encoding="utf-8"?>   
- <configuration>  
-   <assemblyIdentity name="MyAddin14, PublicKeyToken=f9f39773da5c568a" />  
-   <loaderSettings generateLogFile="true" shadowCopyEnabled="false"    
-                   privileges="user" configFileName="app.config"  
-                   minOfficeVersionSupported="{major[.minor]]}"  
-                   clrVersion="{major[[.minor].build]}">   
-   <logFileLocation>C:\MyLog.txt</logFileLocation>  
-  </loaderSettings>  
- </configuration>  
-  ``` |
-| --- | --- |
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <assemblyIdentity name="MyAddin14, PublicKeyToken=f9f39773da5c568a" />
+  <loaderSettings generateLogFile="true" shadowCopyEnabled="false"
+                  privileges="user" configFileName="app.config"
+                  minOfficeVersionSupported="{major[.minor]]}"
+                  clrVersion="{major[[.minor].build]}">
+  <logFileLocation>C:\MyLog.txt</logFileLocation>
+ </loaderSettings>
+</configuration>
+```
 
-The manifest file allows generating the log file containing useful information about errors on the add\-in loading stage. The default location of the log file is *{user profile}\\Documents\\Add\-in Express\\adxloader.log*. You can change the location using the *logFileLocation* attribute; relative paths and folder constants are acceptable, see [Get details about add\-in registration/unregistration](https://www.add-in-express.com/docs/net-deploying-addins.php#documenting-process). The manifest file allows you to enable the Shadow Copy feature of the Add\-in Express loader, which is disabled by default (see [Deploying \- shadow copy](https://www.add-in-express.com/docs/net-deploying-debugging-tips.php#Shadow%20copy)).
+The manifest file allows generating the log file containing useful information about errors on the add\-in loading stage. The default location of the log file is *`{user profile}`\\Documents\\Add\-in Express\\adxloader.log*. You can change the location using the *logFileLocation* attribute; relative paths and folder constants are acceptable, see [Get details about add\-in registration/unregistration](https://www.add-in-express.com/docs/net-deploying-addins.php#documenting-process). The manifest file allows you to enable the Shadow Copy feature of the Add\-in Express loader, which is disabled by default (see [Deploying \- shadow copy](https://www.add-in-express.com/docs/net-deploying-debugging-tips.php#Shadow%20copy)).
 
 The *privileges* attribute accepts the *"user"* string value indicating that the Add\-in Express based setup projects can be run with non\-administrator privileges. Any other value will require administrator privileges to install your project. You should be aware that the value of this attribute is controlled by the *RegisterForAllUsers* property value of add\-in and RTD modules (to access it in the Properties window click the designer surface of the add\-in module or RTD server module). If *RegisterForAllUsers* is *True* and *privileges\="user"*, a standard user running the installer will be unable to install your Office extension. If *RegisterForAllUsers* is *False* and *privileges\="administrator"*, your Office extension will be installed for the administrator only.
 

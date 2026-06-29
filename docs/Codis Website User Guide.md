@@ -374,45 +374,48 @@ The following is a list of all the custom coding and workarounds currently imple
 
  **Advanced \> Code Injection \> Header**.  
 
-*\<style\>*
-
-*\#banner\-area\-wrapper {display: none}*
-
-*}*  
-*\</style\>*  
+```css
+<style>
+#banner-area-wrapper {display: none}
+}
+</style>
+```
 
 3\. Add the following code to each individual page where you want to show the banner in 
 
  **Page Settings \> Advanced \> Page Header Code Injection**:
 
-*\<style\>* 
-
-*\#banner\-area\-wrapper  {display: block; !important; }*  
-*\#banner\-area\-wrapper { background\-image: url(URL\-HERE;) }*  
-*\#banner\-area\-wrapper { background\-position: center; }*  
-*\#banner\-area\-wrapper { background\-repeat: no\-repeat; }*  
-*\#banner\-area\-wrapper { background\-size: 100%; }*  
-*\#banner\-area\-wrapper { background\-color: white; }*  
-*\</style\>*  
+```css
+<style>
+#banner-area-wrapper  {display: block; !important; }
+#banner-area-wrapper { background-image: url(URL-HERE;) }
+#banner-area-wrapper { background-position: center; }
+#banner-area-wrapper { background-repeat: no-repeat; }
+#banner-area-wrapper { background-size: 100%; }
+#banner-area-wrapper { background-color: white; }
+</style>
+```
 
 4\. The banner needs to be in 
 
  **SVG format** and can be uploaded to SqaureSpace by creating a link to it on the Test page. Then copy and paste the entire URL into 
 
- \#banner\-area\-wrapper { background\-image: url(**URL\-HERE**;) }
+`#banner-area-wrapper { background-image: url(`**`URL-HERE`**`;) }`
 
 ***Mobile Text***  
  **ISSUE:** Text is too large on mobile site causing words to be jumbled. In addition, the spacing between H3 heading and H2 tagline is insufficient, causing them to merge. We have implemented some CSS to reduce the size of text and also increase the gap between H3 heading and H2 tagline. The following is placed in 
 
  **Design \> Custom CSS**.
 
-*@media only screen and (max\-width: 845px) {    h1 {  font\-size: 40px !important; }}*
+```css
+@media only screen and (max-width: 845px) {    h1 {  font-size: 40px !important; }}
 
-*@media only screen and (max\-width: 845px) {    h2 {   font\-size: 15\.50px !important; }}*
+@media only screen and (max-width: 845px) {    h2 {   font-size: 15.50px !important; }}
 
-*@media only screen and (max\-width: 845px) {    h3 {  font\-size: 20px !important; }}*
+@media only screen and (max-width: 845px) {    h3 {  font-size: 20px !important; }}
 
-*@media only screen and (max\-width: 845px) {  p { font\-weight:300; font\-size: 13\.5px !important; }}*
+@media only screen and (max-width: 845px) {  p { font-weight:300; font-size: 13.5px !important; }}
+```
 
 ***Carousel***  
 
@@ -424,11 +427,13 @@ The following is a list of all the custom coding and workarounds currently imple
 
  **Design \> Custom CSS** increase the sizes of these images in the Carousel:
 
-*@media screen and (max\-width:845px) {*  
-*.sqs\-gallery\-design\-strip {*  
-*height: 80px;*  
-*}*  
-*}*
+```css
+@media screen and (max-width:845px) {
+.sqs-gallery-design-strip {
+height: 80px;
+}
+}
+```
 
  ***Excelerator Setups***  
  **ISSUE:** SquareSpace have a 20Mb limit on files that can be uploaded to their file manager. All the individual Sage 1000 module setups exceed 20Mb. To overcome this, we have uploaded these setups to Google Drive and created links to each file using the following URL: 
